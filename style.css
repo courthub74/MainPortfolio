@@ -316,12 +316,6 @@
     flex-direction: column;
     gap: 5px;
   }
-  .container #footer_section_id .footer_section_content .footer_elements .email_footer label {
-    font-family: "Inter", sans-serif;
-    color: #507E81;
-    font-weight: bold;
-    filter: opacity(90%);
-  }
   .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit {
     display: flex;
     align-items: center;
@@ -331,19 +325,24 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
-    filter: opacity(80%);
   }
   .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::-moz-placeholder {
     color: gray;
     color: #060927;
+    color: #00313E;
     filter: opacity(75%);
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
   }
   .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::placeholder {
     color: gray;
     color: #060927;
+    color: #00313E;
     filter: opacity(75%);
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
   }
   .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button {
     border: 2px solid #00C6C3;
@@ -356,11 +355,12 @@
     background: none;
     padding: 0.88em 3em;
     cursor: pointer;
-    filter: opacity(80%);
   }
   .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button:hover {
-    background-color: white;
+    border: 2px solid #8081AA;
+    border-left: none;
     color: #080E2F;
+    color: #8081AA;
     transition: 0.2s all ease-in;
   }
   .container #footer_section_id .footer_section_content .footer_elements .footer_logo small {
