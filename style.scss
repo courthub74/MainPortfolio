@@ -426,7 +426,7 @@ $savethis: #7273ad;
                         }
                         button {
                             // border: $jobdescription 1px solid;
-                            border: 2px solid $portfolios;
+                            border: 2px solid $resumebutton;
                             border-top-right-radius: 5px;
                             border-bottom-right-radius: 5px;
                             // padding: .97em 1em;
@@ -435,7 +435,7 @@ $savethis: #7273ad;
                             // height: 4.5em;
                             background: none;
                             color: $descriptiongrey2;
-                            // color: white;
+                            color: $resumebutton;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
                             cursor: pointer;

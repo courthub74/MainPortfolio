@@ -335,12 +335,13 @@
     filter: opacity(90%);
   }
   .container #footer_section_id .footer_section_content .email_footer .email_submit button {
-    border: 2px solid #36395D;
+    border: 2px solid #507E81;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 1.4em 1.4em;
     background: none;
     color: #7a7bd3;
+    color: #507E81;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     cursor: pointer;
