@@ -248,7 +248,7 @@
   }
   .container #experience_section_id {
     background-color: #080E2F;
-    height: 80vh;
+    height: 85vh;
   }
   .container #experience_section_id .experience_section_content .title_nav {
     display: flex;
@@ -277,93 +277,102 @@
   .container #footer_section_id {
     background-color: #060927;
     height: 20vh;
-    height: 20%;
+    height: 25%;
   }
   .container #footer_section_id .footer_section_content {
+    padding: 2em 5em 2em 5em;
+    border-top: #00313E 2px solid;
+    filter: opacity(90%);
+  }
+  .container #footer_section_id .footer_section_content .footer_elements {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10em;
-    padding: 3em 3em;
-    border-top: #00313E 1.5px solid;
-    margin: 0 0 0 -5em;
-    width: 100%;
+    justify-content: space-between;
   }
-  .container #footer_section_id .footer_section_content .socials_footer {
+  .container #footer_section_id .footer_section_content .footer_elements .socials_footer {
     display: flex;
     align-items: center;
     gap: 2.5em;
-    filter: opacity(70%);
-    margin: 0 0px 0 50px;
+    filter: opacity(80%);
   }
-  .container #footer_section_id .footer_section_content .socials_footer #github {
-    height: 2.2em;
-    width: 2.2em;
-    margin-right: 0.6em;
+  .container #footer_section_id .footer_section_content .footer_elements .socials_footer #github {
+    height: 2.5em;
+    width: 2.5em;
   }
-  .container #footer_section_id .footer_section_content .socials_footer #linkedin {
-    height: 2.8em;
-    width: 2.8em;
+  .container #footer_section_id .footer_section_content .footer_elements .socials_footer #linkedin {
+    height: 3em;
+    width: 3em;
   }
-  .container #footer_section_id .footer_section_content .socials_footer #instagram {
-    height: 3.2em;
-    width: 3.2em;
+  .container #footer_section_id .footer_section_content .footer_elements .socials_footer #instagram {
+    height: 3.4em;
+    width: 3.4em;
   }
-  .container #footer_section_id .footer_section_content .socials_footer #twitter {
-    height: 2.8em;
-    width: 2.8em;
+  .container #footer_section_id .footer_section_content .footer_elements .socials_footer #twitter {
+    height: 3em;
+    width: 3em;
   }
-  .container #footer_section_id .footer_section_content .email_footer {
+  .container #footer_section_id .footer_section_content .footer_elements .email_footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .container #footer_section_id .footer_section_content .email_footer label {
+  .container #footer_section_id .footer_section_content .footer_elements .email_footer label {
     font-family: "Inter", sans-serif;
-    color: white;
     color: #507E81;
     font-weight: bold;
-    filter: opacity(95%);
+    filter: opacity(90%);
   }
-  .container #footer_section_id .footer_section_content .email_footer .email_submit {
+  .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit {
     display: flex;
     align-items: center;
   }
-  .container #footer_section_id .footer_section_content .email_footer .email_submit input {
-    width: 30em;
-    height: 4em;
+  .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input {
+    padding: 1em 8em;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
-    filter: opacity(90%);
-  }
-  .container #footer_section_id .footer_section_content .email_footer .email_submit button {
-    border: 2px solid #507E81;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    padding: 1.4em 1.4em;
-    background: none;
-    color: #7a7bd3;
-    color: #507E81;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-    filter: opacity(90%);
-  }
-  .container #footer_section_id .footer_section_content .footer_logo {
-    display: flex;
-    align-items: center;
-    background-color: #00313E;
-  }
-  .container #footer_section_id .footer_section_content .footer_logo small {
-    display: flex;
-    align-items: center;
-    color: white;
-    font-family: "Inter", sans-serif;
-    gap: 6px;
     filter: opacity(80%);
   }
-  .container #footer_section_id .footer_section_content .footer_logo #footer_logo {
+  .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::-moz-placeholder {
+    color: gray;
+    color: #060927;
+    filter: opacity(75%);
+    font-family: "Roboto", sans-serif;
+  }
+  .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::placeholder {
+    color: gray;
+    color: #060927;
+    filter: opacity(75%);
+    font-family: "Roboto", sans-serif;
+  }
+  .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button {
+    border: 2px solid #00C6C3;
+    border: 2px solid white;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #00C6C3;
+    color: white;
+    background: none;
+    padding: 0.88em 3em;
+    cursor: pointer;
+    filter: opacity(80%);
+  }
+  .container #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button:hover {
+    background-color: white;
+    color: #080E2F;
+    transition: 0.2s all ease-in;
+  }
+  .container #footer_section_id .footer_section_content .footer_elements .footer_logo small {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    gap: 0.5em;
+    filter: opacity(80%);
+  }
+  .container #footer_section_id .footer_section_content .footer_elements .footer_logo small #footer_logo {
     width: 2em;
     height: 2em;
   }
