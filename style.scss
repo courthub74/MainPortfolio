@@ -367,17 +367,17 @@ $savethis: #7273ad;
             background-color: #060927;
             // background-color: rebeccapurple;
             height: 20vh;
+            height: 20%;
             .footer_section_content {
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
                 justify-content: center;
+                gap: 10em;
                 // flex-direction: row-reverse;
                 padding: 3em 3em;
-                // gap: 100px;
-                gap: 25em;
                 border-top: #00313E 1.5px solid;
-                
+                margin: 0 0 0 -5em;
+                width: 100%;
                 .socials_footer {
                     display: flex;
                     align-items: center;
@@ -406,10 +406,12 @@ $savethis: #7273ad;
                     display: flex;
                     flex-direction: column;
                     gap: 5px;
-                    margin: -2vh 0 0 -5vw;
+                    // margin: -2vh 0 0 -5vw;
                     label {
                         font-family: 'Inter', sans-serif;
                         color: white;
+                        color: $resumebutton;
+                        font-weight: bold;
                         filter: opacity(95%);
                     }
                     .email_submit {
@@ -446,6 +448,7 @@ $savethis: #7273ad;
                 .footer_logo {
                     display: flex;
                     align-items: center;
+                    background-color: #00313E;
                     // justify-content: center;
                     // gap: 6px;
                     // position: relative;

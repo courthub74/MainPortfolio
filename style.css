@@ -277,15 +277,17 @@
   .container #footer_section_id {
     background-color: #060927;
     height: 20vh;
+    height: 20%;
   }
   .container #footer_section_id .footer_section_content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     justify-content: center;
+    gap: 10em;
     padding: 3em 3em;
-    gap: 25em;
     border-top: #00313E 1.5px solid;
+    margin: 0 0 0 -5em;
+    width: 100%;
   }
   .container #footer_section_id .footer_section_content .socials_footer {
     display: flex;
@@ -315,11 +317,12 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin: -2vh 0 0 -5vw;
   }
   .container #footer_section_id .footer_section_content .email_footer label {
     font-family: "Inter", sans-serif;
     color: white;
+    color: #507E81;
+    font-weight: bold;
     filter: opacity(95%);
   }
   .container #footer_section_id .footer_section_content .email_footer .email_submit {
@@ -350,6 +353,7 @@
   .container #footer_section_id .footer_section_content .footer_logo {
     display: flex;
     align-items: center;
+    background-color: #00313E;
   }
   .container #footer_section_id .footer_section_content .footer_logo small {
     display: flex;
