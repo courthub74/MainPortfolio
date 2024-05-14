@@ -1,0 +1,471 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Footer Blue
+$footerblue: #060927;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+// Resume Button Green
+$resumebutton: #507E81;
+// Skills Teal
+$skillsteal: #146166;
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+// Job Descriptions
+$jobdescription: #00C6C3;
+$jobdescripgrey: #8081AA;
+$descriptiongrey2: #7a7bd3;
+$descriptionblue: #8091ED;
+// First Blue
+$firstblue: #58a6ff;
+$savethis: #7273ad;
+
+// WHOLE PAGE
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    body {
+        background-color: $darkblue;
+    }
+}
+
+
+// Portrait
+@media only screen and (orientation: portrait) {
+    .container {
+        background-color: $darkblue;
+        .desktop_nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2em 3em 2em 3em;
+            .section_title {
+                color: white;
+            }
+            .home_desktop_nav {
+                ul {
+                    display: none;
+                }
+                .mobile_nav {
+                    #mobile_nav {
+                        width: 3em;
+                        height: 3em;
+                    }
+                }
+            }
+        }
+        // HOME SECTION
+        #home_section_id {
+            background-color: $darkblue;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        // ABOUT SECTION
+        #about_section_id {
+            background-color: $nextgreen;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            .about_section_content {
+                display: flex;
+                flex-direction: column;
+                .title_nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 2em 3em 2em 3em;
+                    .section_title {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 2rem;
+                        font-weight: bold;
+                        color: white;
+                    }
+                    .about_desktop_nav {
+                        ul {
+                            display: none;
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 3em;
+                                height: 3em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Landscape
+@media only screen and (orientation: landscape) {
+    .container {
+        background-color: $darkblue;
+        .desktop_nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3em 4em 2em 4em;
+            .section_title {
+                color: white;
+            }
+            .home_desktop_nav {
+                ul {
+                    display: none;
+                }
+                .mobile_nav {
+                    #mobile_nav {
+                        width: 3em;
+                        height: 3em;
+                    }
+                }
+            }
+        }
+        // HOME SECTION
+        #home_section_id {
+            background-color: $darkblue;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        // ABOUT SECTION
+        #about_section_id {
+            background-color: $nextgreen;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            .about_section_content {
+                display: flex;
+                flex-direction: column;
+                .title_nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 3em 4em 2em 4em;
+                    .section_title {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 2rem;
+                        font-weight: bold;
+                        color: white;
+                    }
+                    .about_desktop_nav {
+                        ul {
+                            display: none;
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 3em;
+                                height: 3em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Desktop
+
+// 1200
+@media only screen and (min-width: 1200px) {
+    .container {
+        background-color: $darkblue;
+        .desktop_nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // padding: 5em 5em;
+            padding: 2em 5em 2em 5em;
+            // height: 20vh;
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 3rem;
+                font-weight: bold;
+                color: white;
+            }
+            .home_desktop_nav {
+                ul {
+                    display: flex;
+                    gap: 20px;
+                    li {
+                        list-style: none;
+                        a {
+                            color: white;
+                            text-decoration: none;
+                            font-family: 'Inter', sans-serif;
+                        }
+                    }
+                }
+            }
+            ul {
+                display: flex;
+                gap: 5px;
+                li {
+                    color: white;
+                }
+            }
+        }
+        .mobile_nav {
+            display: none;
+        }
+        //////////////////////////////////////////////
+        /// HOME
+        #home_section_id {
+            background-color: $darkblue;
+            height: 100vh;
+        }
+        //////////////////////////////////////////////
+        /// ABOUT
+        #about_section_id {
+            background-color: $nextgreen;
+            height: 100vh;
+            .about_section_content {
+                .title_nav {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 2em 5em 2em 5em;
+                    .section_title {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 3rem;
+                        font-weight: bold;
+                        color: white;
+                    }
+                    .about_desktop_nav {
+                        ul {
+                            display: flex;
+                            gap: 20px;
+                            li {
+                                list-style: none;
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ////////////////////////////////////////////////////////
+        // PORTFOLIO SECTION
+        #portfolio_section_id {
+        background-color: $darkblue;
+        height: 100vh;
+        .portfolio_section_content {
+            .title_nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 2em 5em 2em 5em;
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 3rem;
+                    font-weight: bold;
+                    color: white;
+                }
+                .portfolio_desktop_nav {
+                    ul {
+                        display: flex;
+                        gap: 20px;
+                        li {
+                            list-style: none;
+                            a {
+                                color: white;
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /////////////////////////////////////////////
+    /// SKILLS
+    #skills_section_id {
+        background-color: $nextgreen;
+        height: 100vh;
+        .skills_section_content {
+            .title_nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 2em 5em 2em 5em;
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 3rem;
+                    font-weight: bold;
+                    color: white;
+                }
+                .skills_desktop_nav {
+                    ul {
+                        display: flex;
+                        gap: 20px;
+                        li {
+                            list-style: none;
+                            a {
+                                color: white;
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ////////////////////////////////////////////////////////
+    // EXPERIENCE SECTION
+        #experience_section_id {
+            background-color: $darkblue;
+            height: 80vh;
+            .experience_section_content {
+                // height: 60vh;
+                .title_nav {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 2em 5em 2em 5em;
+                    .section_title {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 3rem;
+                        font-weight: bold;
+                        color: white;
+                    }
+                    .experience_desktop_nav {
+                        ul {
+                            display: flex;
+                            gap: 20px;
+                            li {
+                                list-style: none;
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //////////////////////////////////////////////////
+        /// FOOTER
+        #footer_section_id {
+            background-color: #060927;
+            // background-color: rebeccapurple;
+            height: 20vh;
+            .footer_section_content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                justify-content: center;
+                // flex-direction: row-reverse;
+                padding: 3em 3em;
+                // gap: 100px;
+                gap: 25em;
+                border-top: #00313E 1.5px solid;
+                
+                .socials_footer {
+                    display: flex;
+                    align-items: center;
+                    gap: 2.5em;
+                    filter: opacity(70%);
+                    margin: 0 0px 0 50px;
+                    #github {
+                        height: 2.2em;
+                        width: 2.2em;
+                        margin-right: .6em;
+                    }
+                    #linkedin {
+                        height: 2.8em;
+                        width: 2.8em;
+                    }
+                    #instagram {
+                        height: 3.2em;
+                        width: 3.2em;
+                    }
+                    #twitter {
+                        height: 2.8em;
+                        width: 2.8em;
+                    }
+                }
+                .email_footer {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    margin: -2vh 0 0 -5vw;
+                    label {
+                        font-family: 'Inter', sans-serif;
+                        color: white;
+                        filter: opacity(95%);
+                    }
+                    .email_submit {
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        input {
+                            width: 30em;
+                            height: 4em;
+                            border-top-left-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                            border: none;
+                            filter: opacity(90%);
+                        }
+                        button {
+                            // border: $jobdescription 1px solid;
+                            border: 2px solid $portfolios;
+                            border-top-right-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            // padding: .97em 1em;
+                            padding: 1.4em 1.4em;
+                            // width: 5em;
+                            // height: 4.5em;
+                            background: none;
+                            color: $descriptiongrey2;
+                            // color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            cursor: pointer;
+                            filter: opacity(90%);
+                        }
+                    }
+                }
+                .footer_logo {
+                    display: flex;
+                    align-items: center;
+                    // justify-content: center;
+                    // gap: 6px;
+                    // position: relative;
+                    // left: 100px;
+                    small {
+                        display: flex;
+                        align-items: center;
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        gap: 6px;
+                        filter: opacity(80%);
+                    }
+                    // margin: 0 100px 0 0;
+                    #footer_logo {
+                        width: 2em;
+                        height: 2em;
+                        // filter: opacity(90%);
+                    }
+                }
+            }
+        }
+    } 
+}
