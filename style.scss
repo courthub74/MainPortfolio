@@ -180,61 +180,11 @@ $savethis: #7273ad;
 @media only screen and (min-width: 1200px) {
     .container {
         background-color: $darkblue;
-        // .desktop_nav {
-        //     display: flex;
-        //     justify-content: space-between;
-        //     align-items: center;
-        //     // padding: 5em 5em;
-        //     padding: 2em 5em 2em 5em;
-        //     // height: 20vh;
-        //     .section_title {
-        //         p {
-        //             font-family: 'Inter', sans-serif;
-        //             font-size: 3rem;
-        //             font-weight: bold;
-        //             color: white;
-        //             opacity: 0;
-        //         }
-        //         #home_logo {
-        //             width: 9em;
-        //             height: 9em;
-        //         }
-        //     }
-        //     // .section_title {
-        //     //     font-family: 'Inter', sans-serif;
-        //     //     font-size: 3rem;
-        //     //     font-weight: bold;
-        //     //     color: white;
-        //     // }
-        //     .home_desktop_nav {
-        //         ul {
-        //             display: flex;
-        //             gap: 20px;
-        //             li {
-        //                 list-style: none;
-        //                 a {
-        //                     color: white;
-        //                     text-decoration: none;
-        //                     font-family: 'Inter', sans-serif;
-        //                 }
-        //             }
-        //         }
-        //     }
-        //     ul {
-        //         display: flex;
-        //         gap: 5px;
-        //         li {
-        //             color: white;
-        //         }
-        //     }
-        // }
-        // .mobile_nav {
-        //     display: none;
-        // }
+        height: 500vh;
         //////////////////////////////////////////////
         /// HOME
         #home_section_id {
-            background-color: $darkblue;
+            // position: absolute;
             height: 100vh;
             .desktop_nav {
                 display: flex;
@@ -272,6 +222,7 @@ $savethis: #7273ad;
                                 color: white;
                                 text-decoration: none;
                                 font-family: 'Inter', sans-serif;
+                                font-weight: bold;
                             }
                         }
                     }
@@ -290,12 +241,23 @@ $savethis: #7273ad;
             .home_section_content {
                 display: flex;
                 flex-direction: column;
-                // padding: 5em 15em;
+                padding: 10em 0 12em 0;
+                background-color: $darkblue;
                 // background-color: #8091ED;
+                // height: 80%;
                 .big_logo_and_square {
                     display: flex;
-                    #home_logo {
-                        z-index: 5;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -5em;
+                    .home_logo {
+                        // background-color: honeydew;
+                        // z-index: 5;
+                        z-index: 1;
+                        #home_logo {
+                            border-radius: 50%;
+                            border: 2px solid $nextgreen;
+                        }
                     }
                     .home_square {
                         display: flex;
@@ -303,12 +265,9 @@ $savethis: #7273ad;
                         justify-content: center;
                         align-items: center;
                         gap: 1em;
-                        border: 3px solid $portfolios;
-                        border: 3px solid $nextgreen;
+                        // border: 3px solid $portfolios;
+                        // border: 3px solid $nextgreen;
                         border-radius: 10px;
-                        background-color: $footerblue;
-                        width: 100%;
-                        margin: 5em 0 0 -15em;
                         header {
                             color: white;
                             font-family: 'Inter', sans-serif;
@@ -316,24 +275,65 @@ $savethis: #7273ad;
                             font-weight: bold;
                             background-color: $portfolios;
                             background-color: $nextgreen;
-                            padding: .5em 1em;
-                            border-radius: 10px;
+                            background-color: $footerblue;
+                            border-top: 2px solid $nextgreen;
+                            padding: .5em 2.5em;
+                            margin: 0 0 0 -1.2em;
                         }
                         .slogan {
                             color: $jobdescripgrey;
+                            color: white;
                             font-family: 'Inter', sans-serif;
                             font-size: 1.2rem;
+                        }
+                        .socials_block {
+                            display: flex;
+                            align-items: center;
+                            gap: 3em;
+                            // filter: opacity(80%);
+                            #github_home {
+                                width: 2em;
+                                height: 2em;
+                            }
+                            #linkedin_home {
+                                width: 2.3em;
+                                height: 2.3em;
+                            }
+                            #instagram_home {
+                                width: 2.7em;
+                                height: 2.7em;
+                            }
+                            #twitter_home {
+                                width: 2.3em;
+                                height: 2.3em;
+                            }
+                        }
+                        .learn_more {
+                            background-color: $footerblue;
+                            background-color: #bbbcd3;
+                            color: white;
+                            font-weight: bold;
+                            color: $footerblue;
+                            padding: 1em 3em;
+                            border-top: 2px solid $nextgreen;
+                            font-family: 'Inter', sans-serif;
+                            font-size: .9rem;
+                            text-decoration: none;
                         }
                     }
                 }
             }
-        }
-        //////////////////////////////////////////////
-        /// ABOUT
+             //     //////////////////////////////////////////////
+    //     /// ABOUT
         #about_section_id {
-            background-color: $nextgreen;
+            // background-color: $nextgreen;
+            background-color: $darkblue;
             height: 100vh;
+            // position: absolute;
             .about_section_content {
+                background-color: $nextgreen;
+                height: 100vh;
+                padding: 2em 0 0 0;
                 .title_nav {
                     display: flex;
                     align-items: center;
@@ -366,6 +366,7 @@ $savethis: #7273ad;
                 .about_words {
                     display: flex;
                     flex-direction: column;
+                    align-items: center;
                     font-family: 'Inter', sans-serif;
                     font-size: 1rem;
                     color: white;
@@ -375,233 +376,235 @@ $savethis: #7273ad;
                 }
             }
         }
-        ////////////////////////////////////////////////////////
-        // PORTFOLIO SECTION
-        #portfolio_section_id {
-        background-color: $darkblue;
-        height: 100vh;
-        .portfolio_section_content {
-            .title_nav {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 2em 5em 2em 5em;
-                .section_title {
-                    font-family: 'Inter', sans-serif;
-                    font-size: 3rem;
-                    font-weight: bold;
-                    color: white;
-                }
-                .portfolio_desktop_nav {
-                    ul {
-                        display: flex;
-                        gap: 20px;
-                        li {
-                            list-style: none;
-                            a {
-                                color: white;
-                                text-decoration: none;
-                                font-family: 'Inter', sans-serif;
-                            }
-                        }
-                    }
-                }
-            }
         }
-    }
-    /////////////////////////////////////////////
-    /// SKILLS
-    #skills_section_id {
-        background-color: $nextgreen;
-        height: 100vh;
-        .skills_section_content {
-            .title_nav {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 2em 5em 2em 5em;
-                .section_title {
-                    font-family: 'Inter', sans-serif;
-                    font-size: 3rem;
-                    font-weight: bold;
-                    color: white;
-                }
-                .skills_desktop_nav {
-                    ul {
-                        display: flex;
-                        gap: 20px;
-                        li {
-                            list-style: none;
-                            a {
-                                color: white;
-                                text-decoration: none;
-                                font-family: 'Inter', sans-serif;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    ////////////////////////////////////////////////////////
-    // EXPERIENCE SECTION
-        #experience_section_id {
-            background-color: $darkblue;
-            height: 88vh;
-            .experience_section_content {
-                // height: 60vh;
-                .title_nav {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    padding: 2em 5em 2em 5em;
-                    .section_title {
-                        font-family: 'Inter', sans-serif;
-                        font-size: 3rem;
-                        font-weight: bold;
-                        color: white;
-                    }
-                    .experience_desktop_nav {
-                        ul {
-                            display: flex;
-                            gap: 20px;
-                            li {
-                                list-style: none;
-                                a {
-                                    color: white;
-                                    text-decoration: none;
-                                    font-family: 'Inter', sans-serif;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        //////////////////////////////////////////////////
-        /// FOOTER
-        #footer_section_id {
-            background-color: #060927;
-            // background-color: rebeccapurple;
-            height: 20vh;
-            height: 25%;
-            .footer_section_content {
-                padding: 2em 5em 2em 5em;
-                border-top: $nextgreen 2px solid;
-                filter: opacity(90%);
-                // width: 100%;
-                .footer_elements {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    .socials_footer {
-                        display: flex;
-                        align-items: center;
-                        gap: 2.5em;
-                        filter: opacity(80%);
-                        #github {
-                            height: 2.5em;
-                            width: 2.5em;
-                        }
-                        #linkedin {
-                            height: 3em;
-                            width: 3em;
-                        }
-                        #instagram {
-                            height: 3.4em;
-                            width: 3.4em;
-                        }
-                        #twitter {
-                            height: 3em;
-                            width: 3em;
-                        }
-                    }
-                    .email_footer {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 5px;
-                        // For the top of the email input
-                        // label {
-                        //     font-family: 'Inter', sans-serif;
-                        //     color: $resumebutton;
-                        //     font-weight: bold;
-                        //     filter: opacity(90%);
-                        // }
-                        .email_submit {
-                            display: flex;
-                            align-items: center;
-                            input {
-                                padding: 1em 8em;
-                                border-top-left-radius: 5px;
-                                border-bottom-left-radius: 5px;
-                                border: none;
-                                border: 2px solid $jobdescription;
-                                border: 2px solid white;
-                                background: none;
-                                color: $jobdescription;
-                                color: white;
-                                // filter: opacity(80%);
-                            }
-                            input:focus {
-                                border: 2px solid $jobdescription;
-                            }
-                            ::placeholder {
-                                color: gray;
-                                color: $footerblue;
-                                color: $nextgreen;
-                                color: $jobdescription;
-                                color: white;
-                                // filter: opacity(75%);
-                                font-family: 'Inter', sans-serif;
-                                // font-weight: bold;
-                                // background-color: red;
-                                text-align: center;
-                            }
-                            button {
-                                border: 2px solid $jobdescription;
-                                border: 2px solid white;
-                                border-left: none;
-                                border-top-right-radius: 5px;
-                                border-bottom-right-radius: 5px;
-                                color: $jobdescription;
-                                color: white;
-                                color: $footerblue;
-                                background: none;
-                                background-color: white;
-                                padding: 1em 3em;
-                                font-weight: bold;
-                                cursor: pointer;
-                                // filter: opacity(80%);
-                            }
-                            // button:hover {
-                            //     // background-color: white;
-                            //     // border: 2px solid $jobdescripgrey;
-                            //     border: 2px solid $jobdescription;
+   
+    //     ////////////////////////////////////////////////////////
+    //     // PORTFOLIO SECTION
+    //     #portfolio_section_id {
+    //     background-color: $darkblue;
+    //     height: 100vh;
+    //     .portfolio_section_content {
+    //         .title_nav {
+    //             display: flex;
+    //             align-items: center;
+    //             justify-content: space-between;
+    //             padding: 2em 5em 2em 5em;
+    //             .section_title {
+    //                 font-family: 'Inter', sans-serif;
+    //                 font-size: 3rem;
+    //                 font-weight: bold;
+    //                 color: white;
+    //             }
+    //             .portfolio_desktop_nav {
+    //                 ul {
+    //                     display: flex;
+    //                     gap: 20px;
+    //                     li {
+    //                         list-style: none;
+    //                         a {
+    //                             color: white;
+    //                             text-decoration: none;
+    //                             font-family: 'Inter', sans-serif;
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    // /////////////////////////////////////////////
+    // /// SKILLS
+    // #skills_section_id {
+    //     background-color: $nextgreen;
+    //     height: 100vh;
+    //     .skills_section_content {
+    //         .title_nav {
+    //             display: flex;
+    //             align-items: center;
+    //             justify-content: space-between;
+    //             padding: 2em 5em 2em 5em;
+    //             .section_title {
+    //                 font-family: 'Inter', sans-serif;
+    //                 font-size: 3rem;
+    //                 font-weight: bold;
+    //                 color: white;
+    //             }
+    //             .skills_desktop_nav {
+    //                 ul {
+    //                     display: flex;
+    //                     gap: 20px;
+    //                     li {
+    //                         list-style: none;
+    //                         a {
+    //                             color: white;
+    //                             text-decoration: none;
+    //                             font-family: 'Inter', sans-serif;
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    // ////////////////////////////////////////////////////////
+    // // EXPERIENCE SECTION
+    //     #experience_section_id {
+    //         background-color: $darkblue;
+    //         height: 88vh;
+    //         .experience_section_content {
+    //             // height: 60vh;
+    //             .title_nav {
+    //                 display: flex;
+    //                 align-items: center;
+    //                 justify-content: space-between;
+    //                 padding: 2em 5em 2em 5em;
+    //                 .section_title {
+    //                     font-family: 'Inter', sans-serif;
+    //                     font-size: 3rem;
+    //                     font-weight: bold;
+    //                     color: white;
+    //                 }
+    //                 .experience_desktop_nav {
+    //                     ul {
+    //                         display: flex;
+    //                         gap: 20px;
+    //                         li {
+    //                             list-style: none;
+    //                             a {
+    //                                 color: white;
+    //                                 text-decoration: none;
+    //                                 font-family: 'Inter', sans-serif;
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     //////////////////////////////////////////////////
+    //     /// FOOTER
+    //     #footer_section_id {
+    //         background-color: #060927;
+    //         // background-color: rebeccapurple;
+    //         height: 20vh;
+    //         height: 25%;
+    //         .footer_section_content {
+    //             padding: 2em 5em 2em 5em;
+    //             border-top: $nextgreen 2px solid;
+    //             filter: opacity(90%);
+    //             // width: 100%;
+    //             .footer_elements {
+    //                 display: flex;
+    //                 align-items: center;
+    //                 justify-content: space-between;
+    //                 .socials_footer {
+    //                     display: flex;
+    //                     align-items: center;
+    //                     gap: 2.5em;
+    //                     filter: opacity(80%);
+    //                     #github {
+    //                         height: 2.5em;
+    //                         width: 2.5em;
+    //                     }
+    //                     #linkedin {
+    //                         height: 3em;
+    //                         width: 3em;
+    //                     }
+    //                     #instagram {
+    //                         height: 3.4em;
+    //                         width: 3.4em;
+    //                     }
+    //                     #twitter {
+    //                         height: 3em;
+    //                         width: 3em;
+    //                     }
+    //                 }
+    //                 .email_footer {
+    //                     display: flex;
+    //                     flex-direction: column;
+    //                     gap: 5px;
+    //                     // For the top of the email input
+    //                     // label {
+    //                     //     font-family: 'Inter', sans-serif;
+    //                     //     color: $resumebutton;
+    //                     //     font-weight: bold;
+    //                     //     filter: opacity(90%);
+    //                     // }
+    //                     .email_submit {
+    //                         display: flex;
+    //                         align-items: center;
+    //                         input {
+    //                             padding: 1em 8em;
+    //                             border-top-left-radius: 5px;
+    //                             border-bottom-left-radius: 5px;
+    //                             border: none;
+    //                             border: 2px solid $jobdescription;
+    //                             border: 2px solid white;
+    //                             background: none;
+    //                             color: $jobdescription;
+    //                             color: white;
+    //                             // filter: opacity(80%);
+    //                         }
+    //                         input:focus {
+    //                             border: 2px solid $jobdescription;
+    //                         }
+    //                         ::placeholder {
+    //                             color: gray;
+    //                             color: $footerblue;
+    //                             color: $nextgreen;
+    //                             color: $jobdescription;
+    //                             color: white;
+    //                             // filter: opacity(75%);
+    //                             font-family: 'Inter', sans-serif;
+    //                             // font-weight: bold;
+    //                             // background-color: red;
+    //                             text-align: center;
+    //                         }
+    //                         button {
+    //                             border: 2px solid $jobdescription;
+    //                             border: 2px solid white;
+    //                             border-left: none;
+    //                             border-top-right-radius: 5px;
+    //                             border-bottom-right-radius: 5px;
+    //                             color: $jobdescription;
+    //                             color: white;
+    //                             color: $footerblue;
+    //                             background: none;
+    //                             background-color: white;
+    //                             padding: 1em 3em;
+    //                             font-weight: bold;
+    //                             cursor: pointer;
+    //                             // filter: opacity(80%);
+    //                         }
+    //                         // button:hover {
+    //                         //     // background-color: white;
+    //                         //     // border: 2px solid $jobdescripgrey;
+    //                         //     border: 2px solid $jobdescription;
                                
-                            //     background-color: $jobdescription;
+    //                         //     background-color: $jobdescription;
                                
-                            //     border-left: none;
-                            //     transition: .2s all ease-in;
-                            // }
-                        }
-                    }
-                    .footer_logo {
-                        small {
-                            color: white;
-                            display: flex;
-                            align-items: center;
-                            font-family: 'Inter', sans-serif;
-                            font-size: .7rem;
-                            gap: .5em;
-                            filter: opacity(80%);
-                            #footer_logo {
-                                width: 2em;
-                                height: 2em;
-                            }
-                        }
-                    }
-                }
-            }
-        }
+    //                         //     border-left: none;
+    //                         //     transition: .2s all ease-in;
+    //                         // }
+    //                     }
+    //                 }
+    //                 .footer_logo {
+    //                     small {
+    //                         color: white;
+    //                         display: flex;
+    //                         align-items: center;
+    //                         font-family: 'Inter', sans-serif;
+    //                         font-size: .7rem;
+    //                         gap: .5em;
+    //                         filter: opacity(80%);
+    //                         #footer_logo {
+    //                             width: 2em;
+    //                             height: 2em;
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
     } 
 }
