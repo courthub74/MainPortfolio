@@ -39,68 +39,10 @@ $savethis: #7273ad;
 
 // Portrait
 @media only screen and (orientation: portrait) {
-    .container {
+    #whole_page {
         background-color: $darkblue;
-        .desktop_nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 2em 3em 2em 3em;
-            .section_title {
-                color: white;
-            }
-            .home_desktop_nav {
-                ul {
-                    display: none;
-                }
-                .mobile_nav {
-                    #mobile_nav {
-                        width: 3em;
-                        height: 3em;
-                    }
-                }
-            }
-        }
-        // HOME SECTION
-        #home_section_id {
-            background-color: $darkblue;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        // ABOUT SECTION
-        #about_section_id {
-            background-color: $nextgreen;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            .about_section_content {
-                display: flex;
-                flex-direction: column;
-                .title_nav {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    padding: 2em 3em 2em 3em;
-                    .section_title {
-                        font-family: 'Inter', sans-serif;
-                        font-size: 2rem;
-                        font-weight: bold;
-                        color: white;
-                    }
-                    .about_desktop_nav {
-                        ul {
-                            display: none;
-                        }
-                        .mobile_nav {
-                            #mobile_nav {
-                                width: 3em;
-                                height: 3em;
-                            }
-                        }
-                    }
-                }
-            }
+        .whole_page {
+            display: none;
         }
     }
 }
@@ -108,68 +50,10 @@ $savethis: #7273ad;
 
 // Landscape
 @media only screen and (orientation: landscape) {
-    .container {
-        background-color: $darkblue;
-        .desktop_nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 3em 4em 2em 4em;
-            .section_title {
-                color: white;
-            }
-            .home_desktop_nav {
-                ul {
-                    display: none;
-                }
-                .mobile_nav {
-                    #mobile_nav {
-                        width: 3em;
-                        height: 3em;
-                    }
-                }
-            }
-        }
-        // HOME SECTION
-        #home_section_id {
-            background-color: $darkblue;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        // ABOUT SECTION
-        #about_section_id {
-            background-color: $nextgreen;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            .about_section_content {
-                display: flex;
-                flex-direction: column;
-                .title_nav {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    padding: 3em 4em 2em 4em;
-                    .section_title {
-                        font-family: 'Inter', sans-serif;
-                        font-size: 2rem;
-                        font-weight: bold;
-                        color: white;
-                    }
-                    .about_desktop_nav {
-                        ul {
-                            display: none;
-                        }
-                        .mobile_nav {
-                            #mobile_nav {
-                                width: 3em;
-                                height: 3em;
-                            }
-                        }
-                    }
-                }
-            }
+    #whole_page {
+        background-color: $nextgreen;
+        .whole_page {
+            display: none;
         }
     }
 }

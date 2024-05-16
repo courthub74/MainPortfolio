@@ -9,115 +9,19 @@
 }
 
 @media only screen and (orientation: portrait) {
-  .container {
+  #whole_page {
     background-color: #080E2F;
   }
-  .container .desktop_nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em 3em 2em 3em;
-  }
-  .container .desktop_nav .section_title {
-    color: white;
-  }
-  .container .desktop_nav .home_desktop_nav ul {
+  #whole_page .whole_page {
     display: none;
-  }
-  .container .desktop_nav .home_desktop_nav .mobile_nav #mobile_nav {
-    width: 3em;
-    height: 3em;
-  }
-  .container #home_section_id {
-    background-color: #080E2F;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .container #about_section_id {
-    background-color: #00313E;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .container #about_section_id .about_section_content {
-    display: flex;
-    flex-direction: column;
-  }
-  .container #about_section_id .about_section_content .title_nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em 3em 2em 3em;
-  }
-  .container #about_section_id .about_section_content .title_nav .section_title {
-    font-family: "Inter", sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-  }
-  .container #about_section_id .about_section_content .title_nav .about_desktop_nav ul {
-    display: none;
-  }
-  .container #about_section_id .about_section_content .title_nav .about_desktop_nav .mobile_nav #mobile_nav {
-    width: 3em;
-    height: 3em;
   }
 }
 @media only screen and (orientation: landscape) {
-  .container {
-    background-color: #080E2F;
-  }
-  .container .desktop_nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3em 4em 2em 4em;
-  }
-  .container .desktop_nav .section_title {
-    color: white;
-  }
-  .container .desktop_nav .home_desktop_nav ul {
-    display: none;
-  }
-  .container .desktop_nav .home_desktop_nav .mobile_nav #mobile_nav {
-    width: 3em;
-    height: 3em;
-  }
-  .container #home_section_id {
-    background-color: #080E2F;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .container #about_section_id {
+  #whole_page {
     background-color: #00313E;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
   }
-  .container #about_section_id .about_section_content {
-    display: flex;
-    flex-direction: column;
-  }
-  .container #about_section_id .about_section_content .title_nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3em 4em 2em 4em;
-  }
-  .container #about_section_id .about_section_content .title_nav .section_title {
-    font-family: "Inter", sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-  }
-  .container #about_section_id .about_section_content .title_nav .about_desktop_nav ul {
+  #whole_page .whole_page {
     display: none;
-  }
-  .container #about_section_id .about_section_content .title_nav .about_desktop_nav .mobile_nav #mobile_nav {
-    width: 3em;
-    height: 3em;
   }
 }
 @media only screen and (min-width: 1200px) {

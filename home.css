@@ -4,10 +4,23 @@
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
-* body {
-  background-color: #080E2F;
-}
 
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: #080E2F;
+  }
+  body #whole_page .whole_page {
+    display: none;
+  }
+}
+@media only screen and (orientation: landscape) and (max-width: 1199px) {
+  body {
+    background-color: #00313E;
+  }
+  body #whole_page .whole_page {
+    display: none;
+  }
+}
 @media only screen and (min-width: 1200px) {
   #whole_page .whole_page {
     background-color: #080E2F;
