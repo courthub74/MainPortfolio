@@ -123,10 +123,11 @@
 @media only screen and (min-width: 1200px) {
   .container {
     background-color: #080E2F;
+    background-color: #36395D;
     height: 500vh;
   }
   .container #home_section_id {
-    height: 100vh;
+    height: 700vh;
   }
   .container #home_section_id .desktop_nav {
     display: flex;
@@ -237,22 +238,21 @@
   .container #home_section_id .home_section_content .big_logo_and_square .home_square .learn_more {
     background-color: #060927;
     background-color: #bbbcd3;
+    background-color: #A7A8CD;
+    background-color: #00313E;
     color: white;
-    font-weight: bold;
-    color: #060927;
     padding: 1em 3em;
-    border-top: 2px solid #00313E;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     text-decoration: none;
   }
   .container #home_section_id #about_section_id {
-    background-color: #080E2F;
     height: 100vh;
   }
   .container #home_section_id #about_section_id .about_section_content {
     background-color: #00313E;
-    height: 100vh;
+    height: 200vh;
     padding: 2em 0 0 0;
   }
   .container #home_section_id #about_section_id .about_section_content .title_nav {

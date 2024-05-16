@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+* body {
+  background-color: #080E2F;
+}
+
+@media only screen and (min-width: 1200px) {
+  #whole_page .whole_page {
+    background-color: #080E2F;
+  }
+  #whole_page .whole_page .home_section_content {
+    background-color: #080E2F;
+    padding: 2em 5em 15em 5em;
+  }
+  #whole_page .whole_page .home_section_content .desktop_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #whole_page .whole_page .home_section_content .desktop_nav .section_title p {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    opacity: 0;
+  }
+  #whole_page .whole_page .home_section_content .desktop_nav .section_title #home_logo {
+    width: 9em;
+    height: 9em;
+  }
+  #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li {
+    list-style: none;
+  }
+  #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  #whole_page .whole_page .home_section_content .desktop_nav ul {
+    display: flex;
+    gap: 5px;
+  }
+  #whole_page .whole_page .home_section_content .desktop_nav ul li {
+    color: white;
+  }
+  #whole_page .whole_page .home_section_content .mobile_nav {
+    display: none;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_logo {
+    z-index: 1;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_logo #home_logo {
+    border-radius: 50%;
+    border: 2px solid #00313E;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border-radius: 10px;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square header {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: #36395D;
+    background-color: #00313E;
+    background-color: #060927;
+    border-top: 2px solid #00313E;
+    padding: 0.5em 2.5em;
+    margin: 0 0 0 -1.2em;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .slogan {
+    color: #8081AA;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #github_home {
+    width: 2em;
+    height: 2em;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #linkedin_home {
+    width: 2.3em;
+    height: 2.3em;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #instagram_home {
+    width: 2.7em;
+    height: 2.7em;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #twitter_home {
+    width: 2.3em;
+    height: 2.3em;
+  }
+  #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more {
+    background-color: #060927;
+    background-color: #bbbcd3;
+    background-color: #A7A8CD;
+    background-color: #00313E;
+    color: white;
+    padding: 1em 3em;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  #whole_page .whole_page .about_section {
+    background-color: #00313E;
+    height: 100vh;
+    padding: 2em 2em;
+  }
+  #whole_page .whole_page .portfolio_section {
+    background-color: #080E2F;
+    height: 100vh;
+    padding: 2em 2em;
+  }
+  #whole_page .whole_page .skills_section {
+    background-color: #00313E;
+    height: 100vh;
+    padding: 2em 2em;
+  }
+  #whole_page .whole_page .experience_section {
+    background-color: #080E2F;
+    height: 80vh;
+    padding: 2em 2em;
+  }
+  #whole_page .whole_page #footer_section_id {
+    background-color: #060927;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content {
+    padding: 2em 5em 2em 5em;
+    border-top: #00313E 2px solid;
+    filter: opacity(90%);
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .socials_footer {
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+    filter: opacity(80%);
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .socials_footer #github {
+    height: 2.5em;
+    width: 2.5em;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .socials_footer #linkedin {
+    height: 3em;
+    width: 3em;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .socials_footer #instagram {
+    height: 3.4em;
+    width: 3.4em;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .socials_footer #twitter {
+    height: 3em;
+    width: 3em;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .email_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit {
+    display: flex;
+    align-items: center;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input {
+    padding: 1em 8em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    border: 2px solid #00C6C3;
+    border: 2px solid white;
+    background: none;
+    color: #00C6C3;
+    color: white;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input:focus {
+    border: 2px solid #00C6C3;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::-moz-placeholder {
+    color: gray;
+    color: #060927;
+    color: #00313E;
+    color: #00C6C3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::placeholder {
+    color: gray;
+    color: #060927;
+    color: #00313E;
+    color: #00C6C3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button {
+    border: 2px solid #00C6C3;
+    border: 2px solid white;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #00C6C3;
+    color: white;
+    color: #060927;
+    background: none;
+    background-color: white;
+    padding: 1em 3em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .footer_logo small {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    gap: 0.5em;
+    filter: opacity(80%);
+  }
+  #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements .footer_logo small #footer_logo {
+    width: 2em;
+    height: 2em;
+  }
+}/*# sourceMappingURL=home.css.map */

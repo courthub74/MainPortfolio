@@ -1,0 +1,323 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Footer Blue
+$footerblue: #060927;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+// Resume Button Green
+$resumebutton: #507E81;
+// Skills Teal
+$skillsteal: #146166;
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+// Job Descriptions
+$jobdescription: #00C6C3;
+$jobdescripgrey: #8081AA;
+$descriptiongrey2: #7a7bd3;
+$descriptionblue: #8091ED;
+// First Blue
+$firstblue: #58a6ff;
+$savethis: #7273ad;
+
+// WHOLE PAGE
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    body {
+        background-color: $darkblue;
+    }
+}
+
+
+// Desktop
+
+// 1200
+@media only screen and (min-width: 1200px) {
+    #whole_page {
+        // background-color: $darkblue;
+        // height: 550vh;
+        // ALL SECTIONS ARE UNDER THIS DIV
+        .whole_page {
+            background-color: $darkblue;
+            .home_section_content {
+                background-color: $darkblue;
+                // Maybe it doesn't need a height here
+                padding: 2em 5em 15em 5em;
+                .desktop_nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .section_title {
+                        p {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 3rem;
+                            font-weight: bold;
+                            color: white;
+                            opacity: 0;
+                        }
+                        #home_logo {
+                            width: 9em;
+                            height: 9em;
+                        }
+                    }
+                    .home_desktop_nav {
+                        ul {
+                            display: flex;
+                            gap: 20px;
+                            li {
+                                list-style: none;
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                    ul {
+                        display: flex;
+                        gap: 5px;
+                        li {
+                            color: white;
+                        }
+                    }
+                }
+                .mobile_nav {
+                    display: none;
+                }
+                .big_logo_and_square {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 6em;
+                    .home_logo {
+                        // background-color: honeydew;
+                        // z-index: 5;
+                        z-index: 1;
+                        #home_logo {
+                            border-radius: 50%;
+                            border: 2px solid $nextgreen;
+                        }
+                    }
+                    .home_square {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1em;
+                        // border: 3px solid $portfolios;
+                        // border: 3px solid $nextgreen;
+                        border-radius: 10px;
+                        header {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 1.8rem;
+                            font-weight: bold;
+                            background-color: $portfolios;
+                            background-color: $nextgreen;
+                            background-color: $footerblue;
+                            border-top: 2px solid $nextgreen;
+                            padding: .5em 2.5em;
+                            margin: 0 0 0 -1.2em;
+                        }
+                        .slogan {
+                            color: $jobdescripgrey;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 1.2rem;
+                        }
+                        .socials_block {
+                            display: flex;
+                            align-items: center;
+                            gap: 3em;
+                            // filter: opacity(80%);
+                            #github_home {
+                                width: 2em;
+                                height: 2em;
+                            }
+                            #linkedin_home {
+                                width: 2.3em;
+                                height: 2.3em;
+                            }
+                            #instagram_home {
+                                width: 2.7em;
+                                height: 2.7em;
+                            }
+                            #twitter_home {
+                                width: 2.3em;
+                                height: 2.3em;
+                            }
+                        }
+                        .learn_more {
+                            background-color: $footerblue;
+                            background-color: #bbbcd3;
+                            background-color: #A7A8CD;
+                            background-color: $nextgreen;
+                            color: white;
+                            // font-weight: bold;
+                            // color: $footerblue;
+                            padding: 1em 3em;
+                            border-top: 1px solid rgba(255, 255, 255, 0.664);
+                            font-family: 'Inter', sans-serif;
+                            font-size: .9rem;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                
+            }
+            .about_section {
+                background-color: $nextgreen;
+                height: 100vh;
+                padding: 2em 2em;
+            }
+            .portfolio_section {
+                background-color: $darkblue;
+                height: 100vh;
+                padding: 2em 2em;
+            }
+            .skills_section {
+                background-color: $nextgreen;
+                height: 100vh;
+                padding: 2em 2em;
+            }
+            .experience_section {
+                background-color: $darkblue;
+                height: 80vh;
+                padding: 2em 2em;
+            }
+        //////////////////////////////////////////////////
+        // FOOTER
+        #footer_section_id {
+            background-color: #060927;
+            // Maybe it doesn't need a height here
+            .footer_section_content {
+                padding: 2em 5em 2em 5em;
+                border-top: $nextgreen 2px solid;
+                filter: opacity(90%);
+                // width: 100%;
+                .footer_elements {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .socials_footer {
+                        display: flex;
+                        align-items: center;
+                        gap: 2.5em;
+                        filter: opacity(80%);
+                        #github {
+                            height: 2.5em;
+                            width: 2.5em;
+                        }
+                        #linkedin {
+                            height: 3em;
+                            width: 3em;
+                        }
+                        #instagram {
+                            height: 3.4em;
+                            width: 3.4em;
+                        }
+                        #twitter {
+                            height: 3em;
+                            width: 3em;
+                        }
+                    }
+                    .email_footer {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        // For the top of the email input
+                        // label {
+                        //     font-family: 'Inter', sans-serif;
+                        //     color: $resumebutton;
+                        //     font-weight: bold;
+                        //     filter: opacity(90%);
+                        // }
+                        .email_submit {
+                            display: flex;
+                            align-items: center;
+                            input {
+                                padding: 1em 8em;
+                                border-top-left-radius: 5px;
+                                border-bottom-left-radius: 5px;
+                                border: none;
+                                border: 2px solid $jobdescription;
+                                border: 2px solid white;
+                                background: none;
+                                color: $jobdescription;
+                                color: white;
+                                // filter: opacity(80%);
+                            }
+                            input:focus {
+                                border: 2px solid $jobdescription;
+                            }
+                            ::placeholder {
+                                color: gray;
+                                color: $footerblue;
+                                color: $nextgreen;
+                                color: $jobdescription;
+                                color: white;
+                                // filter: opacity(75%);
+                                font-family: 'Inter', sans-serif;
+                                // font-weight: bold;
+                                // background-color: red;
+                                text-align: center;
+                            }
+                            button {
+                                border: 2px solid $jobdescription;
+                                border: 2px solid white;
+                                border-left: none;
+                                border-top-right-radius: 5px;
+                                border-bottom-right-radius: 5px;
+                                color: $jobdescription;
+                                color: white;
+                                color: $footerblue;
+                                background: none;
+                                background-color: white;
+                                padding: 1em 3em;
+                                font-weight: bold;
+                                cursor: pointer;
+                                // filter: opacity(80%);
+                            }
+                            // button:hover {
+                            //     // background-color: white;
+                            //     // border: 2px solid $jobdescripgrey;
+                            //     border: 2px solid $jobdescription;
+                               
+                            //     background-color: $jobdescription;
+                               
+                            //     border-left: none;
+                            //     transition: .2s all ease-in;
+                            // }
+                        }
+                    }
+                    .footer_logo {
+                        small {
+                            color: white;
+                            display: flex;
+                            align-items: center;
+                            font-family: 'Inter', sans-serif;
+                            font-size: .7rem;
+                            gap: .5em;
+                            filter: opacity(80%);
+                            #footer_logo {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        }
+    }
+}

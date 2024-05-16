@@ -180,12 +180,13 @@ $savethis: #7273ad;
 @media only screen and (min-width: 1200px) {
     .container {
         background-color: $darkblue;
+        background-color: #36395D;
         height: 500vh;
         //////////////////////////////////////////////
         /// HOME
         #home_section_id {
             // position: absolute;
-            height: 100vh;
+            height: 700vh;
             .desktop_nav {
                 display: flex;
                 justify-content: space-between;
@@ -206,12 +207,6 @@ $savethis: #7273ad;
                         height: 9em;
                     }
                 }
-                // .section_title {
-                //     font-family: 'Inter', sans-serif;
-                //     font-size: 3rem;
-                //     font-weight: bold;
-                //     color: white;
-                // }
                 .home_desktop_nav {
                     ul {
                         display: flex;
@@ -311,11 +306,13 @@ $savethis: #7273ad;
                         .learn_more {
                             background-color: $footerblue;
                             background-color: #bbbcd3;
+                            background-color: #A7A8CD;
+                            background-color: $nextgreen;
                             color: white;
-                            font-weight: bold;
-                            color: $footerblue;
+                            // font-weight: bold;
+                            // color: $footerblue;
                             padding: 1em 3em;
-                            border-top: 2px solid $nextgreen;
+                            border-top: 1px solid rgba(255, 255, 255, 0.664);
                             font-family: 'Inter', sans-serif;
                             font-size: .9rem;
                             text-decoration: none;
@@ -327,12 +324,12 @@ $savethis: #7273ad;
     //     /// ABOUT
         #about_section_id {
             // background-color: $nextgreen;
-            background-color: $darkblue;
+            // background-color: $darkblue;
             height: 100vh;
             // position: absolute;
             .about_section_content {
                 background-color: $nextgreen;
-                height: 100vh;
+                height: 200vh;
                 padding: 2em 0 0 0;
                 .title_nav {
                     display: flex;
