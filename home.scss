@@ -271,8 +271,42 @@ $savethis: #7273ad;
             }
             .portfolio_section {
                 background-color: $darkblue;
-                height: 100vh;
+                // height: 100vh;
                 padding: 2em 2em;
+                .portfolio_section_content {
+                    // padding here
+                    .title_nav {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0em 5em 2em 5em;
+                        .section_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 3rem;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        .portfolio_desktop_nav {
+                            margin: -1em -2em 0 0;
+                            ul {
+                                display: flex;
+                                gap: 20px;
+                                li {
+                                    list-style: none;
+                                    a {
+                                        color: white;
+                                        font-weight: bold;
+                                        text-decoration: none;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                        .mobile_nav {
+                            display: none;
+                        }
+                    }
+                }
             }
             .skills_section {
                 background-color: $nextgreen;
