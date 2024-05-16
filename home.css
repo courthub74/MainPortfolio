@@ -334,7 +334,7 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
-    margin: 2em 0 0 0;
+    margin: 2em 0 2em 0;
   }
   #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square {
     display: flex;
@@ -348,8 +348,13 @@
     border-top: 3px solid #00313E;
     box-shadow: 2px 2px 2px black;
   }
+  #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square #courdevelops {
+    width: 10em;
+    height: 10em;
+  }
   #whole_page .whole_page #footer_section_id {
     background-color: #060927;
+    position: static;
   }
   #whole_page .whole_page #footer_section_id .footer_section_content {
     padding: 2em 5em 2em 5em;

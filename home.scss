@@ -430,7 +430,8 @@ $savethis: #7273ad;
                         justify-content: center;
                         align-items: center;
                         gap: 2em;
-                        margin: 2em 0 0 0;
+                        margin: 2em 0 2em 0;
+                        // background-color: #58a6ff;
                         .square {
                             display: flex;
                             flex-direction: column;
@@ -443,9 +444,10 @@ $savethis: #7273ad;
                             width: 27em;
                             border-top: 3px solid $nextgreen;
                             box-shadow: 2px 2px 2px black;
-                            // .portfolio_square_content {
-                            // //   place tbe deets here
-                            // }
+                            #courdevelops {
+                                width: 10em;
+                                height: 10em;
+                            }
                         }
                     }
                 }
@@ -454,6 +456,7 @@ $savethis: #7273ad;
         // FOOTER
         #footer_section_id {
             background-color: #060927;
+            position: static;
             // Maybe it doesn't need a height here
             .footer_section_content {
                 padding: 2em 5em 2em 5em;
