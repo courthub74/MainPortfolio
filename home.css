@@ -342,6 +342,7 @@
     height: 12em;
     width: 12em;
     background-color: #00313E;
+    box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle {
     display: flex;
@@ -470,7 +471,6 @@
     display: flex;
     align-items: center;
     gap: 2.5em;
-    filter: opacity(80%);
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .socials_footer #github {
     height: 2.5em;
