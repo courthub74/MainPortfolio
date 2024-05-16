@@ -348,8 +348,8 @@ $savethis: #7273ad;
                 /// SKILLS SECTION
                 .skills_section {
                     background-color: $nextgreen;
-                    height: 100vh;
-                    padding: 3em 0 2em 0;
+                    // height: 100vh;
+                    padding: 3em 0 14em 0;
                     .skills_section_content {
                         // padding here
                         .title_nav {
@@ -381,6 +381,60 @@ $savethis: #7273ad;
                             }
                             .mobile_nav {
                                 display: none;
+                            }
+                        }
+                        // SKILLS CIRCLES 
+                        // Physical
+                        .back_circle {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 2px solid $footerblue;
+                            border-radius: 50%;
+                            height: 10em;
+                            width: 10em;
+                            background-color: $nextgreen;
+                            .front_circle {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: $footerblue;
+                                border-radius: 50%;
+                                height: 7em;
+                                width: 7em;
+                            }
+                        }
+                        .skills_circles {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2em;
+                            // background-color: #00C6C3;
+                            padding: 10em 0 0 0;
+                            .first_six {
+                                display: flex;
+                                gap: 1em;
+                                .top_three {
+                                    display: flex;
+                                    gap: 1em;
+                                }
+                                .bottom_three {
+                                    display: flex;
+                                    gap: 1em;
+                                }
+                            }
+                            .second_six {
+                                display: flex;
+                                gap: 1em;
+                                .top_three {
+                                    display: flex;
+                                    gap: 1em;
+                                }
+                                .bottom_three {
+                                    display: flex;
+                                    gap: 1em;
+                                }
                             }
                         }
                     }
