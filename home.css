@@ -135,7 +135,6 @@
     background-color: #00313E;
     color: white;
     padding: 1em 3em;
-    border-top: 1px solid rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     text-decoration: none;
@@ -146,7 +145,7 @@
   }
   #whole_page .whole_page .about_section .about_section_content {
     background-color: #00313E;
-    padding: 1em 0 15em 0;
+    padding: 1em 0 18em 0;
   }
   #whole_page .whole_page .about_section .about_section_content .title_nav {
     display: flex;
@@ -196,7 +195,6 @@
     margin: 2em 0 0 0;
     width: 10vw;
     text-align: center;
-    border-top: 2px solid #8081AA;
   }
   #whole_page .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;

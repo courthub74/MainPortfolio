@@ -189,7 +189,7 @@ $savethis: #7273ad;
                             // font-weight: bold;
                             // color: $footerblue;
                             padding: 1em 3em;
-                            border-top: 1px solid rgba(255, 255, 255, 0.664);
+                            // border-top: 1px solid rgba(255, 255, 255, 0.664);
                             font-family: 'Inter', sans-serif;
                             font-size: .9rem;
                             text-decoration: none;
@@ -204,7 +204,7 @@ $savethis: #7273ad;
                 // padding: 10em 2em;
                 .about_section_content {
                     background-color: $nextgreen;
-                    padding: 1em 0 15em 0;
+                    padding: 1em 0 18em 0;
                     .title_nav {
                         display: flex;
                         align-items: center;
@@ -250,13 +250,18 @@ $savethis: #7273ad;
                     }
                     .resume_dload {
                         background-color: white;
+                        
+                        // background-color: $darkblue;
                         padding: .5em;
                         margin: 2em 0 0 0;
                         width: 10vw;
                         text-align: center;
-                        border-top: 2px solid $jobdescripgrey;
+                        // border-top: 2px solid rgba(255, 255, 255, 0.664);
+                        // border-top: 2px solid rgb(36, 158, 36);
+                        //border-top: 2px solid $darkblue;
                         a {
                             color: $nextgreen;
+                            // color: white;
                             text-decoration: none;
                             font-weight: bold;
                             font-size: .8rem;
