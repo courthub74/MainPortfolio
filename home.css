@@ -204,7 +204,7 @@
   }
   #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
-    padding: 2em 2em;
+    padding: 2em 0 12em 0;
   }
   #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
     display: flex;
@@ -236,6 +236,25 @@
   }
   #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .mobile_nav {
     display: none;
+  }
+  #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 4em 0 0 0;
+  }
+  #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #060927;
+    height: 35em;
+    width: 27em;
+    border-top: 3px solid #00313E;
+    box-shadow: 2px 2px 2px black;
   }
   #whole_page .whole_page .skills_section {
     background-color: #00313E;

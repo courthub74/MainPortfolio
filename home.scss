@@ -272,7 +272,7 @@ $savethis: #7273ad;
             .portfolio_section {
                 background-color: $darkblue;
                 // height: 100vh;
-                padding: 2em 2em;
+                padding: 2em 0 12em 0;
                 .portfolio_section_content {
                     // padding here
                     .title_nav {
@@ -304,6 +304,37 @@ $savethis: #7273ad;
                         }
                         .mobile_nav {
                             display: none;
+                        }
+                    }
+                    // PORTFOLIO SQUARES
+                    .portfolio_squares {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2em;
+                        margin: 4em 0 0 0;
+                        .square {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            background-color: $footerblue;
+                            // padding: 15em 3em;
+                            height: 35em;
+                            width: 27em;
+                            border-top: 3px solid $nextgreen;
+                            box-shadow: 2px 2px 2px black;
+                            .portfolio_square_content {
+                                // #workflow_app {
+                                //     width: 25em;
+                                //     height: 4em;
+                                // }
+                                // #create_collab {
+                                //     width: 14.5em;
+                                //     height: 2.6em;
+                                // }
+                            }
                         }
                     }
                 }
