@@ -329,12 +329,31 @@
   #whole_page .whole_page .experience_section .experience_section_content .title_nav .mobile_nav {
     display: none;
   }
+  #whole_page .whole_page .experience_section .experience_section_content .experience_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 2em 0 0 0;
+  }
+  #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #060927;
+    height: 30em;
+    width: 27em;
+    border-top: 3px solid #00313E;
+    box-shadow: 2px 2px 2px black;
+  }
   #whole_page .whole_page #footer_section_id {
     background-color: #060927;
   }
   #whole_page .whole_page #footer_section_id .footer_section_content {
     padding: 2em 5em 2em 5em;
-    border-top: #00313E 2px solid;
+    border-top: #00313E 3px solid;
     filter: opacity(90%);
   }
   #whole_page .whole_page #footer_section_id .footer_section_content .footer_elements {

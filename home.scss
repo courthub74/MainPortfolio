@@ -424,6 +424,30 @@ $savethis: #7273ad;
                             display: none;
                         }
                     }
+                    // EXPERIENCE SQUARES
+                    .experience_squares {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2em;
+                        margin: 2em 0 0 0;
+                        .square {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            background-color: $footerblue;
+                            // padding: 15em 3em;
+                            height: 30em;
+                            width: 27em;
+                            border-top: 3px solid $nextgreen;
+                            box-shadow: 2px 2px 2px black;
+                            // .portfolio_square_content {
+                            // //   place tbe deets here
+                            // }
+                        }
+                    }
                 }
             }
         //////////////////////////////////////////////////
@@ -433,7 +457,7 @@ $savethis: #7273ad;
             // Maybe it doesn't need a height here
             .footer_section_content {
                 padding: 2em 5em 2em 5em;
-                border-top: $nextgreen 2px solid;
+                border-top: $nextgreen 3px solid;
                 filter: opacity(90%);
                 // width: 100%;
                 .footer_elements {
