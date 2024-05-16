@@ -64,6 +64,15 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
+  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li #selected {
+    text-decoration: underline;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li #contact {
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 2px;
+    color: #080E2F;
+  }
   body #whole_page .whole_page .home_section_content .desktop_nav ul {
     display: flex;
     gap: 5px;
@@ -181,6 +190,15 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
   }
+  body #whole_page .whole_page .about_section .about_section_content .title_nav .about_desktop_nav ul li #selected {
+    text-decoration: underline;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .title_nav .about_desktop_nav ul li #contact {
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 2px;
+    color: #00313E;
+  }
   body #whole_page .whole_page .about_section .about_section_content .title_nav .mobile_nav {
     display: none;
   }
@@ -240,6 +258,15 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .portfolio_desktop_nav ul li #selected {
+    text-decoration: underline;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .portfolio_desktop_nav ul li #contact {
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 2px;
+    color: #080E2F;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .mobile_nav {
     display: none;
   }
@@ -293,6 +320,15 @@
     font-weight: bold;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav ul li #selected {
+    text-decoration: underline;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav ul li #contact {
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 2px;
+    color: #00313E;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .title_nav .mobile_nav {
     display: none;
@@ -381,6 +417,15 @@
     font-weight: bold;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav ul li #selected {
+    text-decoration: underline;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav ul li #contact {
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 2px;
+    color: #080E2F;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .title_nav .mobile_nav {
     display: none;
