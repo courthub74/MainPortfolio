@@ -204,7 +204,7 @@
   }
   #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
-    padding: 2em 0 12em 0;
+    padding: 3em 0 12em 0;
   }
   #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
     display: flex;
@@ -220,6 +220,7 @@
   }
   #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .portfolio_desktop_nav {
     margin: -1em -2em 0 0;
+    margin: -1em 0em 0 0;
   }
   #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .portfolio_desktop_nav ul {
     display: flex;
@@ -259,12 +260,74 @@
   #whole_page .whole_page .skills_section {
     background-color: #00313E;
     height: 100vh;
-    padding: 2em 2em;
+    padding: 3em 0 2em 0;
+  }
+  #whole_page .whole_page .skills_section .skills_section_content .title_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 5em 2em 5em;
+  }
+  #whole_page .whole_page .skills_section .skills_section_content .title_nav .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+  }
+  #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav {
+    margin: 0 0em 0 0;
+  }
+  #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav ul li {
+    list-style: none;
+  }
+  #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+  }
+  #whole_page .whole_page .skills_section .skills_section_content .title_nav .mobile_nav {
+    display: none;
   }
   #whole_page .whole_page .experience_section {
     background-color: #080E2F;
     height: 80vh;
-    padding: 2em 2em;
+    padding: 3em 0 1em 0;
+  }
+  #whole_page .whole_page .experience_section .experience_section_content .title_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 5em 2em 5em;
+  }
+  #whole_page .whole_page .experience_section .experience_section_content .title_nav .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+  }
+  #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav {
+    margin: 0 0em 0 0;
+  }
+  #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav ul li {
+    list-style: none;
+  }
+  #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+  }
+  #whole_page .whole_page .experience_section .experience_section_content .title_nav .mobile_nav {
+    display: none;
   }
   #whole_page .whole_page #footer_section_id {
     background-color: #060927;

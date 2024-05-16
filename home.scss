@@ -250,8 +250,6 @@ $savethis: #7273ad;
                     }
                     .resume_dload {
                         background-color: white;
-                        
-                        // background-color: $darkblue;
                         padding: .5em;
                         margin: 2em 0 0 0;
                         width: 10vw;
@@ -269,10 +267,16 @@ $savethis: #7273ad;
                     }
                 }
             }
+            //////////////////////////////////////
+            //////////////////////////////////////
+            //////////////////////////////////////
+            //////////////////////////////////////
+            //////////////////////////////////////
+            /// PORTFOLIO SECTION
             .portfolio_section {
                 background-color: $darkblue;
                 // height: 100vh;
-                padding: 2em 0 12em 0;
+                padding: 3em 0 12em 0;
                 .portfolio_section_content {
                     // padding here
                     .title_nav {
@@ -288,6 +292,7 @@ $savethis: #7273ad;
                         }
                         .portfolio_desktop_nav {
                             margin: -1em -2em 0 0;
+                            margin: -1em 0em 0 0;
                             ul {
                                 display: flex;
                                 gap: 20px;
@@ -325,29 +330,101 @@ $savethis: #7273ad;
                             width: 27em;
                             border-top: 3px solid $nextgreen;
                             box-shadow: 2px 2px 2px black;
-                            .portfolio_square_content {
-                                // #workflow_app {
-                                //     width: 25em;
-                                //     height: 4em;
-                                // }
-                                // #create_collab {
-                                //     width: 14.5em;
-                                //     height: 2.6em;
-                                // }
-                            }
+                            // .portfolio_square_content {
+                            // //   place tbe deets here
+                            // }
                         }
                     }
                 }
             }
+            /////////////////////////////////////////////
+            /////////////////////////////////////////////
+            /////////////////////////////////////////////
+            /////////////////////////////////////////////
+            /////////////////////////////////////////////
+            /// SKILLS SECTION
             .skills_section {
                 background-color: $nextgreen;
                 height: 100vh;
-                padding: 2em 2em;
+                padding: 3em 0 2em 0;
+                .skills_section_content {
+                    // padding here
+                    .title_nav {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0em 5em 2em 5em;
+                        .section_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 3rem;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        .skills_desktop_nav {
+                            margin: 0 0em 0 0;
+                            ul {
+                                display: flex;
+                                gap: 20px;
+                                li {
+                                    list-style: none;
+                                    a {
+                                        color: white;
+                                        font-weight: bold;
+                                        text-decoration: none;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                        .mobile_nav {
+                            display: none;
+                        }
+                    }
+                }
             }
+            /////////////////////////////////////////////
+            /////////////////////////////////////////////
+            /////////////////////////////////////////////
+            /////////////////////////////////////////////
+            /////////////////////////////////////////////
+            /// EXPERIENCE SECTION
             .experience_section {
                 background-color: $darkblue;
                 height: 80vh;
-                padding: 2em 2em;
+                padding: 3em 0 1em 0;
+                .experience_section_content {
+                    .title_nav {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0em 5em 2em 5em;
+                        .section_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 3rem;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        .experience_desktop_nav {
+                            margin: 0 0em 0 0;
+                            ul {
+                                display: flex;
+                                gap: 20px;
+                                li {
+                                    list-style: none;
+                                    a {
+                                        color: white;
+                                        font-weight: bold;
+                                        text-decoration: none;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                        .mobile_nav {
+                            display: none;
+                        }
+                    }
+                }
             }
         //////////////////////////////////////////////////
         // FOOTER
