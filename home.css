@@ -205,8 +205,7 @@
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
@@ -304,8 +303,8 @@
     align-items: center;
     border: 2px solid #060927;
     border-radius: 50%;
-    height: 10em;
-    width: 10em;
+    height: 12em;
+    width: 12em;
     background-color: #00313E;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle {
@@ -314,8 +313,9 @@
     align-items: center;
     background-color: #060927;
     border-radius: 50%;
-    height: 7em;
-    width: 7em;
+    height: 9em;
+    width: 9em;
+    cursor: pointer;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles {
     display: flex;
@@ -323,7 +323,7 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
-    padding: 10em 0 0 0;
+    padding: 7em 0 0 0;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six {
     display: flex;

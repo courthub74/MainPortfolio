@@ -244,12 +244,14 @@ $savethis: #7273ad;
                             display: flex;
                             flex-direction: column;
                             align-items: left;
+                            // justify-content: center;
                             font-family: 'Inter', sans-serif;
                             font-size: 1rem;
                             color: white;
                             width: 60%;
                             line-height: 2em;
                             margin: 6em 0 0 5em;
+                            // margin: 10em 0 0 17em;
                         }
                         .resume_dload {
                             background-color: white;
@@ -264,8 +266,8 @@ $savethis: #7273ad;
                                 color: $nextgreen;
                                 // color: white;
                                 text-decoration: none;
-                                font-weight: bold;
-                                font-size: .8rem;
+                                // font-weight: bold;
+                                font-size: .9rem;
                             }
                         }
                     }
@@ -391,8 +393,8 @@ $savethis: #7273ad;
                             align-items: center;
                             border: 2px solid $footerblue;
                             border-radius: 50%;
-                            height: 10em;
-                            width: 10em;
+                            height: 12em;
+                            width: 12em;
                             background-color: $nextgreen;
                             .front_circle {
                                 display: flex;
@@ -400,8 +402,9 @@ $savethis: #7273ad;
                                 align-items: center;
                                 background-color: $footerblue;
                                 border-radius: 50%;
-                                height: 7em;
-                                width: 7em;
+                                height: 9em;
+                                width: 9em;
+                                cursor: pointer;
                             }
                         }
                         .skills_circles {
@@ -411,7 +414,7 @@ $savethis: #7273ad;
                             align-items: center;
                             gap: 2em;
                             // background-color: #00C6C3;
-                            padding: 10em 0 0 0;
+                            padding: 7em 0 0 0;
                             .first_six {
                                 display: flex;
                                 gap: 1em;
