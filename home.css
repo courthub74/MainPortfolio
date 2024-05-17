@@ -45,11 +45,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 1.5em;
     height: 78vh;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_logo #home_logo {
-    border: 2px solid #00313E;
+    border: 3px solid #00313E;
     border-radius: 50%;
     width: 50vw;
     height: 50vw;
@@ -68,6 +68,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     border-top: 3px solid #00313E;
+    box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .slogan {
     color: white;
@@ -86,11 +87,12 @@
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more {
     background-color: #00313E;
-    padding: 0.8em 1em;
-    font-size: 0.9rem;
+    padding: 1em 1.5em;
+    font-size: 0.8rem;
     color: white;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+    box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .about_section {
     display: none;
@@ -612,6 +614,9 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content {
     margin-top: -4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #courdevelops {
     width: 6em;
@@ -624,11 +629,6 @@
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #r1rcm {
     width: 4.5em;
     height: 3.6em;
-  }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .experience_square_content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id {
     background-color: #060927;

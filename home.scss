@@ -82,11 +82,11 @@ $savethis: #7273ad;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        gap: 1em;
+                        gap: 1.5em;
                         height: 78vh;
                         .home_logo {
                             #home_logo {
-                                border: 2px solid $nextgreen;
+                                border: 3px solid $nextgreen;
                                 border-radius: 50%;
                                 width: 50vw;
                                 height: 50vw;
@@ -105,6 +105,7 @@ $savethis: #7273ad;
                                 font-family: 'Inter', sans-serif;
                                 font-weight: bold;
                                 border-top: 3px solid $nextgreen;
+                                box-shadow: 2px 2px 2px black;
                             }
                             .slogan {
                                 color: white;
@@ -123,11 +124,12 @@ $savethis: #7273ad;
                             }
                             .learn_more {
                                 background-color: $nextgreen;
-                                padding: .8em 1em;
-                                font-size: .9rem;
+                                padding: 1em 1.5em;
+                                font-size: .8rem;
                                 color: white;
                                 text-decoration: none;
                                 font-family: 'Inter', sans-serif;
+                                box-shadow: 2px 2px 2px black;
                             }
                         }
                    }
@@ -744,6 +746,10 @@ $savethis: #7273ad;
                                 box-shadow: 2px 2px 2px black;
                                 .experience_square_content {
                                     margin-top: -4em;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    // background-color: #00C6C3;
                                     #courdevelops {
                                         width: 6em;
                                         height: 6em;
@@ -757,12 +763,6 @@ $savethis: #7273ad;
                                         height: 3.6em;
                                     }
                                 }
-                            }
-                            .experience_square_content {
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-
                             }
                         }
                         //////////////////////////////////////////////////
