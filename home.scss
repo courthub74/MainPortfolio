@@ -39,7 +39,97 @@ $savethis: #7273ad;
         background-color: $darkblue;
         #whole_page {
             .whole_page {
-                display: none;
+                // display: none;
+                background-color: $darkblue;
+                height: 600vh;
+                .home_section_content {
+                    height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+                   .desktop_nav {
+                        display: flex;
+                        align-items: center;
+                        gap: 6em;
+                        margin: 2em 0 0 0;
+                        // background-color: #00C6C3;
+                        .title_nav {
+                            .section_title {
+                                opacity: 0;
+                                // display: none;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.5rem;
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                        .home_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                               width: 3em;
+                               height: 3em;
+                            }
+                         }
+                   }
+                   .big_logo_and_square {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1em;
+                        height: 78vh;
+                        .home_logo {
+                            #home_logo {
+                                border: 2px solid $nextgreen;
+                                border-radius: 50%;
+                                width: 50vw;
+                                height: 50vw;
+                            }
+                        }
+                        .home_square {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2em;
+                            header {
+                                background-color: $footerblue;
+                                padding: 1em;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                border-top: 3px solid $nextgreen;
+                            }
+                            .slogan {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                width: 80%;
+                                text-align: center;
+                                font-size: .8rem;
+                            }
+                            .socials_block {
+                                display: flex;
+                                gap: 1em;
+                                img {
+                                    width: 2.3em;
+                                    height: 2.3em;
+                                }
+                            }
+                            .learn_more {
+                                background-color: $nextgreen;
+                                padding: .8em 1em;
+                                font-size: .9rem;
+                                color: white;
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                   }
+                }
             }
         }
     }

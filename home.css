@@ -10,7 +10,85 @@
     background-color: #080E2F;
   }
   body #whole_page .whole_page {
+    background-color: #080E2F;
+    height: 600vh;
+  }
+  body #whole_page .whole_page .home_section_content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav {
+    display: flex;
+    align-items: center;
+    gap: 6em;
+    margin: 2em 0 0 0;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .title_nav .section_title {
+    opacity: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul {
     display: none;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .mobile_nav #mobile_nav {
+    width: 3em;
+    height: 3em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 78vh;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_logo #home_logo {
+    border: 2px solid #00313E;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square header {
+    background-color: #060927;
+    padding: 1em;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border-top: 3px solid #00313E;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .slogan {
+    color: white;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block {
+    display: flex;
+    gap: 1em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block img {
+    width: 2.3em;
+    height: 2.3em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more {
+    background-color: #00313E;
+    padding: 0.8em 1em;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
   }
 }
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
