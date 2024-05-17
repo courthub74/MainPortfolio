@@ -39,7 +39,7 @@ $savethis: #7273ad;
         background-color: $darkblue;
         #whole_page {
             .whole_page {
-                // display: none;
+                display: none;
                 background-color: $darkblue;
                 height: 600vh;
                 height: 100vh;
@@ -152,7 +152,8 @@ $savethis: #7273ad;
                    }
                 }
                 .about_section {
-                    display: none;
+                    background-color: $nextgreen;
+                    height: 100vh;
                 }
                 .portfolio_section {
                     display: none;
@@ -193,7 +194,7 @@ $savethis: #7273ad;
         background-color: $darkblue;
         #whole_page {
             // background-color: $darkblue;
-            // height: 550vh;
+            height: 515vh;
             // ALL SECTIONS ARE UNDER THIS DIV
             background-color: $darkblue;
             .whole_page {
@@ -744,7 +745,7 @@ $savethis: #7273ad;
                             gap: 2em;
                             gap: 2%;
                             margin: 2em 0 6em 0;
-                            // margin: 2em 0 10em 0;
+                            margin: 2em 0 10em 0;
                             // background-color: #58a6ff;
                             .square {
                                 display: flex;
@@ -768,15 +769,15 @@ $savethis: #7273ad;
                                     align-items: center;
                                     // background-color: #00C6C3;
                                     #courdevelops {
+                                        width: 7em;
+                                        height: 7em;
+                                    }
+                                    #slea {
                                         width: 6em;
                                         height: 6em;
                                     }
-                                    #slea {
-                                        width: 5em;
-                                        height: 5em;
-                                    }
                                     #r1rcm {
-                                        width: 4.5em;
+                                        width: 5.5em;
                                         height: 3.6em;
                                     }
                                 }
