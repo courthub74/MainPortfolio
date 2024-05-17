@@ -12,6 +12,7 @@
   body #whole_page .whole_page {
     background-color: #080E2F;
     height: 600vh;
+    height: 100vh;
   }
   body #whole_page .whole_page .home_section_content {
     height: 100vh;
@@ -65,6 +66,7 @@
     padding: 1em;
     color: white;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
     border-top: 3px solid #00313E;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .slogan {
@@ -89,6 +91,21 @@
     color: white;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+  }
+  body #whole_page .whole_page .about_section {
+    display: none;
+  }
+  body #whole_page .whole_page .portfolio_section {
+    display: none;
+  }
+  body #whole_page .whole_page .skills_section {
+    display: none;
+  }
+  body #whole_page .whole_page .experience_section {
+    display: none;
+  }
+  body #whole_page .whole_page .footer_section {
+    display: none;
   }
 }
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
