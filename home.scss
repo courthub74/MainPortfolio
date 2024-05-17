@@ -116,11 +116,28 @@ $savethis: #7273ad;
                             }
                             .socials_block {
                                 display: flex;
-                                gap: 1em;
-                                img {
-                                    width: 2.3em;
-                                    height: 2.3em;
+                                align-items: center;
+                                gap: 1.5em;
+                                #github_home {
+                                    width: 2.1em;
+                                    height: 2.1em;
                                 }
+                                #linkedin_home {
+                                    width: 2.7em;
+                                    height: 2.7em;
+                                }
+                                #instagram_home {
+                                    width: 3em;
+                                    height: 3em;
+                                }
+                                #twitter_home {
+                                    width: 2.7em;
+                                    height: 2.7em;
+                                }
+                                // img {
+                                //     width: 2.3em;
+                                //     height: 2.3em;
+                                // }
                             }
                             .learn_more {
                                 background-color: $nextgreen;

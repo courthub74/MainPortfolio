@@ -79,11 +79,24 @@
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block {
     display: flex;
-    gap: 1em;
+    align-items: center;
+    gap: 1.5em;
   }
-  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block img {
-    width: 2.3em;
-    height: 2.3em;
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #github_home {
+    width: 2.1em;
+    height: 2.1em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #linkedin_home {
+    width: 2.7em;
+    height: 2.7em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #instagram_home {
+    width: 3em;
+    height: 3em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #twitter_home {
+    width: 2.7em;
+    height: 2.7em;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more {
     background-color: #00313E;
