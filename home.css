@@ -387,6 +387,7 @@
     width: 27em;
     width: 25.5%;
     border-top: 3px solid #00313E;
+    border-top: 3px solid #146166;
     box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .skills_section {
@@ -439,11 +440,10 @@
     align-items: center;
     border: 2px solid #060927;
     border-radius: 50%;
-    height: 12em;
-    width: 12em;
-    height: 12vw;
-    width: 12vw;
+    height: 10vw;
+    width: 10vw;
     background-color: #00313E;
+    background-color: #146166;
     box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle {
@@ -452,11 +452,22 @@
     align-items: center;
     background-color: #060927;
     border-radius: 50%;
-    height: 9em;
-    width: 9em;
-    height: 10vw;
-    width: 10vw;
+    height: 9vw;
+    width: 9vw;
     cursor: pointer;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #html {
+    height: 3vw;
+    width: 3vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #css {
+    height: 3.3vw;
+    width: 3vw;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles {
     display: flex;
@@ -559,6 +570,11 @@
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square #courdevelops {
     width: 8em;
     height: 8em;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .experience_square_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id {
     background-color: #060927;
