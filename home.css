@@ -129,6 +129,7 @@
   body #whole_page .whole_page .home_section_content {
     background-color: #080E2F;
     padding: 2em 5em 15em 5em;
+    padding: 2em 5em 20em 5em;
   }
   body #whole_page .whole_page .home_section_content .desktop_nav {
     display: flex;
@@ -255,7 +256,7 @@
   }
   body #whole_page .whole_page .about_section .about_section_content {
     background-color: #00313E;
-    padding: 1em 0 18em 0;
+    padding: 1em 0 22em 0;
   }
   body #whole_page .whole_page .about_section .about_section_content .title_nav {
     display: flex;
@@ -312,14 +313,14 @@
     background-color: white;
     padding: 0.5em;
     margin: 2em 0 0 0;
-    width: 10vw;
+    width: 8vw;
     text-align: center;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;
     text-decoration: none;
     font-size: 0.9rem;
-    font-size: 1vw;
+    font-size: 0.8vw;
   }
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
@@ -392,7 +393,7 @@
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
-    padding: 3em 0 14em 0;
+    padding: 3em 0 18em 0;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .title_nav {
     display: flex;

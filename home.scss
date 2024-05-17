@@ -183,6 +183,7 @@ $savethis: #7273ad;
                     background-color: $darkblue;
                     // Maybe it doesn't need a height here
                     padding: 2em 5em 15em 5em;
+                    padding: 2em 5em 20em 5em;
                     .desktop_nav {
                         display: flex;
                         justify-content: space-between;
@@ -325,7 +326,7 @@ $savethis: #7273ad;
                     // padding: 10em 2em;
                     .about_section_content {
                         background-color: $nextgreen;
-                        padding: 1em 0 18em 0;
+                        padding: 1em 0 22em 0;
                         .title_nav {
                             display: flex;
                             align-items: center;
@@ -386,7 +387,7 @@ $savethis: #7273ad;
                             background-color: white;
                             padding: .5em;
                             margin: 2em 0 0 0;
-                            width: 10vw;
+                            width: 8vw;
                             text-align: center;
                             // border-top: 2px solid rgba(255, 255, 255, 0.664);
                             // border-top: 2px solid rgb(36, 158, 36);
@@ -397,7 +398,7 @@ $savethis: #7273ad;
                                 text-decoration: none;
                                 // font-weight: bold;
                                 font-size: .9rem;
-                                font-size: 1vw;
+                                font-size: .8vw;
                             }
                         }
                     }
@@ -497,7 +498,7 @@ $savethis: #7273ad;
                 .skills_section {
                     background-color: $nextgreen;
                     // height: 100vh;
-                    padding: 3em 0 14em 0;
+                    padding: 3em 0 18em 0;
                     .skills_section_content {
                         // padding here
                         .title_nav {
@@ -723,6 +724,7 @@ $savethis: #7273ad;
                             gap: 2em;
                             gap: 2%;
                             margin: 2em 0 6em 0;
+                            // margin: 2em 0 10em 0;
                             // background-color: #58a6ff;
                             .square {
                                 display: flex;
