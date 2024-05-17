@@ -465,7 +465,7 @@ $savethis: #7273ad;
                             gap: 2em;
                             gap: 45px;
                             gap: 2%;
-                            margin: 4em 0 0 0;
+                            margin: 2em 0 0 0;
                             .square {
                                 display: flex;
                                 flex-direction: column;
@@ -549,21 +549,26 @@ $savethis: #7273ad;
                             justify-content: center;
                             align-items: center;
                             border: 2px solid $footerblue;
+                            // border: none;
                             border-radius: 50%;
                             height: 10vw;
                             width: 10vw;
                             background-color: $nextgreen;
                             background-color: $skillsteal;
+                            // background-color: $footerblue;
                             box-shadow: 2px 2px 2px black;
                             .front_circle {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $footerblue;
+                                // background-color: $nextgreen;
+                                // border: 3px solid $skillsteal;
                                 border-radius: 50%;
                                 height: 9vw;
                                 width: 9vw;
                                 cursor: pointer;
+                                // box-shadow: 2px 2px 2px black;
                                 // The Icons
                                 .skill_icon_div {
                                     display: flex;
@@ -575,7 +580,47 @@ $savethis: #7273ad;
                                         width: 3vw;
                                     }
                                     #css {
-                                        height: 3.3vw;
+                                        height: 3vw;
+                                        width: 3vw;
+                                    }
+                                    #sass {
+                                        height: 3vw;
+                                        width: 3.4vw;
+                                    }
+                                    #react {
+                                        height: 3vw;
+                                        width: 3vw;
+                                    }
+                                    #native {
+                                        height: 3.2vw;
+                                        width: 3.2vw;
+                                    }
+                                    #figma {
+                                        height: 3vw;
+                                        width: 3vw;
+                                    }
+                                    #javascript {
+                                        height: 4vw;
+                                        width: 4vw;
+                                    }
+                                    #python {
+                                        height: 3vw;
+                                        width: 3vw;
+                                    }
+                                    #django {
+                                        height: 3vw;
+                                        width: 3vw;
+                                    }
+                                    #express {
+                                        height: 3vw;
+                                        width: 3vw;
+                                    }
+                                    #firebase {
+                                        height: 2.8vw;
+                                        width: 2.2vw;
+                                    }
+                                    #heroku {
+                                        height: 3vw;
                                         width: 3vw;
                                     }
                                 }
@@ -591,26 +636,26 @@ $savethis: #7273ad;
                             padding: 7em 0 0 0;
                             .first_six {
                                 display: flex;
-                                gap: 1em;
+                                gap: 2em;
                                 .top_three {
                                     display: flex;
-                                    gap: 1em;
+                                    gap: 2em;
                                 }
                                 .bottom_three {
                                     display: flex;
-                                    gap: 1em;
+                                    gap: 2em;
                                 }
                             }
                             .second_six {
                                 display: flex;
-                                gap: 1em;
+                                gap: 2em;
                                 .top_three {
                                     display: flex;
-                                    gap: 1em;
+                                    gap: 2em;
                                 }
                                 .bottom_three {
                                     display: flex;
-                                    gap: 1em;
+                                    gap: 2em;
                                 }
                             }
                         }
@@ -690,12 +735,13 @@ $savethis: #7273ad;
                                 height: 30em;
                                 width: 27em;
                                 width: 25.5%;
+                                width: 28%;
                                 border-top: 3px solid $nextgreen;
                                 // border-top: 3px solid $skillsteal;
                                 box-shadow: 2px 2px 2px black;
                                 #courdevelops {
-                                    width: 8em;
-                                    height: 8em;
+                                    width: 6em;
+                                    height: 6em;
                                 }
                             }
                             .experience_square_content {

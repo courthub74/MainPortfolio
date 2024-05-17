@@ -373,7 +373,7 @@
     gap: 2em;
     gap: 45px;
     gap: 2%;
-    margin: 4em 0 0 0;
+    margin: 2em 0 0 0;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square {
     display: flex;
@@ -466,7 +466,47 @@
     width: 3vw;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #css {
-    height: 3.3vw;
+    height: 3vw;
+    width: 3vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #sass {
+    height: 3vw;
+    width: 3.4vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #react {
+    height: 3vw;
+    width: 3vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #native {
+    height: 3.2vw;
+    width: 3.2vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #figma {
+    height: 3vw;
+    width: 3vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #javascript {
+    height: 4vw;
+    width: 4vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #python {
+    height: 3vw;
+    width: 3vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #django {
+    height: 3vw;
+    width: 3vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #express {
+    height: 3vw;
+    width: 3vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #firebase {
+    height: 2.8vw;
+    width: 2.2vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #heroku {
+    height: 3vw;
     width: 3vw;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles {
@@ -479,27 +519,27 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six {
     display: flex;
-    gap: 1em;
+    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three {
     display: flex;
-    gap: 1em;
+    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three {
     display: flex;
-    gap: 1em;
+    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six {
     display: flex;
-    gap: 1em;
+    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three {
     display: flex;
-    gap: 1em;
+    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three {
     display: flex;
-    gap: 1em;
+    gap: 2em;
   }
   body #whole_page .whole_page .experience_section {
     background-color: #080E2F;
@@ -564,12 +604,13 @@
     height: 30em;
     width: 27em;
     width: 25.5%;
+    width: 28%;
     border-top: 3px solid #00313E;
     box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square #courdevelops {
-    width: 8em;
-    height: 8em;
+    width: 6em;
+    height: 6em;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .experience_square_content {
     display: flex;
