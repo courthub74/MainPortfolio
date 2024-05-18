@@ -198,7 +198,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
         #whole_page {
             // background-color: $darkblue;
             height: 515vh;
-            height: 480vh;
+            height: 485vh;
             // ALL SECTIONS ARE UNDER THIS DIV
             background-color: $darkblue;
             .whole_page {
@@ -707,7 +707,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                     padding: 3em 0 1em 0;
                     .experience_section_content {
                         // background-color: #58a6ff;
-                        height: 75vh;
+                        height: 90vh;
                         .title_nav {
                             display: flex;
                             align-items: center;
@@ -757,8 +757,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             align-items: center;
                             gap: 2em;
                             gap: 2%;
-                            margin: 2em 0 6em 0;
-                            margin: 2em 0 10em 0;
+                            margin: 2em 0 7em 0;
+                            // margin: 2em 0 5em 0;
                             // background-color: red;
                             .square {
                                 display: flex;
@@ -768,7 +768,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 cursor: pointer;
                                 background-color: $footerblue;
                                 // padding: 15em 3em;
-                                height: 30em;
+                                height: 29em;
                                 width: 27em;
                                 width: 25.5%;
                                 width: 28%;
