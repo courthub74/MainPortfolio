@@ -138,6 +138,7 @@
   }
   body #whole_page {
     height: 515vh;
+    height: 480vh;
     background-color: #080E2F;
   }
   body #whole_page .whole_page {
@@ -271,7 +272,6 @@
   }
   body #whole_page .whole_page .about_section {
     background-color: #00313E;
-    background-color: #080E2F;
     padding: 2em 2em;
   }
   body #whole_page .whole_page .about_section .about_section_content {
@@ -330,7 +330,6 @@
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
-    background-color: #00313E;
     border-top: 1px solid rgba(255, 255, 255, 0.664);
     padding: 0.5em;
     margin: 2em 0 0 0;
@@ -339,7 +338,6 @@
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;
-    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
@@ -410,12 +408,10 @@
     width: 27em;
     width: 25.5%;
     border-top: 3px solid #00313E;
-    border-top: 3px solid #146166;
     box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
-    background-color: #080E2F;
     padding: 3em 0 18em 0;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .title_nav {
@@ -462,24 +458,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #060927;
-    border: 2px solid #00313E;
     border-radius: 50%;
-    height: 10vw;
-    width: 10vw;
+    height: 11vw;
+    width: 11vw;
     background-color: #00313E;
+    background-color: #080E2F;
     background-color: #060927;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px 2px black;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #080E2F;
     background-color: #060927;
-    background-color: #00313E;
-    border-radius: 50%;
-    height: 7vw;
-    width: 7vw;
+    border-top: 3px solid #00313E;
+    height: 5vw;
+    width: 5vw;
     cursor: pointer;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div {
@@ -569,9 +564,10 @@
   }
   body #whole_page .whole_page .experience_section {
     background-color: #080E2F;
-    height: 80vh;
-    height: 85vh;
     padding: 3em 0 1em 0;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content {
+    height: 75vh;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .title_nav {
     display: flex;
