@@ -328,10 +328,10 @@ $savethis: #7273ad;
                                 background-color: #A7A8CD;
                                 background-color: $nextgreen;
                                 color: white;
-                                // font-weight: bold;
+                                font-weight: bold;
                                 // color: $footerblue;
                                 padding: 1em 3em;
-                                // border-top: 1px solid rgba(255, 255, 255, 0.664);
+                                border-top: 1px solid rgba(255, 255, 255, 0.664);
                                 font-family: 'Inter', sans-serif;
                                 font-size: .9rem;
                                 text-decoration: none;
@@ -342,10 +342,11 @@ $savethis: #7273ad;
                 }
                 .about_section {
                     background-color: $nextgreen;
+                    background-color: $darkblue;
                     padding: 2em 2em;
                     // padding: 10em 2em;
                     .about_section_content {
-                        background-color: $nextgreen;
+                        // background-color: $nextgreen;
                         padding: 1em 0 22em 0;
                         .title_nav {
                             display: flex;
@@ -405,20 +406,22 @@ $savethis: #7273ad;
                         }
                         .resume_dload {
                             background-color: white;
+                            background-color: $nextgreen;
+                            border-top: 1px solid rgba(255, 255, 255, 0.664);
                             padding: .5em;
                             margin: 2em 0 0 0;
-                            width: 8vw;
+                            width: 10vw;
                             text-align: center;
                             // border-top: 2px solid rgba(255, 255, 255, 0.664);
                             // border-top: 2px solid rgb(36, 158, 36);
                             //border-top: 2px solid $darkblue;
                             a {
                                 color: $nextgreen;
-                                // color: white;
+                                color: white;
                                 text-decoration: none;
-                                // font-weight: bold;
+                                font-weight: bold;
                                 font-size: .9rem;
-                                font-size: .8vw;
+                                // font-size: .8vw;
                             }
                         }
                     }
@@ -517,6 +520,7 @@ $savethis: #7273ad;
                 /// SKILLS SECTION
                 .skills_section {
                     background-color: $nextgreen;
+                    background-color: $darkblue;
                     // height: 100vh;
                     padding: 3em 0 18em 0;
                     .skills_section_content {
@@ -570,24 +574,25 @@ $savethis: #7273ad;
                             justify-content: center;
                             align-items: center;
                             border: 2px solid $footerblue;
+                            border: 2px solid $nextgreen;
                             // border: none;
                             border-radius: 50%;
                             height: 10vw;
                             width: 10vw;
                             background-color: $nextgreen;
-                            background-color: $skillsteal;
-                            // background-color: $footerblue;
+                            // background-color: $skillsteal;
+                            background-color: $footerblue;
                             box-shadow: 2px 2px 2px black;
                             .front_circle {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $footerblue;
-                                // background-color: $nextgreen;
+                                background-color: $nextgreen;
                                 // border: 3px solid $skillsteal;
                                 border-radius: 50%;
-                                height: 9vw;
-                                width: 9vw;
+                                height: 7vw;
+                                width: 7vw;
                                 cursor: pointer;
                                 // box-shadow: 2px 2px 2px black;
                                 // The Icons
