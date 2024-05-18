@@ -54,11 +54,17 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                     align-items: center;
                    .desktop_nav {
                         display: flex;
+                        // justify-content: space-between;
                         align-items: center;
                         gap: 6em;
                         margin: 2em 0 0 0;
                         // background-color: #00C6C3;
                         .title_nav {
+                            display: flex;
+                            // justify-content: space-between;
+                            align-items: center;
+                            // gap: 6em;
+                            // margin: 2em 0 0 0;
                             .section_title {
                                 opacity: 0;
                                 // display: none;
@@ -144,8 +150,9 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             }
                             .learn_more {
                                 background-color: $nextgreen;
-                                padding: 1em 1.5em;
+                                padding: 1em 2em;
                                 font-size: .8rem;
+                                font-weight: bold;
                                 color: white;
                                 text-decoration: none;
                                 font-family: 'Inter', sans-serif;
@@ -157,6 +164,63 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 .about_section {
                     background-color: $nextgreen;
                     height: 100vh;
+                    .about_section_content {
+                        // height: 100vh;
+                        // display: flex;
+                        // flex-direction: column;
+                        // // justify-content: center;
+                        // align-items: center;
+                        padding: 0 1em 0 2em;
+                        .title_nav {
+                            display: flex;
+                            // flex-direction: column;
+                            // justify-content: space-between;
+                            align-items: center;
+                            gap: 8em;
+                            padding: 2em 0 0 0;
+                            .section_title {
+                                // opacity: 0;
+                                // display: none;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                color: white;
+                                font-weight: bold;
+                                
+                            }
+                        }
+                        .about_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 3em;
+                                height: 3em;
+                            }
+                        }
+                        .about_words {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-size: .9rem;
+                            line-height: 1.5em;
+                            margin: 1.5em 0 0 0;
+                            width: 80%;
+                        }
+                        .resume_dload {
+                            background-color: white;
+                            padding: .5em .5em .5em .5em;
+                            width: 9em;
+                            margin: 1em 0 0 0;
+                            text-align: center;
+                            a {
+                                color: $nextgreen;
+                                text-decoration: none;
+                                font-weight: bold;
+                                font-size: .8rem;
+                            }
+                        }
+                    }
                 }
                 .portfolio_section {
                     display: none;
@@ -335,9 +399,10 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 font-weight: bold;
                                 // color: $footerblue;
                                 padding: 1em 3em;
-                                border-top: 1px solid rgba(255, 255, 255, 0.664);
+                                // border-top: 1px solid rgba(255, 255, 255, 0.664);
                                 font-family: 'Inter', sans-serif;
                                 font-size: .9rem;
+                                font-weight: bold;
                                 text-decoration: none;
                             }
                         }
