@@ -41,8 +41,8 @@
     display: none;
   }
   body #whole_page .whole_page .home_section_content .desktop_nav .mobile_nav #mobile_nav {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square {
     display: flex;
@@ -114,7 +114,7 @@
   }
   body #whole_page .whole_page .about_section {
     background-color: #00313E;
-    height: 100vh;
+    height: 110vh;
   }
   body #whole_page .whole_page .about_section .about_section_content {
     padding: 0 1em 0 2em;
@@ -135,8 +135,8 @@
     display: none;
   }
   body #whole_page .whole_page .about_section .about_section_content .mobile_nav #mobile_nav {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
   }
   body #whole_page .whole_page .about_section .about_section_content .about_words {
     color: white;
