@@ -186,7 +186,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.5em;
+    gap: 3em;
     height: 80%;
     margin: -2em 0 0 0;
   }
@@ -196,8 +196,8 @@
     align-items: center;
     background-color: #060927;
     border-top: 3px solid #00313E;
-    height: 20%;
-    width: 95%;
+    height: 19%;
+    width: 100%;
     box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .porfolio_square_content {
