@@ -212,14 +212,20 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app {
     width: 10em;
     height: 2em;
+    width: 12em;
+    height: 2.5em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #create_collab {
     width: 9.3em;
     height: 1.5em;
+    width: 11em;
+    height: 2em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #luminex_solutions {
     width: 10em;
     height: 1.4em;
+    width: 12em;
+    height: 1.6em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .more_portfolio_info {
     background: none;
