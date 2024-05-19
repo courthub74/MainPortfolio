@@ -269,11 +269,15 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 height: 19%;
                                 width: 100%;
                                 box-shadow: 2px 2px 2px black;
-                                .porfolio_square_content {
+                                .portfolio_square_content {
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    gap: 2em;
+                                    height: 100%;
+                                    margin-top: 1.5em;
+                                    // background-color: yellow;
                                 }
                                 #workflow_app {
                                     width: 10em;
@@ -294,8 +298,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     background: none;
                                     border: none;
                                     .portfolio_more_button {
-                                        width: 2.5em;
-                                        height: 2.5em;
+                                        width: 2.2em;
+                                        height: 2.2em;
                                     }
                                 }
                             }
