@@ -155,10 +155,71 @@
     font-size: 0.8rem;
   }
   body #whole_page .whole_page .portfolio_section {
+    background-color: #080E2F;
+    height: 110vh;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content {
+    margin: 0 3em 0 3em;
+    height: 100%;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0 0 0;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_desktop_nav ul {
     display: none;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .mobile_nav #mobile_nav {
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+    height: 80%;
+    margin: -2em 0 0 0;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060927;
+    border-top: 3px solid #00313E;
+    height: 20%;
+    width: 95%;
+    box-shadow: 2px 2px 2px black;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .porfolio_square_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app {
+    width: 10em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #create_collab {
+    width: 9.3em;
+    height: 1.5em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #luminex_solutions {
+    width: 10em;
+    height: 1.4em;
+  }
   body #whole_page .whole_page .skills_section {
-    display: none;
+    background-color: #00313E;
+    height: 100vh;
   }
   body #whole_page .whole_page .experience_section {
     display: none;

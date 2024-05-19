@@ -151,6 +151,11 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         }
                    }
                 }
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                /// ABOUT SECTION
                 .about_section {
                     background-color: $nextgreen;
                     height: 110vh;
@@ -205,11 +210,91 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         }
                     }
                 }
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                /// PORTFOLIO SECTION
                 .portfolio_section {
-                    display: none;
+                    background-color: $darkblue;
+                    height: 110vh;
+                    .portfolio_section_content {
+                        margin: 0 3em 0 3em;
+                        height: 100%;
+                        // background-color: blue;
+                        .title_nav {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 2em 0 0 0;
+                            .section_title {
+                                // margin-top: 1em;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                color: white;
+                                font-weight: bold;
+                                
+                            }
+                        }
+                        .portfolio_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                        ////////////////////////////
+                        // PORTFOLIO SQUARES SECTION
+                        .portfolio_squares {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2.5em;
+                            // background-color: #00C6C3;
+                            height: 80%;
+                            margin: -2em 0 0 0;
+                            // EACH SQUARE
+                            .square {
+                                display: flex;
+                                // flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: $footerblue;
+                                border-top: 3px solid $nextgreen;
+                                height: 20%;
+                                width: 95%;
+                                box-shadow: 2px 2px 2px black;
+                                .porfolio_square_content {
+                                    display: flex;
+                                    // flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                #workflow_app {
+                                    width: 10em;
+                                    height: 2em;
+                                    // background-color: yellow;
+                                }
+                                #create_collab {
+                                    width: 9.3em;
+                                    height: 1.5em;
+                                }
+                                #luminex_solutions {
+                                    width: 10em;
+                                    height: 1.4em;
+                                }
+                            }
+                        }
+                    }
                 }
                 .skills_section {
-                    display: none;
+                    background-color: $nextgreen;
+                    height: 100vh;
                 }
                 .experience_section {
                     display: none;
