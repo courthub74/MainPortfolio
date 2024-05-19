@@ -271,7 +271,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 box-shadow: 2px 2px 2px black;
                                 .porfolio_square_content {
                                     display: flex;
-                                    // flex-direction: column;
+                                    flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
                                 }
@@ -280,6 +280,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     height: 2em;
                                     // background-color: yellow;
                                 }
+
                                 #create_collab {
                                     width: 9.3em;
                                     height: 1.5em;
@@ -287,6 +288,15 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 #luminex_solutions {
                                     width: 10em;
                                     height: 1.4em;
+                                }
+                                // Each Plus Button
+                                .more_portfolio_info {
+                                    background: none;
+                                    border: none;
+                                    .portfolio_more_button {
+                                        width: 2.5em;
+                                        height: 2.5em;
+                                    }
                                 }
                             }
                         }
