@@ -98,6 +98,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             header {
                                 background-color: $footerblue;
                                 width: 17em;
+                                // width: 40em;
                                 padding: 1em 0 1em 0;
                                 text-align: center;
                                 color: white;
@@ -257,6 +258,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             gap: 3em;
                             // background-color: #00C6C3;
                             height: 80%;
+                            // width: 100%;
                             margin: -2em 0 0 0;
                             // EACH SQUARE
                             .square {
@@ -268,6 +270,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 border-top: 3px solid $nextgreen;
                                 height: 19%;
                                 width: 100%;
+                                // width: 50em;
                                 box-shadow: 2px 2px 2px black;
                                 .portfolio_square_content {
                                     display: flex;
@@ -304,8 +307,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     background: none;
                                     border: none;
                                     .portfolio_more_button {
-                                        width: 2.2em;
-                                        height: 2.2em;
+                                        width: 2em;
+                                        height: 2em;
                                     }
                                 }
                             }
