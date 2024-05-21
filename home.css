@@ -268,7 +268,7 @@
     justify-content: center;
     flex-direction: column;
     height: 80%;
-    margin-top: -3em;
+    margin-top: -30px;
     gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six {
@@ -363,10 +363,10 @@
     align-items: center;
     background-color: #060927;
     border-radius: 50%;
-    width: 7em;
-    height: 7em;
     width: 85px;
     height: 83px;
+    width: 25vw;
+    height: 23vw;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle {
     display: flex;
@@ -399,10 +399,10 @@
     align-items: center;
     background-color: #060927;
     border-radius: 50%;
-    width: 7em;
-    height: 7em;
     width: 85px;
     height: 83px;
+    width: 25vw;
+    height: 23vw;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle {
     display: flex;
