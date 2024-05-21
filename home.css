@@ -451,7 +451,77 @@
     height: 2.5em;
   }
   body #whole_page .whole_page .experience_section {
+    background-color: #080E2F;
+    height: 100vh;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content {
+    margin: 0 3em 0 3em;
+    height: 100%;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .title_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0 0 0;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .title_nav .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_desktop_nav ul {
     display: none;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .mobile_nav #mobile_nav {
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 70px;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060927;
+    border-top: 3px solid #00313E;
+    box-shadow: 2px 2px 2px black;
+    height: 19%;
+    height: 10em;
+    width: 100%;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    height: 100%;
+    margin-top: 4em;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #courdevelops {
+    width: 4.5em;
+    height: 4.5em;
+    margin: -1em 0 0 0;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #slea {
+    width: 4em;
+    height: 4em;
+    margin: -0.5em 0 0 0;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #r1rcm {
+    width: 3.8em;
+    height: 2.8em;
   }
   body #whole_page .whole_page .footer_section {
     display: none;
