@@ -307,8 +307,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     background: none;
                                     border: none;
                                     .portfolio_more_button {
-                                        width: 2em;
-                                        height: 2em;
+                                        width: 1.8em;
+                                        height: 1.8em;
                                     }
                                 }
                             }
@@ -318,6 +318,205 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 .skills_section {
                     background-color: $nextgreen;
                     height: 100vh;
+                    .skills_section_content {
+                        margin: 0 3em 0 3em;
+                        height: 100%;
+                        .title_nav {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 2em 0 0 0;
+                            .section_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                        .skills_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                        // SKILLS CIRCLES
+                        .skills_circles {
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            height: 80%;
+                            background-color: #146166;
+                            // GAP FOR THE TWO CHUNKS
+                            gap: 2em; 
+                            // THE FIRST SIX
+                            .first_six {
+                                // GAP FOR THE TOP TWO
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2em;
+                                // automatically columned here
+                                .top_three {
+                                    display: flex;
+                                    .back_circle {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background-color: $footerblue;
+                                        border-radius: 50%;
+                                        width: 25vw;
+                                        height: 25vw;
+                                        width: 7em;
+                                        height: 7em;
+                                        .front_circle {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background-color: $footerblue;
+                                            border-top: 3px solid $nextgreen;
+                                            height: 20vw;
+                                            height: 4em;
+                                            .skill_icon_div {
+                                                // The Skills Icons
+                                                #html {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                                #css {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                                #sass {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .bottom_three {
+                                    display: flex;
+                                    .back_circle {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background-color: $footerblue;
+                                        border-radius: 50%;
+                                        width: 25vw;
+                                        height: 25vw;
+                                        width: 7em;
+                                        height: 7em;
+                                        .front_circle {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background-color: $footerblue;
+                                            border-top: 3px solid $nextgreen;
+                                            height: 20vw;
+                                            height: 4em;
+                                            .skill_icon_div {
+                                                // The Skills Icons
+                                                #react {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                                #native {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                                #figma {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            // THE SECOND SIX
+                            .second_six {
+                               .top_three {
+                                display: flex;
+                                .back_circle {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: $footerblue;
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    width: 7em;
+                                    height: 7em;
+                                    .front_circle {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background-color: $footerblue;
+                                        border-top: 3px solid $nextgreen;
+                                        height: 20vw;
+                                        height: 4em;
+                                        .skill_icon_div {
+                                            // The Skills Icons
+                                            #javascript {
+                                                width: 2em;
+                                                height: 2em;
+                                            }
+                                            #python {
+                                                width: 2em;
+                                                height: 2em;
+                                            }
+                                            #django {
+                                                width: 2em;
+                                                height: 2em;
+                                            }
+                                        }
+                                    }
+                                  }
+                               }
+                               .bottom_three {
+                                    display: flex;
+                                    .back_circle {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background-color: $footerblue;
+                                        border-radius: 50%;
+                                        width: 25vw;
+                                        height: 25vw;
+                                        width: 7em;
+                                        height: 7em;
+                                        .front_circle {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background-color: $footerblue;
+                                            border-top: 3px solid $nextgreen;
+                                            height: 20vw;
+                                            height: 4em;
+                                            .skill_icon_div {
+                                                #express {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                                #firebase {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                                #heroku {
+                                                    width: 2em;
+                                                    height: 2em;
+                                                }
+                                            }
+                                        }
+                                    }
+                               }
+                            }
+                        }
+                    }
                 }
                 .experience_section {
                     display: none;
