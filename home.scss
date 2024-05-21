@@ -140,6 +140,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 // }
                             }
                             .learn_more {
+                                border-top: 2px solid white;
                                 background-color: $nextgreen;
                                 padding: 1em 5em;
                                 font-size: .9rem;
@@ -307,14 +308,18 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     background: none;
                                     border: none;
                                     .portfolio_more_button {
-                                        width: 1.8em;
-                                        height: 1.8em;
+                                        width: 1.4em;
+                                        height: 1em;
                                     }
                                 }
                             }
                         }
                     }
                 }
+                /////////////////////////////////
+                /////////////////////////////////
+                /////////////////////////////////
+                /// SKILLS SECTION
                 .skills_section {
                     background-color: $nextgreen;
                     height: 100vh;
@@ -350,36 +355,41 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             justify-content: center;
                             flex-direction: column;
                             height: 80%;
-                            background-color: #146166;
+                            // background-color: #146166;
+                            margin-top: -3em;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
                             // THE FIRST SIX
                             .first_six {
-                                // GAP FOR THE TOP TWO
                                 display: flex;
                                 flex-direction: column;
+                                // GAP FOR THE TOP TWO
                                 gap: 2em;
                                 // automatically columned here
                                 .top_three {
                                     display: flex;
+                                    // HORIZ GAP FOR TOP 3
+                                    gap: 1em;
+                                    // NOW try to make the gap adjustable
+                                    // gap: 5vw;
                                     .back_circle {
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         background-color: $footerblue;
                                         border-radius: 50%;
+                                        width: 85px;
+                                        height: 83px;
                                         width: 25vw;
-                                        height: 25vw;
-                                        width: 7em;
-                                        height: 7em;
+                                        height: 23vw;
                                         .front_circle {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
                                             background-color: $footerblue;
-                                            border-top: 3px solid $nextgreen;
+                                            border-top: 2px solid $nextgreen;
                                             height: 20vw;
-                                            height: 4em;
+                                            height: 3.5em;
                                             .skill_icon_div {
                                                 // The Skills Icons
                                                 #html {
@@ -400,24 +410,26 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 }
                                 .bottom_three {
                                     display: flex;
+                                    // HORIZ GAP FOR THE SECOND ROW
+                                    gap: 1em;
                                     .back_circle {
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         background-color: $footerblue;
                                         border-radius: 50%;
+                                        width: 85px;
+                                        height: 83px;
                                         width: 25vw;
-                                        height: 25vw;
-                                        width: 7em;
-                                        height: 7em;
+                                        height: 23vw;
                                         .front_circle {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
                                             background-color: $footerblue;
-                                            border-top: 3px solid $nextgreen;
+                                            border-top: 2px solid $nextgreen;
                                             height: 20vw;
-                                            height: 4em;
+                                            height: 3.5em;
                                             .skill_icon_div {
                                                 // The Skills Icons
                                                 #react {
@@ -439,26 +451,32 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             }
                             // THE SECOND SIX
                             .second_six {
+                                // VERT GAP FOR THE BOTTOM 3
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2em;
                                .top_three {
                                 display: flex;
+                                // HORIZ GAP FOR TOP 3
+                                gap: 1em;
                                 .back_circle {
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
                                     background-color: $footerblue;
                                     border-radius: 50%;
-                                    width: 25vw;
-                                    height: 25vw;
                                     width: 7em;
                                     height: 7em;
+                                    width: 85px;
+                                    height: 83px;
                                     .front_circle {
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         background-color: $footerblue;
-                                        border-top: 3px solid $nextgreen;
+                                        border-top: 2px solid $nextgreen;
                                         height: 20vw;
-                                        height: 4em;
+                                        height: 3.5em;
                                         .skill_icon_div {
                                             // The Skills Icons
                                             #javascript {
@@ -479,24 +497,26 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                }
                                .bottom_three {
                                     display: flex;
+                                    // HORIZ GAP FOR BOTTOM 3
+                                    gap: 1em;
                                     .back_circle {
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         background-color: $footerblue;
                                         border-radius: 50%;
-                                        width: 25vw;
-                                        height: 25vw;
                                         width: 7em;
                                         height: 7em;
+                                        width: 85px;
+                                        height: 83px;
                                         .front_circle {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
                                             background-color: $footerblue;
-                                            border-top: 3px solid $nextgreen;
+                                            border-top: 2px solid $nextgreen;
                                             height: 20vw;
-                                            height: 4em;
+                                            height: 3.5em;
                                             .skill_icon_div {
                                                 #express {
                                                     width: 2em;
@@ -865,9 +885,9 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 border-top: 3px solid $nextgreen;
                                 // border-top: 3px solid $skillsteal;
                                 box-shadow: 2px 2px 2px black;
-                                // .portfolio_square_content {
-                                // //   place tbe deets here
-                                // }
+                                .more_portfolio_info {
+                                    display: none;
+                                }
                             }
                         }
                     }
