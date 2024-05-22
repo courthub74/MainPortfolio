@@ -7,7 +7,7 @@ let message_me = document.querySelector('input');
 // Query the submit button
 let submit_button = document.getElementById('email_button');
 
-// Query the contact button
+// Query the contact buttons
 let contact_button = document.getElementById('contact');
 
 // Query the contact placeholder
