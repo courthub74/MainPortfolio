@@ -649,15 +649,15 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 }
                 .footer_section {
                     // background-color: $footerblue;
-                    // background-color: #58a6ff;
+                    background-color: #58a6ff;
                     // width: 120%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    display: none;
+                    // display: none;
                     margin: 3em 0 0 0;
                     .footer_section_content {
-                        display: none;
+                        // display: none;
                         border-top: 3px solid $nextgreen;
                         background-color: $footerblue;
                         padding: 2em 1.5em;
@@ -1511,8 +1511,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         }
                         //////////////////////////////////////////////////
                         // DESKTOP FOOTER
-                        .footer_section_id {
-                            display: none;
+                        #footer_section_id {
+                            // display: none;
                             // background-color: #060927;
                             // position: static;
                             // Maybe it doesn't need a height here
@@ -1642,6 +1642,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                     }
                 }
                 .mobile_footer {
+                    display: none;
                     background-color: $jobdescription;
                     background-color: $footerblue;
                     border-top: 3px solid $nextgreen;

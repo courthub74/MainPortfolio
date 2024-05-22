@@ -525,14 +525,13 @@
     height: 2.8em;
   }
   body #whole_page .whole_page .footer_section {
+    background-color: #58a6ff;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
     margin: 3em 0 0 0;
   }
   body #whole_page .whole_page .footer_section .footer_section_content {
-    display: none;
     border-top: 3px solid #00313E;
     background-color: #060927;
     padding: 2em 1.5em;
@@ -1269,52 +1268,49 @@
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content p {
     display: none;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id {
-    display: none;
-  }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content {
     padding: 2em 5em 2em 5em;
     border-top: #00313E 3px solid;
     background-color: #060927;
     filter: opacity(90%);
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .socials_footer {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .socials_footer {
     display: flex;
     align-items: center;
     gap: 2.5em;
     gap: 2.5vw;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .socials_footer #github {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .socials_footer #github {
     height: 2.5em;
     width: 2.5em;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .socials_footer #linkedin {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .socials_footer #linkedin {
     height: 3em;
     width: 3em;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .socials_footer #instagram {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .socials_footer #instagram {
     height: 3.4em;
     width: 3.4em;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .socials_footer #twitter {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .socials_footer #twitter {
     height: 3em;
     width: 3em;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .email_footer {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .email_footer .email_submit {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit {
     display: flex;
     align-items: center;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input {
     padding: 1em 8em;
     padding: 1em 4vw;
     border-top-left-radius: 5px;
@@ -1326,10 +1322,10 @@
     color: #00C6C3;
     color: white;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input:focus {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input:focus {
     border: 2px solid #00C6C3;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::-moz-placeholder {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::-moz-placeholder {
     color: gray;
     color: #060927;
     color: #00313E;
@@ -1338,7 +1334,7 @@
     font-family: "Inter", sans-serif;
     text-align: center;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::placeholder {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::placeholder {
     color: gray;
     color: #060927;
     color: #00313E;
@@ -1347,7 +1343,7 @@
     font-family: "Inter", sans-serif;
     text-align: center;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button {
     border: 2px solid #00C6C3;
     border: 2px solid white;
     border-left: none;
@@ -1362,7 +1358,7 @@
     font-weight: bold;
     cursor: pointer;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .footer_logo small {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .footer_logo small {
     color: white;
     display: flex;
     align-items: center;
@@ -1371,11 +1367,12 @@
     gap: 0.5em;
     filter: opacity(80%);
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .footer_section_id .footer_section_content .footer_elements .footer_logo small #footer_logo {
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .footer_logo small #footer_logo {
     width: 2em;
     height: 2em;
   }
   body #whole_page .whole_page .mobile_footer {
+    display: none;
     background-color: #00C6C3;
     background-color: #060927;
     border-top: 3px solid #00313E;
