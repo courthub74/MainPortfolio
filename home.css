@@ -1193,6 +1193,7 @@
     margin: 0 0 -3em 0;
     transition: 0.3s all ease-in-out;
     border-top: 2px solid #00313E;
+    border-top: 2px solid #146166;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls p {
     font-size: 0.8rem;
