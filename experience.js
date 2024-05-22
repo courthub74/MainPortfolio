@@ -39,6 +39,7 @@ let widthMatch = window.matchMedia("(min-width: 1180px)");
 
 if(widthMatch.matches) {
     // Hover over the Title Function
+    
 }
 
 
