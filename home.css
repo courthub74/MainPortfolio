@@ -678,8 +678,7 @@
     background-color: #080E2F;
   }
   body #whole_page {
-    height: 515vh;
-    height: 485vh;
+    height: 520vh;
     background-color: #080E2F;
   }
   body #whole_page .whole_page {
@@ -1112,7 +1111,13 @@
   body #whole_page .whole_page .experience_section {
     background-color: #080E2F;
     height: 80vh;
+    height: 90vh;
     padding: 3em 0 1em 0;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .title_nav {
     display: flex;

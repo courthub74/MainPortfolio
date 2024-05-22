@@ -825,8 +825,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
         background-color: $darkblue;
         #whole_page {
             // background-color: $darkblue;
-            height: 515vh;
-            height: 485vh;
+            height: 520vh;
+            // height: 485vh;
             // ALL SECTIONS ARE UNDER THIS DIV
             background-color: $darkblue;
             .whole_page {
@@ -1334,11 +1334,14 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 .experience_section {
                     background-color: $darkblue;
                     height: 80vh;
+                    height: 90vh;
                     padding: 3em 0 1em 0;
                     .experience_section_content {
-                        
                         // background-color: #58a6ff;
                         // height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2em;
                         .title_nav {
                             display: flex;
                             align-items: center;
