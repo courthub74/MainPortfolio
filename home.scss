@@ -1454,6 +1454,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     }
                                     .experience_rolls.hover {
                                         opacity: 1;
+                                        transition: .3s all ease-in-out;
                                     }
                                 }
                             }
