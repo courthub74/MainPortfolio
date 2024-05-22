@@ -644,6 +644,24 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         width: 3.8em;
                                         height: 2.8em;
                                     }
+                                    .experience_rolls {
+                                        opacity: 0;
+                                        display: flex;
+                                        gap: 2em;
+                                        margin: 0 0 -3em 0;
+                                        transition: .3s all ease-in-out;
+                                        // background-color: $nextgreen;
+                                        border-top: 2px solid $nextgreen;
+                                        border-top: 2px solid $skillsteal;
+                                        p {
+                                            font-size: .8rem;
+                                            font-weight: lighter;
+                                            padding-top: .5em;
+                                        }
+                                    }
+                                    .experience_rolls.clicked {
+                                        opacity: 1;
+                                    }
                                 }
                             }
                         }
