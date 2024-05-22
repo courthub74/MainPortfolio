@@ -532,6 +532,7 @@
     margin: 3em 0 0 0;
   }
   body #whole_page .whole_page .footer_section .footer_section_content {
+    display: none;
     border-top: 3px solid #00313E;
     background-color: #060927;
     padding: 2em 1.5em;
