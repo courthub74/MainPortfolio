@@ -11,6 +11,8 @@ let submit_button = document.getElementById('email_button');
 let contact_button = document.getElementById('contact');
 let contact_about = document.getElementById('contact_about');
 let contact_portfolio = document.getElementById('contact_portfolio');
+let contact_skills = document.getElementById('contact_skills');
+let contact_experience = document.getElementById('contact_experience');
 
 // Query the contact placeholder
 let place_holder = document.querySelector('placeholder');
@@ -44,6 +46,32 @@ contact_about.addEventListener('click', () => {
 
 // PORTFOLIO PAGE
 contact_portfolio.addEventListener('click', () => {
+    submit_button.classList.add('contact');
+    message_me.classList.add('contact');
+    
+    // Add a function that times the color out
+    function color_back() {
+        submit_button.classList.remove('contact');
+        message_me.classList.remove('contact');
+    }
+    setTimeout(color_back, 2000);
+});
+
+// SKILLS PAGE
+contact_skills.addEventListener('click', () => {
+    submit_button.classList.add('contact');
+    message_me.classList.add('contact');
+    
+    // Add a function that times the color out
+    function color_back() {
+        submit_button.classList.remove('contact');
+        message_me.classList.remove('contact');
+    }
+    setTimeout(color_back, 2000);
+});
+
+// EXPERIENC PAGE
+contact_experience.addEventListener('click', () => {
     submit_button.classList.add('contact');
     message_me.classList.add('contact');
     

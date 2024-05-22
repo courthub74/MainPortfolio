@@ -1168,7 +1168,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         #selected {
                                             text-decoration: underline;
                                         }
-                                        #contact {
+                                        #contact_skills {
                                             background-color: white;
                                             // background-color: $darkblue;
                                             padding: .5em;
@@ -1348,7 +1348,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         #selected {
                                             text-decoration: underline;
                                         }
-                                        #contact {
+                                        #contact_experience {
                                             background-color: white;
                                             // background-color: $darkblue;
                                             padding: .5em;
@@ -1547,7 +1547,9 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                             button.contact {
                                                 background-color: $jobdescription;
                                                 // background-color: rgb(54, 54, 240);
+                                                // background-color: $skillsteal;
                                                 border: 2px solid $jobdescription;
+                                                // border: 2px solid $skillsteal;
                                                 // border: 2px solid rgb(54, 54, 240);
                                                 // box-shadow: 4px 4px 4px gray ;
                                                 color: $footerblue;

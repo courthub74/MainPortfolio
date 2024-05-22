@@ -973,7 +973,7 @@
   body #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav ul li #selected {
     text-decoration: underline;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav ul li #contact {
+  body #whole_page .whole_page .skills_section .skills_section_content .title_nav .skills_desktop_nav ul li #contact_skills {
     background-color: white;
     padding: 0.5em;
     border-radius: 2px;
@@ -1128,7 +1128,7 @@
   body #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav ul li #selected {
     text-decoration: underline;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav ul li #contact {
+  body #whole_page .whole_page .experience_section .experience_section_content .title_nav .experience_desktop_nav ul li #contact_experience {
     background-color: white;
     padding: 0.5em;
     border-radius: 2px;
