@@ -647,116 +647,16 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         }
                     }
                 }
-                .footer_section {
-                    // background-color: $footerblue;
-                    background-color: #58a6ff;
-                    // width: 120%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    // display: none;
-                    margin: 3em 0 0 0;
-                    .footer_section_content {
-                        // display: none;
-                        border-top: 3px solid $nextgreen;
-                        background-color: $footerblue;
-                        padding: 2em 1.5em;
-                        .footer_elements {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            .socials_footer {
-                                display: flex;
-                                align-items: center;
-                                #github {
-                                    height: 2.5em;
-                                    width: 2.5em;
-                                }
-                                #linkedin {
-                                    height: 3em;
-                                    width: 3em;
-                                }
-                                #instagram {
-                                    height: 3.4em;
-                                    width: 3.4em;
-                                }
-                                #twitter {
-                                    height: 3em;
-                                    width: 3em;
-                                }
-                            }
-                            .email_footer {
-                                display: flex;
-                                flex-direction: column;
-                                .email_submit {
-                                    display: flex;
-                                    align-items: center;
-                                    input {
-                                        padding: 1em 8em;
-                                        padding: 1em 4vw;
-                                        border-top-left-radius: 5px;
-                                        border-bottom-left-radius: 5px;
-                                        border: none;
-                                        border: 2px solid $jobdescription;
-                                        border: 2px solid white;
-                                        background: none;
-                                        color: $jobdescription;
-                                        color: white;
-                                        // filter: opacity(80%);
-                                    }
-                                    input:focus {
-                                        border: 2px solid $jobdescription;
-                                    }
-                                    ::placeholder {
-                                        color: gray;
-                                        color: $footerblue;
-                                        color: $nextgreen;
-                                        color: $jobdescription;
-                                        color: white;
-                                        // filter: opacity(75%);
-                                        font-family: 'Inter', sans-serif;
-                                        // font-weight: bold;
-                                        // background-color: red;
-                                        text-align: center;
-                                    }
-                                    button {
-                                        border: 2px solid $jobdescription;
-                                        border: 2px solid white;
-                                        border-left: none;
-                                        border-top-right-radius: 5px;
-                                        border-bottom-right-radius: 5px;
-                                        color: $jobdescription;
-                                        color: white;
-                                        color: $footerblue;
-                                        background: none;
-                                        background-color: white;
-                                        padding: 1em 3em;
-                                        font-weight: bold;
-                                        cursor: pointer;
-                                        // filter: opacity(80%);
-                                    }
-                                }
-                            }
-                            .footer_logo {
-                                small {
-                                    color: white;
-                                    display: flex;
-                                    align-items: center;
-                                    font-family: 'Inter', sans-serif;
-                                    font-size: .7rem;
-                                    gap: .5em;
-                                    filter: opacity(80%);
-                                    #footer_logo {
-                                        width: 2em;
-                                        height: 2em;
-                                    }
-                                }
-                            }
-                        }
-                    }
+                //////////////////////////////////////
+                /// DESKTOP FOOTER SECTION
+                #footer_section_id {
+                   display: none;
                 }
             }
+            //////////////////////////////////
+            // MOBILE FOOTER
             .mobile_footer {
+                // display: none;
                 background-color: $jobdescription;
                 background-color: $footerblue;
                 border-top: 3px solid $nextgreen;
