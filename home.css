@@ -1160,8 +1160,10 @@
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content {
     margin-top: -4em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2em;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #courdevelops {
     width: 7em;
@@ -1173,10 +1175,13 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #r1rcm {
     width: 5.5em;
-    height: 3.6em;
+    height: 5em;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content p {
-    display: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content {
     padding: 2em 5em 2em 5em;
@@ -1226,14 +1231,18 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
-    border: 2px solid #00C6C3;
     border: 2px solid white;
     background: none;
     color: #00C6C3;
     color: white;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input:focus {
+    border: none;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input.contact {
     border: 2px solid #00C6C3;
+    border: 2px solid rgb(54, 54, 240);
+    transition: 0.3s all ease-out;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::-moz-placeholder {
     color: gray;
@@ -1267,6 +1276,14 @@
     padding: 1em 3em;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s all ease-out;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button.contact {
+    background-color: #00C6C3;
+    background-color: rgb(54, 54, 240);
+    border: 2px solid #00C6C3;
+    border: 2px solid rgb(54, 54, 240);
+    color: #060927;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .footer_logo small {
     color: white;

@@ -1390,8 +1390,10 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 .experience_square_content {
                                     margin-top: -4em;
                                     display: flex;
+                                    flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    gap: 2em;
                                     // background-color: #00C6C3;
                                     #courdevelops {
                                         width: 7em;
@@ -1403,10 +1405,13 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     }
                                     #r1rcm {
                                         width: 5.5em;
-                                        height: 3.6em;
+                                        height: 5em;
                                     }
                                     p {
-                                        display: none;
+                                        color: white;
+                                        font-size: 1.1rem;
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: bold;
                                     }
                                 }
                             }
@@ -1473,15 +1478,22 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                                 border-top-left-radius: 5px;
                                                 border-bottom-left-radius: 5px;
                                                 border: none;
-                                                border: 2px solid $jobdescription;
+                                                // border: 2px solid $jobdescription;
                                                 border: 2px solid white;
+                                                // border: 2px solid $firstblue;
                                                 background: none;
                                                 color: $jobdescription;
                                                 color: white;
                                                 // filter: opacity(80%);
                                             }
                                             input:focus {
+                                                border: none;
+                                            }
+                                            input.contact {
                                                 border: 2px solid $jobdescription;
+                                                border: 2px solid rgb(54, 54, 240);
+                                                // box-shadow: 4px 4px 4px gray;
+                                                transition: .3s all ease-out;
                                             }
                                             ::placeholder {
                                                 color: gray;
@@ -1509,18 +1521,17 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                                 padding: 1em 3em;
                                                 font-weight: bold;
                                                 cursor: pointer;
+                                                transition: .3s all ease-out;
                                                 // filter: opacity(80%);
                                             }
-                                            // button:hover {
-                                            //     // background-color: white;
-                                            //     // border: 2px solid $jobdescripgrey;
-                                            //     border: 2px solid $jobdescription;
-                                            
-                                            //     background-color: $jobdescription;
-                                            
-                                            //     border-left: none;
-                                            //     transition: .2s all ease-in;
-                                            // }
+                                            button.contact {
+                                                background-color: $jobdescription;
+                                                background-color: rgb(54, 54, 240);
+                                                border: 2px solid $jobdescription;
+                                                border: 2px solid rgb(54, 54, 240);
+                                                // box-shadow: 4px 4px 4px gray ;
+                                                color: $footerblue;
+                                            }
                                         }
                                     }
                                     .footer_logo {
