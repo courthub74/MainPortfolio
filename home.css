@@ -199,6 +199,7 @@
     background-color: #060927;
     border-top: 3px solid #00313E;
     height: 19%;
+    height: 10em;
     width: 100%;
     box-shadow: 2px 2px 2px black;
   }
@@ -453,7 +454,7 @@
   }
   body #whole_page .whole_page .experience_section {
     background-color: #080E2F;
-    height: 100vh;
+    height: 110vh;
   }
   body #whole_page .whole_page .experience_section .experience_section_content {
     margin: 0 3em 0 3em;
