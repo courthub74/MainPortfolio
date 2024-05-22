@@ -1235,13 +1235,13 @@
     background: none;
     color: #00C6C3;
     color: white;
+    transition: 0.3s all ease-out;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input:focus {
     border: none;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input.contact {
     border: 2px solid #00C6C3;
-    border: 2px solid rgb(54, 54, 240);
     transition: 0.3s all ease-out;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::-moz-placeholder {
@@ -1280,9 +1280,7 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button.contact {
     background-color: #00C6C3;
-    background-color: rgb(54, 54, 240);
     border: 2px solid #00C6C3;
-    border: 2px solid rgb(54, 54, 240);
     color: #060927;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .footer_logo small {

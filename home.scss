@@ -1484,6 +1484,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                                 background: none;
                                                 color: $jobdescription;
                                                 color: white;
+                                                transition: .3s all ease-out;
                                                 // filter: opacity(80%);
                                             }
                                             input:focus {
@@ -1491,7 +1492,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                             }
                                             input.contact {
                                                 border: 2px solid $jobdescription;
-                                                border: 2px solid rgb(54, 54, 240);
+                                                // border: 2px solid rgb(54, 54, 240);
                                                 // box-shadow: 4px 4px 4px gray;
                                                 transition: .3s all ease-out;
                                             }
@@ -1526,9 +1527,9 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                             }
                                             button.contact {
                                                 background-color: $jobdescription;
-                                                background-color: rgb(54, 54, 240);
+                                                // background-color: rgb(54, 54, 240);
                                                 border: 2px solid $jobdescription;
-                                                border: 2px solid rgb(54, 54, 240);
+                                                // border: 2px solid rgb(54, 54, 240);
                                                 // box-shadow: 4px 4px 4px gray ;
                                                 color: $footerblue;
                                             }
