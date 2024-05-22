@@ -662,12 +662,12 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 border-top: 3px solid $nextgreen;
                 height: 7%;
                 .footer_elements {
-                    margin: 2em 0 0 0;
+                    margin: 5em 0 0 0;
                     display: flex;
                     align-items: center;
                     flex-direction: column;
                     justify-content: space-between;
-                    gap: 3em;
+                    gap: 2em;
                     .socials_footer {
                         display: flex;
                         align-items: center;
@@ -677,18 +677,26 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         #github {
                             height: 2.5em;
                             width: 2.5em;
+                            height: 1.5em;
+                            width: 1.5em;
                         }
                         #linkedin {
                             height: 3em;
                             width: 3em;
+                            height: 2em;
+                            width: 2em;
                         }
                         #instagram {
                             height: 3.4em;
                             width: 3.4em;
+                            height: 2.4em;
+                            width: 2.4em;
                         }
                         #twitter {
                             height: 3em;
                             width: 3em;
+                            height: 2em;
+                            width: 2em;
                         }
                     }
                     .email_footer {
@@ -707,7 +715,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             align-items: center;
                             input {
                                 padding: 1em 8em;
-                                padding: 1em 7vw;
+                                padding: .5em 5vw;
                                 border-top-left-radius: 5px;
                                 border-bottom-left-radius: 5px;
                                 border: none;
@@ -744,30 +752,23 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 color: $footerblue;
                                 background: none;
                                 background-color: white;
-                                padding: 1em 2em;
+                                // background-color: blue;
+                                padding: .5em 1em;
                                 font-weight: bold;
                                 cursor: pointer;
+                                font-family: 'Inter', sans-serif;
                                 // filter: opacity(80%);
                             }
-                            // button:hover {
-                            //     // background-color: white;
-                            //     // border: 2px solid $jobdescripgrey;
-                            //     border: 2px solid $jobdescription;
-                            
-                            //     background-color: $jobdescription;
-                            
-                            //     border-left: none;
-                            //     transition: .2s all ease-in;
-                            // }
                         }
                     }
                     .footer_logo {
+                        margin-top: 3em;
                         small {
                             color: white;
                             display: flex;
                             align-items: center;
                             font-family: 'Inter', sans-serif;
-                            font-size: .9rem;
+                            font-size: .7rem;
                             gap: .5em;
                             filter: opacity(80%);
                             #footer_logo {
