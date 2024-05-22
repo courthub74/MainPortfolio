@@ -142,6 +142,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             }
                             .learn_more {
                                 border-top: 2px solid white;
+                                border-top: 2px solid rgba(255, 255, 255, 0.664);
                                 background-color: $nextgreen;
                                 padding: 1em 5em;
                                 font-size: .9rem;
@@ -943,8 +944,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 color: white;
                                 font-weight: bold;
                                 // color: $footerblue;
-                                padding: 1em 3em;
-                                // border-top: 1px solid rgba(255, 255, 255, 0.664);
+                                padding: 1em 7em;
+                                border-top: 2px solid rgba(255, 255, 255, 0.664);
                                 font-family: 'Inter', sans-serif;
                                 font-size: .9rem;
                                 font-weight: bold;
@@ -990,7 +991,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         #selected {
                                             text-decoration: underline;
                                         }
-                                        #contact {
+                                        #contact_about {
                                             background-color: white;
                                             // background-color: $darkblue;
                                             padding: .5em;
@@ -1081,7 +1082,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         #selected {
                                             text-decoration: underline;
                                         }
-                                        #contact {
+                                        #contact_portfolio {
                                             background-color: white;
                                             // background-color: $darkblue;
                                             padding: .5em;

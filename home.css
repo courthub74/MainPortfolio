@@ -101,6 +101,7 @@
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more {
     border-top: 2px solid white;
+    border-top: 2px solid rgba(255, 255, 255, 0.664);
     background-color: #00313E;
     padding: 1em 5em;
     font-size: 0.9rem;
@@ -787,7 +788,8 @@
     background-color: #00313E;
     color: white;
     font-weight: bold;
-    padding: 1em 3em;
+    padding: 1em 7em;
+    border-top: 2px solid rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
@@ -831,7 +833,7 @@
   body #whole_page .whole_page .about_section .about_section_content .title_nav .about_desktop_nav ul li #selected {
     text-decoration: underline;
   }
-  body #whole_page .whole_page .about_section .about_section_content .title_nav .about_desktop_nav ul li #contact {
+  body #whole_page .whole_page .about_section .about_section_content .title_nav .about_desktop_nav ul li #contact_about {
     background-color: white;
     padding: 0.5em;
     border-radius: 2px;
@@ -901,7 +903,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .portfolio_desktop_nav ul li #selected {
     text-decoration: underline;
   }
-  body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .portfolio_desktop_nav ul li #contact {
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .portfolio_desktop_nav ul li #contact_portfolio {
     background-color: white;
     padding: 0.5em;
     border-radius: 2px;
