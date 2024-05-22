@@ -7,11 +7,16 @@ let job_2 = document.getElementById('experience_square_two');
 let job_3 = document.getElementById('experience_square_three');
 
 // Query the experience rolls
+
 let roll_1 = document.getElementById('roll_one');
 
 let roll_2 = document.getElementById('roll_two');
 
 let roll_3 = document.getElementById('roll_three');
+
+// Query the Boxes
+
+let box_1 = document.getElementById('experience_square_one');
 
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
@@ -48,10 +53,13 @@ if(widthMatch.matches) {
     // Hover over the Title Function
     job_1.addEventListener('mouseover', () => {
         roll_1.classList.add('hover');
+        // brighten the top border color
+        box_1.classList.add('hover');
     });
     // Hover out
     job_1.addEventListener('mouseout', () => {
         roll_1.classList.remove('hover');
+        box_1.classList.remove('hover');
     });
 
     // JOB 2

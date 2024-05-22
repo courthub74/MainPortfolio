@@ -1409,6 +1409,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 border-top: 3px solid $nextgreen;
                                 // border-top: 3px solid $skillsteal;
                                 box-shadow: 2px 2px 2px black;
+                                transition: .3s all ease-in-out;
                                 .experience_square_content {
                                     margin-top: -4em;
                                     display: flex;
@@ -1455,6 +1456,10 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         opacity: 1;
                                     }
                                 }
+                            }
+                            #experience_square_one.hover {
+                                border-top: 2px solid $skillsteal;
+                                transition: .3s all ease-in-out;
                             }
                         }
                         //////////////////////////////////////////////////

@@ -1180,6 +1180,7 @@
     width: 28%;
     border-top: 3px solid #00313E;
     box-shadow: 2px 2px 2px black;
+    transition: 0.3s all ease-in-out;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content {
     margin-top: -4em;
@@ -1224,6 +1225,9 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls.hover {
     opacity: 1;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.hover {
+    border-top: 2px solid #146166;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content {
     padding: 2em 5em 2em 5em;
