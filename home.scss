@@ -1259,12 +1259,66 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             background-color: $nextgreen;
                             background-color: $darkblue;
                             background-color: $footerblue;
+                            box-sizing: border-box;
                             // background-color: $skillsteal;
                             // box-shadow: 2px 2px 2px 2px black;
-                            
+                            .circle_stuff {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
+                                gap: 4em;
+                                
+                                //////////////////
+                                margin: -2em 0 0 0;
+                                cursor: pointer;
+                                hr {
+                                    border: 2px solid $jobdescription;
+                                    border: 2px solid $nextgreen;
+                                    width: 100%;
+                                    width: 5em;
+                                    
+                                }
+                                #line_one.hover {
+                                    border: 2px solid $skillsteal;
+                                    // opacity: 0;
+                                }
+                                .skill_contents {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: -1.5em 0 0 0;
+                                    // position: fixed;
+                                    //////////////////////////
+                                    // flex-direction: column;
+                                    #python {
+                                        width: 4.5em;
+                                        height: 4.5em;
+                                        transition: .2s all ease-in;
+                                        /////////////////////
+                                        position: absolute;
+                                    }
+                                    #python.hover {
+                                        opacity: 0;
+                                    }
+                                    #python_description {
+                                        opacity: 0;
+                                    }
+                                    #python_description.hover {
+                                        opacity: 1;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1.5rem;
+                                        transition: .5s all ease-in;
+                                        margin: -3em;
+                                        // background-color: blue;
+                                    }
+                                }
+                            }
                         }
-                        .back_circle.hover {
+                        #skill_circle_one.hover {
                             border: 3px solid $skillsteal;
+                            box-sizing: border-box;
                         }
                         .skills_circles {
                             display: flex;
