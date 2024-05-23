@@ -18,6 +18,10 @@ let roll_3 = document.getElementById('roll_three');
 
 let box_1 = document.getElementById('experience_square_one');
 
+let box_2 = document.getElementById('experience_square_two');
+
+let box_3 = document.getElementById('experience_square_three');
+
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
@@ -53,6 +57,7 @@ if(widthMatch.matches) {
     // Hover over the Title Function
     job_1.addEventListener('mouseover', () => {
         roll_1.classList.add('hover');
+        box_1.classList.add('hover');
     });
     // Hover out
     job_1.addEventListener('mouseout', () => {
@@ -66,20 +71,24 @@ if(widthMatch.matches) {
     // Hover over the Title Function
     job_2.addEventListener('mouseover', () => {
         roll_2.classList.add('hover');
+        box_2.classList.add('hover');
     });
     // Hover out
     job_2.addEventListener('mouseout', () => {
         roll_2.classList.remove('hover');
+        box_2.classList.remove('hover');
     });
 
     // JOB 3
     // Hover over the Title Function
     job_3.addEventListener('mouseover', () => {
         roll_3.classList.add('hover');
+        box_3.classList.add('hover');
     });
     // Hover out
     job_3.addEventListener('mouseout', () => {
         roll_3.classList.remove('hover');
+        box_3.classList.remove('hover');
     });
 }
 

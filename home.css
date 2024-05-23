@@ -1208,6 +1208,7 @@
     gap: 2em;
     gap: 2%;
     margin: 2em 0 7em 0;
+    box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square {
     display: flex;
@@ -1242,7 +1243,7 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #r1rcm {
     width: 5.5em;
-    height: 4.8em;
+    height: 4.5em;
     margin-top: 0.8em;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content p {
@@ -1273,6 +1274,17 @@
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.hover {
     border-top: 2px solid #146166;
     transition: 0.3s all ease-in-out;
+    box-sizing: border-box;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_two.hover {
+    border-top: 2px solid #146166;
+    transition: 0.3s all ease-in-out;
+    box-sizing: border-box;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_three.hover {
+    border-top: 2px solid #146166;
+    transition: 0.3s all ease-in-out;
+    box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content {
     padding: 2em 5em 2em 5em;

@@ -1445,6 +1445,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             margin: 2em 0 7em 0;
                             // margin: 2em 0 5em 0;
                             // background-color: red;
+                            box-sizing: border-box;
                             .square {
                                 display: flex;
                                 flex-direction: column;
@@ -1461,6 +1462,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 // border-top: 3px solid $skillsteal;
                                 box-shadow: 2px 2px 2px black;
                                 transition: .3s all ease-in-out;
+                                
                                 .experience_square_content {
                                     margin-top: -4em;
                                     display: flex;
@@ -1468,6 +1470,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     justify-content: center;
                                     align-items: center;
                                     gap: 2em;
+                            
                                     // background-color: #00C6C3;
                                     #courdevelops {
                                         width: 7em;
@@ -1479,7 +1482,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     }
                                     #r1rcm {
                                         width: 5.5em;
-                                        height: 4.8em;
+                                        height: 4.5em;
                                         margin-top: .8em;
                                     }
                                     p {
@@ -1513,6 +1516,17 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             #experience_square_one.hover {
                                 border-top: 2px solid $skillsteal;
                                 transition: .3s all ease-in-out;
+                                box-sizing: border-box;
+                            }
+                            #experience_square_two.hover {
+                                border-top: 2px solid $skillsteal;
+                                transition: .3s all ease-in-out;
+                                box-sizing: border-box;
+                            }
+                            #experience_square_three.hover {
+                                border-top: 2px solid $skillsteal;
+                                transition: .3s all ease-in-out;
+                                box-sizing: border-box;
                             }
                         }
                         //////////////////////////////////////////////////
