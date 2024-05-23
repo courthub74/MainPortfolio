@@ -106,7 +106,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 font-family: 'Inter', sans-serif;
                                 font-weight: bold;
                                 border-top: 3px solid $nextgreen;
-                                box-shadow: 2px 2px 2px black;
+                                // box-shadow: 2px 2px 2px black;
                             }
                             .slogan {
                                 color: white;
@@ -256,13 +256,10 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         .portfolio_squares {
                             display: flex;
                             flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            gap: 3em;
-                            // background-color: #00C6C3;
-                            height: 80%;
-                            // height: 10em;
-                            margin: -2em 0 0 0;
+                            // justify-content: center;
+                            // align-items: center;
+                            gap: 2em;
+                            margin-top: 70px;
                             // EACH SQUARE
                             .square {
                                 display: flex;
@@ -275,7 +272,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 height: 10em;
                                 width: 100%;
                                 // width: 50em;
-                                box-shadow: 2px 2px 2px black;
+                                // box-shadow: 2px 2px 2px black;
                                 .portfolio_square_content {
                                     display: flex;
                                     flex-direction: column;
@@ -609,7 +606,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 align-items: center;
                                 background-color: $footerblue;
                                 border-top: 3px solid $nextgreen;
-                                box-shadow: 2px 2px 2px black;
+                                // box-shadow: 2px 2px 2px black;
                                 height: 19%;
                                 height: 10em;
                                 width: 100%;
@@ -681,8 +678,9 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 background-color: $footerblue;
                 border-top: 3px solid $nextgreen;
                 height: 7%;
+                // height: 5%;
                 .footer_elements {
-                    margin: 5em 0 0 0;
+                    margin: 3em 0 0 0;
                     display: flex;
                     align-items: center;
                     flex-direction: column;
