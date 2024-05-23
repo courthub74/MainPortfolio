@@ -272,7 +272,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 height: 10em;
                                 width: 100%;
                                 // width: 50em;
-                                // box-shadow: 2px 2px 2px black;
+                                box-shadow: 1px 1px 1px black;
                                 .portfolio_square_content {
                                     display: flex;
                                     flex-direction: column;
@@ -373,6 +373,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     display: flex;
                                     // HORIZ GAP FOR TOP 3
                                     gap: 1em;
+                                    gap: .5em;
                                     // NOW try to make the gap adjustable
                                     // gap: 5vw;
                                     .back_circle {
@@ -381,37 +382,37 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         align-items: center;
                                         background-color: $footerblue;
                                         border-radius: 50%;
-                                        width: 85px;
-                                        height: 83px;
                                         width: 25vw;
                                         height: 23vw;
+                                        width: 27vw;
+                                        height: 25vw;
+                                        box-shadow: 1px 1px 1px black;
                                         .front_circle {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
                                             background-color: $footerblue;
-                                            border-top: 2px solid $nextgreen;
+                                            border-top: 3px solid $nextgreen;
                                             height: 20vw;
-                                            height: 3.5em;
+                                            height: 4.5em;
                                             .skill_icon_div {
                                                 // The Skills Icons
                                                 #html {
-                                                    width: 2em;
-                                                    height: 2em;
                                                     width: 2.5em;
                                                     height: 2.5em;
+                                                    width: 3em;
+                                                    height: 2.9em;
                                                 }
                                                 #css {
-                                                    width: 2em;
-                                                    height: 2em;
                                                     width: 2.5em;
                                                     height: 2.5em;
+                                                    width: 3em;
+                                                    height: 2.9em;
                                                 }
                                                 #sass {
-                                                    width: 2em;
-                                                    height: 2em;
-                                                    width: 2.5em;
-                                                    height: 2.5em;
+                                                    width: 3em;
+                                                    height: 3em;
+                                            
                                                 }
                                             }
                                         }
@@ -421,43 +422,45 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     display: flex;
                                     // HORIZ GAP FOR THE SECOND ROW
                                     gap: 1em;
+                                    gap: .5em;
                                     .back_circle {
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         background-color: $footerblue;
                                         border-radius: 50%;
-                                        width: 85px;
-                                        height: 83px;
                                         width: 25vw;
                                         height: 23vw;
+                                        width: 27vw;
+                                        height: 25vw;
+                                        box-shadow: 1px 1px 1px black;
                                         .front_circle {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
                                             background-color: $footerblue;
-                                            border-top: 2px solid $nextgreen;
+                                            border-top: 3px solid $nextgreen;
                                             height: 20vw;
-                                            height: 3.5em;
+                                            height: 4.5em;
                                             .skill_icon_div {
                                                 // The Skills Icons
                                                 #react {
-                                                    width: 2em;
-                                                    height: 2em;
                                                     width: 2.5em;
                                                     height: 2.5em;
+                                                    width: 3em;
+                                                    height: 3em;
                                                 }
                                                 #native {
-                                                    width: 2em;
-                                                    height: 2em;
                                                     width: 2.8em;
                                                     height: 2.8em;
+                                                    width: 3.2em;
+                                                    height: 3.2em;
                                                 }
                                                 #figma {
-                                                    width: 2em;
-                                                    height: 2em;
                                                     width: 2.5em;
                                                     height: 2.5em;
+                                                    width: 3em;
+                                                    height: 3em;
                                                 }
                                             }
                                         }
@@ -475,43 +478,45 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 display: flex;
                                 // HORIZ GAP FOR TOP 3
                                 gap: 1em;
+                                gap: .5em;
                                 .back_circle {
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
                                     background-color: $footerblue;
                                     border-radius: 50%;
-                                    width: 85px;
-                                    height: 83px;
                                     width: 25vw;
                                     height: 23vw;
+                                    width: 27vw;
+                                    height: 25vw;
+                                    box-shadow: 1px 1px 1px black;
                                     .front_circle {
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         background-color: $footerblue;
-                                        border-top: 2px solid $nextgreen;
+                                        border-top: 3px solid $nextgreen;
                                         height: 20vw;
-                                        height: 3.5em;
+                                        height: 4.5em;
                                         .skill_icon_div {
                                             // The Skills Icons
                                             #javascript {
-                                                width: 2em;
-                                                height: 2em;
                                                 width: 3em;
                                                 height: 3em;
+                                                width: 3.5em;
+                                                height: 3.5em;
                                             }
                                             #python {
-                                                width: 2em;
-                                                height: 2em;
                                                 width: 2.5em;
                                                 height: 2.5em;
+                                                width: 2.8em;
+                                                height: 2.8em;
                                             }
                                             #django {
-                                                width: 2em;
-                                                height: 2em;
                                                 width: 2.5em;
                                                 height: 2.5em;
+                                                width: 2.8em;
+                                                height: 2.8em;
                                                 margin-left: -.4em;
                                             }
                                         }
@@ -522,42 +527,44 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     display: flex;
                                     // HORIZ GAP FOR BOTTOM 3
                                     gap: 1em;
+                                    gap: .5em;
                                     .back_circle {
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         background-color: $footerblue;
                                         border-radius: 50%;
-                                        width: 85px;
-                                        height: 83px;
                                         width: 25vw;
                                         height: 23vw;
+                                        width: 27vw;
+                                        height: 25vw;
+                                        box-shadow: 1px 1px 1px black;
                                         .front_circle {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
                                             background-color: $footerblue;
-                                            border-top: 2px solid $nextgreen;
+                                            border-top: 3px solid $nextgreen;
                                             height: 20vw;
-                                            height: 3.5em;
+                                            height: 4.5em;
                                             .skill_icon_div {
                                                 #express {
-                                                    width: 2em;
-                                                    height: 2em;
                                                     width: 2.2em;
                                                     height: 2.2em;
+                                                    width: 3em;
+                                                    height: 3em;
                                                 }
                                                 #firebase {
-                                                    width: 2em;
-                                                    height: 2em;
                                                     width: 2.2em;
                                                     height: 2.3em;
+                                                    width: 3em;
+                                                    height: 3em;
                                                 }
                                                 #heroku {
-                                                    width: 2em;
-                                                    height: 2em;
                                                     width: 2.5em;
                                                     height: 2.5em;
+                                                    width: 3em;
+                                                    height: 3em;
                                                 }
                                             }
                                         }
@@ -610,7 +617,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 align-items: center;
                                 background-color: $footerblue;
                                 border-top: 3px solid $nextgreen;
-                                // box-shadow: 2px 2px 2px black;
+                                box-shadow: 1px 1px 1px black;
                                 height: 19%;
                                 height: 10em;
                                 width: 100%;
@@ -1472,6 +1479,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         border-top: 2px solid $skillsteal;
                                         p {
                                             font-size: .8rem;
+                                            font-size: 1rem;
                                             font-weight: lighter;
                                             padding-top: .5em;
                                         }

@@ -198,6 +198,7 @@
     height: 19%;
     height: 10em;
     width: 100%;
+    box-shadow: 1px 1px 1px black;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content {
     display: flex;
@@ -280,6 +281,7 @@
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three {
     display: flex;
     gap: 1em;
+    gap: 0.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three .back_circle {
     display: flex;
@@ -287,41 +289,41 @@
     align-items: center;
     background-color: #060927;
     border-radius: 50%;
-    width: 85px;
-    height: 83px;
     width: 25vw;
     height: 23vw;
+    width: 27vw;
+    height: 25vw;
+    box-shadow: 1px 1px 1px black;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three .back_circle .front_circle {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #060927;
-    border-top: 2px solid #00313E;
+    border-top: 3px solid #00313E;
     height: 20vw;
-    height: 3.5em;
+    height: 4.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three .back_circle .front_circle .skill_icon_div #html {
-    width: 2em;
-    height: 2em;
     width: 2.5em;
     height: 2.5em;
+    width: 3em;
+    height: 2.9em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three .back_circle .front_circle .skill_icon_div #css {
-    width: 2em;
-    height: 2em;
     width: 2.5em;
     height: 2.5em;
+    width: 3em;
+    height: 2.9em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three .back_circle .front_circle .skill_icon_div #sass {
-    width: 2em;
-    height: 2em;
-    width: 2.5em;
-    height: 2.5em;
+    width: 3em;
+    height: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three {
     display: flex;
     gap: 1em;
+    gap: 0.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle {
     display: flex;
@@ -329,37 +331,38 @@
     align-items: center;
     background-color: #060927;
     border-radius: 50%;
-    width: 85px;
-    height: 83px;
     width: 25vw;
     height: 23vw;
+    width: 27vw;
+    height: 25vw;
+    box-shadow: 1px 1px 1px black;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle .front_circle {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #060927;
-    border-top: 2px solid #00313E;
+    border-top: 3px solid #00313E;
     height: 20vw;
-    height: 3.5em;
+    height: 4.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle .front_circle .skill_icon_div #react {
-    width: 2em;
-    height: 2em;
     width: 2.5em;
     height: 2.5em;
+    width: 3em;
+    height: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle .front_circle .skill_icon_div #native {
-    width: 2em;
-    height: 2em;
     width: 2.8em;
     height: 2.8em;
+    width: 3.2em;
+    height: 3.2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle .front_circle .skill_icon_div #figma {
-    width: 2em;
-    height: 2em;
     width: 2.5em;
     height: 2.5em;
+    width: 3em;
+    height: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six {
     display: flex;
@@ -370,6 +373,7 @@
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three {
     display: flex;
     gap: 1em;
+    gap: 0.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle {
     display: flex;
@@ -377,42 +381,44 @@
     align-items: center;
     background-color: #060927;
     border-radius: 50%;
-    width: 85px;
-    height: 83px;
     width: 25vw;
     height: 23vw;
+    width: 27vw;
+    height: 25vw;
+    box-shadow: 1px 1px 1px black;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #060927;
-    border-top: 2px solid #00313E;
+    border-top: 3px solid #00313E;
     height: 20vw;
-    height: 3.5em;
+    height: 4.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle .skill_icon_div #javascript {
-    width: 2em;
-    height: 2em;
     width: 3em;
     height: 3em;
+    width: 3.5em;
+    height: 3.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle .skill_icon_div #python {
-    width: 2em;
-    height: 2em;
     width: 2.5em;
     height: 2.5em;
+    width: 2.8em;
+    height: 2.8em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle .skill_icon_div #django {
-    width: 2em;
-    height: 2em;
     width: 2.5em;
     height: 2.5em;
+    width: 2.8em;
+    height: 2.8em;
     margin-left: -0.4em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three {
     display: flex;
     gap: 1em;
+    gap: 0.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle {
     display: flex;
@@ -420,37 +426,38 @@
     align-items: center;
     background-color: #060927;
     border-radius: 50%;
-    width: 85px;
-    height: 83px;
     width: 25vw;
     height: 23vw;
+    width: 27vw;
+    height: 25vw;
+    box-shadow: 1px 1px 1px black;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #060927;
-    border-top: 2px solid #00313E;
+    border-top: 3px solid #00313E;
     height: 20vw;
-    height: 3.5em;
+    height: 4.5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle .skill_icon_div #express {
-    width: 2em;
-    height: 2em;
     width: 2.2em;
     height: 2.2em;
+    width: 3em;
+    height: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle .skill_icon_div #firebase {
-    width: 2em;
-    height: 2em;
     width: 2.2em;
     height: 2.3em;
+    width: 3em;
+    height: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle .skill_icon_div #heroku {
-    width: 2em;
-    height: 2em;
     width: 2.5em;
     height: 2.5em;
+    width: 3em;
+    height: 3em;
   }
   body #whole_page .whole_page .experience_section {
     background-color: #080E2F;
@@ -491,6 +498,7 @@
     align-items: center;
     background-color: #060927;
     border-top: 3px solid #00313E;
+    box-shadow: 1px 1px 1px black;
     height: 19%;
     height: 10em;
     width: 100%;
@@ -1234,6 +1242,7 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls p {
     font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: lighter;
     padding-top: 0.5em;
   }
