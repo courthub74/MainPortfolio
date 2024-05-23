@@ -53,14 +53,14 @@ if(widthMatch.matches) {
     // Hover over the Title Function
     job_1.addEventListener('mouseover', () => {
         roll_1.classList.add('hover');
-        // brighten the top border color
-        box_1.classList.add('hover');
     });
     // Hover out
     job_1.addEventListener('mouseout', () => {
         roll_1.classList.remove('hover');
         box_1.classList.remove('hover');
     });
+
+    
 
     // JOB 2
     // Hover over the Title Function
