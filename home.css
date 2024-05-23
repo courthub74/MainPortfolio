@@ -297,6 +297,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three .back_circle .front_circle {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #060927;
@@ -319,6 +320,11 @@
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three .back_circle .front_circle .skill_icon_div #sass {
     width: 3em;
     height: 3em;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three .back_circle .front_circle .skill_description {
+    color: white;
+    font-size: small;
+    display: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three {
     display: flex;
@@ -389,6 +395,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #060927;
@@ -414,6 +421,12 @@
     width: 2.8em;
     height: 2.8em;
     margin-left: -0.4em;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle .skill_description {
+    color: white;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+    display: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three {
     display: flex;
@@ -1033,6 +1046,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #080E2F;
@@ -1094,6 +1108,12 @@
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #heroku {
     height: 3vw;
     width: 3vw;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_description {
+    color: white;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+    display: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle.hovered {
     border: 3px solid #146166;
