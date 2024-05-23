@@ -816,6 +816,28 @@ $buttongrey: rgba(255, 255, 255, 0.664);
     }
 }
 
+@media only screen and (width: 812px) {
+    body {
+        background-color: #58a6ff;
+        #whole_page {
+            .whole_page {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (width: 1024px) {
+    body {
+        background-color: #58a6ff;
+        #whole_page {
+            .whole_page {
+                display: none;
+            }
+        }
+    }
+}
+
 
 // Desktop
 
