@@ -1261,84 +1261,9 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             background-color: $footerblue;
                             // background-color: $skillsteal;
                             // box-shadow: 2px 2px 2px 2px black;
-                            .front_circle {
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                background-color: $darkblue;
-                                background-color: $footerblue;
-                                // background-color: $nextgreen;
-                                border-top: 3px solid $nextgreen;
-                                // border-radius: 50%;
-                                height: 5vw;
-                                width: 5vw;
-                                cursor: pointer;
-                                // box-shadow: 2px 2px 2px black;
-                                // The Icons
-                                .skill_icon_div {
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    // background-color: #00C6C3;
-                                    #html {
-                                        height: 3vw;
-                                        width: 3vw;
-                                    }
-                                    #css {
-                                        height: 3vw;
-                                        width: 3vw;
-                                    }
-                                    #sass {
-                                        height: 3vw;
-                                        width: 3.4vw;
-                                    }
-                                    #react {
-                                        height: 3vw;
-                                        width: 3vw;
-                                    }
-                                    #native {
-                                        height: 3.2vw;
-                                        width: 3.2vw;
-                                    }
-                                    #figma {
-                                        height: 3vw;
-                                        width: 3vw;
-                                    }
-                                    #javascript {
-                                        height: 4vw;
-                                        width: 4vw;
-                                    }
-                                    #python {
-                                        height: 3vw;
-                                        width: 3vw;
-                                    }
-                                    #django {
-                                        height: 3vw;
-                                        width: 3vw;
-                                    }
-                                    #express {
-                                        height: 3vw;
-                                        width: 3vw;
-                                    }
-                                    #firebase {
-                                        height: 2.8vw;
-                                        width: 2.2vw;
-                                    }
-                                    #heroku {
-                                        height: 3vw;
-                                        width: 3vw;
-                                    }
-                                }
-                                .skill_description {
-                                    color: white;
-                                    font-size: small;
-                                    font-family: 'Inter', sans-serif;
-                                    display: none;
-                                }
-                            }
+                            
                         }
-                        .back_circle.hovered {
+                        .back_circle.hover {
                             border: 3px solid $skillsteal;
                         }
                         .skills_circles {

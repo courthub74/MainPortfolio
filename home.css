@@ -1044,78 +1044,7 @@
     background-color: #080E2F;
     background-color: #060927;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #080E2F;
-    background-color: #060927;
-    border-top: 3px solid #00313E;
-    height: 5vw;
-    width: 5vw;
-    cursor: pointer;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #html {
-    height: 3vw;
-    width: 3vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #css {
-    height: 3vw;
-    width: 3vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #sass {
-    height: 3vw;
-    width: 3.4vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #react {
-    height: 3vw;
-    width: 3vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #native {
-    height: 3.2vw;
-    width: 3.2vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #figma {
-    height: 3vw;
-    width: 3vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #javascript {
-    height: 4vw;
-    width: 4vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #python {
-    height: 3vw;
-    width: 3vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #django {
-    height: 3vw;
-    width: 3vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #express {
-    height: 3vw;
-    width: 3vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #firebase {
-    height: 2.8vw;
-    width: 2.2vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_icon_div #heroku {
-    height: 3vw;
-    width: 3vw;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .front_circle .skill_description {
-    color: white;
-    font-size: small;
-    font-family: "Inter", sans-serif;
-    display: none;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle.hovered {
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle.hover {
     border: 3px solid #146166;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles {
