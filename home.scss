@@ -322,7 +322,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 /// SKILLS SECTION
                 .skills_section {
                     background-color: $nextgreen;
-                    height: 100vh;
+                    height: 105vh;
                     .skills_section_content {
                         margin: 0 3em 0 3em;
                         height: 100%;
@@ -355,16 +355,19 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             justify-content: center;
                             flex-direction: column;
                             height: 80%;
+                            height: 90%;
                             // background-color: #146166;
                             margin-top: -30px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
+                            gap: 3em;
                             // THE FIRST SIX
                             .first_six {
                                 display: flex;
                                 flex-direction: column;
                                 // GAP FOR THE TOP TWO
                                 gap: 2em;
+                                gap: 3em;
                                 // automatically columned here
                                 .top_three {
                                     display: flex;
@@ -467,6 +470,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 display: flex;
                                 flex-direction: column;
                                 gap: 2em;
+                                gap: 3em;
                                .top_three {
                                 display: flex;
                                 // HORIZ GAP FOR TOP 3

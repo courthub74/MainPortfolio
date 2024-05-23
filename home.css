@@ -236,7 +236,7 @@
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
-    height: 100vh;
+    height: 105vh;
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
     margin: 0 3em 0 3em;
@@ -266,13 +266,16 @@
     justify-content: center;
     flex-direction: column;
     height: 80%;
+    height: 90%;
     margin-top: -30px;
     gap: 2em;
+    gap: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    gap: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three {
     display: flex;
@@ -362,6 +365,7 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+    gap: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three {
     display: flex;
