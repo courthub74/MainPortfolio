@@ -1282,7 +1282,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     width: 5em;
                                     
                                 }
-                                #line_one.hover {
+                                #line_python.hover {
                                     border: 2px solid $skillsteal;
                                     // opacity: 0;
                                 }
@@ -1321,10 +1321,11 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 }
                             }
                         }
-                        #skill_circle_one.hover {
-                            border: 3px solid $skillsteal;
+                        #python_skill.hover {
+                            border: 5px solid $skillsteal;
                             box-sizing: border-box;
                         }
+                        // POSITIONING OF THE CIRCLES
                         .skills_circles {
                             display: flex;
                             flex-direction: column;

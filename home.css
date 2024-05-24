@@ -1060,7 +1060,7 @@
     width: 100%;
     width: 5em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff #line_one.hover {
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff #line_python.hover {
     border: 2px solid #146166;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents {
@@ -1087,8 +1087,8 @@
     opacity: 1;
     transition: 0.5s all ease-in;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content #skill_circle_one.hover {
-    border: 3px solid #146166;
+  body #whole_page .whole_page .skills_section .skills_section_content #python_skill.hover {
+    border: 5px solid #146166;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles {
