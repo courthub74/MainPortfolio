@@ -376,6 +376,9 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     gap: .5em;
                                     // NOW try to make the gap adjustable
                                     // gap: 5vw;
+
+                                    /////////////////////////////////////////
+                                    /// PHYSICAL CIRCLE
                                     .back_circle {
                                         display: flex;
                                         justify-content: center;
@@ -1247,7 +1250,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             }
                         }
                         // SKILLS CIRCLES 
-                        // Physical
+                        // Physical circle
                         .back_circle {
                             display: flex;
                             justify-content: center;
@@ -1259,16 +1262,16 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             background-color: $nextgreen;
                             background-color: $darkblue;
                             background-color: $footerblue;
-                            box-sizing: border-box;
+                            // box-sizing: border-box;
                             // background-color: $skillsteal;
                             // box-shadow: 2px 2px 2px 2px black;
+                            cursor: pointer;
                             .circle_stuff {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 flex-direction: column;
-                                gap: 4em;
-                                
+                                gap: 2em;
                                 //////////////////
                                 margin: -2em 0 0 0;
                                 cursor: pointer;
@@ -1287,30 +1290,32 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: -1.5em 0 0 0;
+                                    // margin: -1.5em 0 0 0;
                                     // position: fixed;
                                     //////////////////////////
                                     // flex-direction: column;
                                     #python {
                                         width: 4.5em;
                                         height: 4.5em;
-                                        transition: .2s all ease-in;
+                                        // transition: .2s all ease-in;
                                         /////////////////////
                                         position: absolute;
                                     }
                                     #python.hover {
                                         opacity: 0;
+                                        transition: .3s all ease-in;
                                     }
                                     #python_description {
                                         opacity: 0;
-                                    }
-                                    #python_description.hover {
-                                        opacity: 1;
                                         color: white;
                                         font-family: 'Inter', sans-serif;
                                         font-size: 1.5rem;
+                                    }
+                                    #python_description.hover {
+                                        opacity: 1;
                                         transition: .5s all ease-in;
-                                        margin: -3em;
+
+                                        // margin: -3em;
                                         // background-color: blue;
                                     }
                                 }

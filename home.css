@@ -1043,14 +1043,14 @@
     background-color: #00313E;
     background-color: #080E2F;
     background-color: #060927;
-    box-sizing: border-box;
+    cursor: pointer;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 4em;
+    gap: 2em;
     margin: -2em 0 0 0;
     cursor: pointer;
   }
@@ -1067,27 +1067,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -1.5em 0 0 0;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python {
     width: 4.5em;
     height: 4.5em;
-    transition: 0.2s all ease-in;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python.hover {
     opacity: 0;
+    transition: 0.3s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python_description {
     opacity: 0;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python_description.hover {
-    opacity: 1;
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python_description.hover {
+    opacity: 1;
     transition: 0.5s all ease-in;
-    margin: -3em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #skill_circle_one.hover {
     border: 3px solid #146166;
