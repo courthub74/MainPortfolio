@@ -353,6 +353,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         /// PHYSICAL CIRCLE
                         .outer_circle {
                             border: 3px solid $skillsteal;
+                            // border: 3px solid red;
                             background-color: $nextgreen;
                             display: flex;
                             justify-content: center;
@@ -552,9 +553,11 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         }
                                         #javascript_description {
                                             opacity: 0;
+                                            // display: none;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #javascript_description.tapped {
                                             opacity: 1;
@@ -566,6 +569,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                             width: 2.3em;
                                             height: 2.3em;
                                             position: absolute;
+                                            // display: none;
                                         }
                                         #python.tapped {
                                             opacity: 0;
