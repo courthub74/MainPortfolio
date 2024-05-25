@@ -1060,13 +1060,13 @@
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff hr {
     border: 2px solid #00C6C3;
     border: 2px solid #00313E;
-    border: 2px solid #146166;
+    border: 1px solid #146166;
     width: 100%;
     width: 5em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff #line_python.hover {
     border: 2px solid #146166;
-    border: 2px solid #00C6C3;
+    border: 1px solid #00C6C3;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff #line_html.hover {
     border: 2px solid #00C6C3;
@@ -1089,7 +1089,7 @@
     opacity: 0;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #html_description.hover {
     opacity: 1;
@@ -1108,7 +1108,7 @@
     opacity: 0;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #css_description.hover {
     opacity: 1;
@@ -1127,14 +1127,86 @@
     opacity: 0;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #sass_description.hover {
     opacity: 1;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python {
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #react {
     width: 4em;
     height: 4em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #react.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #react_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #react_description.hover {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #native {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #native.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #native_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #native_description.hover {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #figma {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #figma.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #figma_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #figma_description.hover {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #javascript {
+    width: 4.5em;
+    height: 4.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #javascript.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #javascript_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #javascript_description.hover {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python {
+    width: 3.5em;
+    height: 3.5em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python.hover {
@@ -1145,14 +1217,87 @@
     opacity: 0;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #python_description.hover {
     opacity: 1;
   }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #django {
+    width: 3.5em;
+    height: 3.5em;
+    margin-left: -0.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #django.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #django_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #django_description.hover {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #firebase {
+    width: 3.7em;
+    height: 3.7em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #firebase.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #firebase_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #firebase_description.hover {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #heroku {
+    width: 3.5em;
+    height: 3.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #heroku.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #heroku_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #heroku_description.hover {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #aws {
+    width: 4.5em;
+    height: 3.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #aws.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #aws_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .back_circle .circle_stuff .skill_contents #aws_description.hover {
+    opacity: 1;
+  }
   body #whole_page .whole_page .skills_section .skills_section_content #python_skill.hover {
     border: 5px solid #146166;
-    border: 5px solid #00C6C3;
+    border: 3px solid #00C6C3;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles {
