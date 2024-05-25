@@ -352,6 +352,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         // SKILLS CIRCLES
                         .skills_circles {
                             display: flex;
+                            display: none;
                             justify-content: center;
                             flex-direction: column;
                             height: 80%;
@@ -371,6 +372,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 // automatically columned here
                                 .top_three {
                                     display: flex;
+                                    
                                     // HORIZ GAP FOR TOP 3
                                     gap: 1em;
                                     gap: .5em;
@@ -379,52 +381,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
 
                                     /////////////////////////////////////////
                                     /// PHYSICAL CIRCLE
-                                    .back_circle {
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        background-color: $footerblue;
-                                        border-radius: 50%;
-                                        width: 25vw;
-                                        height: 23vw;
-                                        width: 27vw;
-                                        height: 25vw;
-                                        box-shadow: 1px 1px 1px black;
-                                        .front_circle {
-                                            display: flex;
-                                            flex-direction: column;
-                                            justify-content: center;
-                                            align-items: center;
-                                            background-color: $footerblue;
-                                            border-top: 3px solid $nextgreen;
-                                            height: 20vw;
-                                            height: 4.5em;
-                                            .skill_icon_div {
-                                                // The Skills Icons
-                                                #html {
-                                                    width: 2.5em;
-                                                    height: 2.5em;
-                                                    width: 3em;
-                                                    height: 2.9em;
-                                                }
-                                                #css {
-                                                    width: 2.5em;
-                                                    height: 2.5em;
-                                                    width: 3em;
-                                                    height: 2.9em;
-                                                }
-                                                #sass {
-                                                    width: 3em;
-                                                    height: 3em;
-                                            
-                                                }
-                                            }
-                                            .skill_description {
-                                                color: white;
-                                                font-size: small;
-                                                display: none;
-                                            }
-                                        }
+                                    .outer_circle {
+
                                     }
                                 }
                                 .bottom_three {
