@@ -1,8 +1,7 @@
 // Query the outer Circle
-
-// Query the inner Circle
 let html_skill_circle = document.getElementById('html_skill');
 let python_skill_circle = document.getElementById('python_skill');
+
 
 // Query the Line
 let line_html = document.getElementById('line_html');
@@ -28,7 +27,16 @@ if(widthSkills.matches) {
     // ALL OF THE CIRCLES
     // HTML
     html_skill_circle.addEventListener('mouseover', () => {
-        
+        html_skill_circle.classList.add('hover');
+        line_html.classList.add('hover');
+        html_skill.classList.add('hover');
+        html_description.classList.add('hover');
+    })
+    html_skill_circle.addEventListener('mouseout', () => {
+        html_skill_circle.classList.remove('hover');
+        line_html.classList.remove('hover');
+        html_skill.classList.remove('hover');
+        html_description.classList.remove('hover');
     })
     // PYTHON
     // add Event listener to the circle
