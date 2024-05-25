@@ -262,208 +262,363 @@
     width: 2em;
     height: 2em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles {
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle {
+    border: 3px solid #146166;
+    background-color: #00313E;
     display: flex;
-    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 23vw;
+    width: 30vw;
+    box-sizing: border-box;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: #060927;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    margin: -2em 0 0 0;
+    cursor: pointer;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff hr {
+    border: 2px solid #00C6C3;
+    border: 2px solid #00313E;
+    border: 1px solid #146166;
+    width: 100%;
+    width: 2em;
+    margin-top: 1em;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_python.hover {
+    border: 1px solid #00C6C3;
+    transition: 0.2s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_html.hover {
+    border: 1px solid #00C6C3;
+    transition: 0.2s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html_description.tapped {
+    opacity: 1;
+    transition: 0.5s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css_description.tapped {
+    opacity: 1;
+    transition: 0.5s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma.hover {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript.tapped {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python {
+    width: 2.3em;
+    height: 2.3em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python.tapped {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django {
+    width: 2.3em;
+    height: 2.3em;
+    margin-left: -0.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django.tapped {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase.tapped {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku.tapped {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku_description.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws {
+    width: 3em;
+    height: 2.5em;
+    position: absolute;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws.tapped {
+    opacity: 0;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws_description {
+    opacity: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws_description.hover {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content #html_skill.tapped {
+    border: 3px solid #00C6C3;
+    transition: 0.2s all ease-in;
+    box-sizing: border-box;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content #python_skill.tapped {
+    border: 3px solid #00C6C3;
+    transition: 0.2s all ease-in;
+    box-sizing: border-box;
+  }
+  body #whole_page .whole_page .skills_section .skills_circles {
+    display: flex;
     justify-content: center;
     flex-direction: column;
     height: 80%;
     height: 90%;
-    margin-top: -30px;
+    margin-top: -60px;
     gap: 2em;
     gap: 3em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six {
+  body #whole_page .whole_page .skills_section .skills_circles .first_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
     gap: 3em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .top_three {
+  body #whole_page .whole_page .skills_section .skills_circles .first_six .top_three {
     display: flex;
     gap: 1em;
     gap: 0.5em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three {
+  body #whole_page .whole_page .skills_section .skills_circles .first_six .bottom_three {
     display: flex;
     gap: 1em;
     gap: 0.5em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #060927;
-    border-radius: 50%;
-    width: 25vw;
-    height: 23vw;
-    width: 27vw;
-    height: 25vw;
-    box-shadow: 1px 1px 1px black;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle .front_circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #060927;
-    border-top: 3px solid #00313E;
-    height: 20vw;
-    height: 4.5em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle .front_circle .skill_icon_div #react {
-    width: 2.5em;
-    height: 2.5em;
-    width: 3em;
-    height: 3em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle .front_circle .skill_icon_div #native {
-    width: 2.8em;
-    height: 2.8em;
-    width: 3.2em;
-    height: 3.2em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six .bottom_three .back_circle .front_circle .skill_icon_div #figma {
-    width: 2.5em;
-    height: 2.5em;
-    width: 3em;
-    height: 3em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six {
+  body #whole_page .whole_page .skills_section .skills_circles .second_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
     gap: 3em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three {
+  body #whole_page .whole_page .skills_section .skills_circles .second_six .top_three {
     display: flex;
     gap: 1em;
     gap: 0.5em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #060927;
-    border-radius: 50%;
-    width: 25vw;
-    height: 23vw;
-    width: 27vw;
-    height: 25vw;
-    box-shadow: 1px 1px 1px black;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #060927;
-    border-top: 3px solid #00313E;
-    height: 20vw;
-    height: 4.5em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle .skill_icon_div #javascript {
-    width: 3em;
-    height: 3em;
-    width: 3.5em;
-    height: 3.5em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle .skill_icon_div #python {
-    width: 2.5em;
-    height: 2.5em;
-    width: 2.8em;
-    height: 2.8em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle .skill_icon_div #django {
-    width: 2.5em;
-    height: 2.5em;
-    width: 2.8em;
-    height: 2.8em;
-    margin-left: -0.4em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .top_three .back_circle .front_circle .skill_description {
-    color: white;
-    font-size: small;
-    font-family: "Inter", sans-serif;
-    display: none;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three {
+  body #whole_page .whole_page .skills_section .skills_circles .second_six .bottom_three {
     display: flex;
     gap: 1em;
     gap: 0.5em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #060927;
-    border-radius: 50%;
-    width: 25vw;
-    height: 23vw;
-    width: 27vw;
-    height: 25vw;
-    box-shadow: 1px 1px 1px black;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #060927;
-    border-top: 3px solid #00313E;
-    height: 20vw;
-    height: 4.5em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle .skill_icon_div #express {
-    width: 2.2em;
-    height: 2.2em;
-    width: 3em;
-    height: 3em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle .skill_icon_div #firebase {
-    width: 2.2em;
-    height: 2.3em;
-    width: 3em;
-    height: 3em;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .second_six .bottom_three .back_circle .front_circle .skill_icon_div #heroku {
-    width: 2.5em;
-    height: 2.5em;
-    width: 3em;
-    height: 3em;
-  }
-  body #whole_page .whole_page .experience_section {
+  body #whole_page .experience_section {
     background-color: #080E2F;
     height: 110vh;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content {
+  body #whole_page .experience_section .experience_section_content {
     margin: 0 3em 0 3em;
     height: 100%;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .title_nav {
+  body #whole_page .experience_section .experience_section_content .title_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em 0 0 0;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .title_nav .section_title {
+  body #whole_page .experience_section .experience_section_content .title_nav .section_title {
     font-family: "Inter", sans-serif;
     font-size: 2.2rem;
     color: white;
     font-weight: bold;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_desktop_nav ul {
+  body #whole_page .experience_section .experience_section_content .experience_desktop_nav ul {
     display: none;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .mobile_nav #mobile_nav {
+  body #whole_page .experience_section .experience_section_content .mobile_nav #mobile_nav {
     width: 2em;
     height: 2em;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares {
+  body #whole_page .experience_section .experience_section_content .experience_squares {
     display: flex;
     flex-direction: column;
     gap: 2em;
     margin-top: 70px;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -474,7 +629,7 @@
     height: 10em;
     width: 100%;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -483,27 +638,27 @@
     height: 100%;
     margin-top: 4em;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #courdevelops {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #courdevelops {
     width: 4.5em;
     height: 4.5em;
     margin: -1em 0 0 0;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content p {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content p {
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 1rem;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #slea {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #slea {
     width: 4em;
     height: 4em;
     margin: -0.5em 0 0 0;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #r1rcm {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #r1rcm {
     width: 3.8em;
     height: 2.8em;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls {
     opacity: 0;
     display: flex;
     gap: 2em;
@@ -512,24 +667,24 @@
     border-top: 2px solid #00313E;
     border-top: 2px solid #146166;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls p {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls p {
     font-size: 0.8rem;
     font-weight: lighter;
     padding-top: 0.5em;
   }
-  body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls.clicked {
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls.clicked {
     opacity: 1;
   }
-  body #whole_page .whole_page #footer_section_id {
+  body #whole_page #footer_section_id {
     display: none;
   }
-  body #whole_page .mobile_footer {
+  body .mobile_footer {
     background-color: #00C6C3;
     background-color: #060927;
     border-top: 3px solid #00313E;
     height: 7%;
   }
-  body #whole_page .mobile_footer .footer_elements {
+  body .mobile_footer .footer_elements {
     margin: 3em 0 0 0;
     display: flex;
     align-items: center;
@@ -537,46 +692,46 @@
     justify-content: space-between;
     gap: 2em;
   }
-  body #whole_page .mobile_footer .footer_elements .socials_footer {
+  body .mobile_footer .footer_elements .socials_footer {
     display: flex;
     align-items: center;
     gap: 2.5em;
     gap: 10vw;
   }
-  body #whole_page .mobile_footer .footer_elements .socials_footer #github {
+  body .mobile_footer .footer_elements .socials_footer #github {
     height: 2.5em;
     width: 2.5em;
     height: 1.5em;
     width: 1.5em;
   }
-  body #whole_page .mobile_footer .footer_elements .socials_footer #linkedin {
+  body .mobile_footer .footer_elements .socials_footer #linkedin {
     height: 3em;
     width: 3em;
     height: 2em;
     width: 2em;
   }
-  body #whole_page .mobile_footer .footer_elements .socials_footer #instagram {
+  body .mobile_footer .footer_elements .socials_footer #instagram {
     height: 3.4em;
     width: 3.4em;
     height: 2.4em;
     width: 2.4em;
   }
-  body #whole_page .mobile_footer .footer_elements .socials_footer #twitter {
+  body .mobile_footer .footer_elements .socials_footer #twitter {
     height: 3em;
     width: 3em;
     height: 2em;
     width: 2em;
   }
-  body #whole_page .mobile_footer .footer_elements .email_footer {
+  body .mobile_footer .footer_elements .email_footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  body #whole_page .mobile_footer .footer_elements .email_footer .email_submit {
+  body .mobile_footer .footer_elements .email_footer .email_submit {
     display: flex;
     align-items: center;
   }
-  body #whole_page .mobile_footer .footer_elements .email_footer .email_submit input {
+  body .mobile_footer .footer_elements .email_footer .email_submit input {
     padding: 1em 8em;
     padding: 0.5em 5vw;
     border-top-left-radius: 5px;
@@ -588,10 +743,10 @@
     color: #00C6C3;
     color: white;
   }
-  body #whole_page .mobile_footer .footer_elements .email_footer .email_submit input:focus {
+  body .mobile_footer .footer_elements .email_footer .email_submit input:focus {
     border: 2px solid #00C6C3;
   }
-  body #whole_page .mobile_footer .footer_elements .email_footer .email_submit ::-moz-placeholder {
+  body .mobile_footer .footer_elements .email_footer .email_submit ::-moz-placeholder {
     color: gray;
     color: #060927;
     color: #00313E;
@@ -600,7 +755,7 @@
     font-family: "Inter", sans-serif;
     text-align: center;
   }
-  body #whole_page .mobile_footer .footer_elements .email_footer .email_submit ::placeholder {
+  body .mobile_footer .footer_elements .email_footer .email_submit ::placeholder {
     color: gray;
     color: #060927;
     color: #00313E;
@@ -609,7 +764,7 @@
     font-family: "Inter", sans-serif;
     text-align: center;
   }
-  body #whole_page .mobile_footer .footer_elements .email_footer .email_submit button {
+  body .mobile_footer .footer_elements .email_footer .email_submit button {
     border: 2px solid #00C6C3;
     border: 2px solid white;
     border-left: none;
@@ -625,10 +780,10 @@
     cursor: pointer;
     font-family: "Inter", sans-serif;
   }
-  body #whole_page .mobile_footer .footer_elements .footer_logo {
+  body .mobile_footer .footer_elements .footer_logo {
     margin-top: 1em;
   }
-  body #whole_page .mobile_footer .footer_elements .footer_logo small {
+  body .mobile_footer .footer_elements .footer_logo small {
     color: white;
     display: flex;
     align-items: center;
@@ -637,7 +792,7 @@
     gap: 0.5em;
     filter: opacity(80%);
   }
-  body #whole_page .mobile_footer .footer_elements .footer_logo small #footer_logo {
+  body .mobile_footer .footer_elements .footer_logo small #footer_logo {
     width: 2em;
     height: 2em;
   }
