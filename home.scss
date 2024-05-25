@@ -951,6 +951,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             #home_logo {
                                 border-radius: 50%;
                                 border: 2px solid $nextgreen;
+                                // border: 2px solid $skillsteal;
                             }
                         }
                         .home_square {
@@ -971,6 +972,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 background-color: $nextgreen;
                                 background-color: $footerblue;
                                 border-top: 2px solid $nextgreen;
+                                // border-top: 2px solid $skillsteal;
                                 padding: .5em 2.5em;
                                 margin: 0 0 0 -1.2em;
                             }
@@ -1007,6 +1009,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 background-color: #bbbcd3;
                                 background-color: #A7A8CD;
                                 background-color: $nextgreen;
+                                // background-color: $skillsteal;
                                 color: white;
                                 font-weight: bold;
                                 // color: $footerblue;
@@ -1024,6 +1027,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 .about_section {
                     background-color: $nextgreen;
                     // background-color: $darkblue;
+                    // background-color: $skillsteal;
                     padding: 2em 2em;
                     // padding: 10em 2em;
                     .about_section_content {
@@ -1099,6 +1103,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             // border-top: 2px solid $darkblue;
                             a {
                                 color: $nextgreen;
+                                // color: $skillsteal;
                                 // color: white;
                                 text-decoration: none;
                                 font-weight: bold;
@@ -1185,7 +1190,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 width: 27em;
                                 width: 25.5%;
                                 border-top: 3px solid $nextgreen;
-                                // border-top: 3px solid $skillsteal;
+                                border-top: 3px solid $skillsteal;
                                 box-shadow: 2px 2px 2px black;
                                 .more_portfolio_info {
                                     display: none;
@@ -1262,7 +1267,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             background-color: $nextgreen;
                             background-color: $darkblue;
                             background-color: $footerblue;
-                            // box-sizing: border-box;
+                            border: 3px solid $skillsteal;
+                            box-sizing: border-box;
                             // background-color: $skillsteal;
                             // box-shadow: 2px 2px 2px 2px black;
                             cursor: pointer;
@@ -1275,17 +1281,28 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 //////////////////
                                 margin: -2em 0 0 0;
                                 cursor: pointer;
+                                //////////////////////
+                                /// STYLING FOR THE SKILL TOP LINE
                                 hr {
                                     border: 2px solid $jobdescription;
                                     border: 2px solid $nextgreen;
+                                    border: 2px solid $skillsteal;
                                     width: 100%;
                                     width: 5em;
                                     
                                 }
+                                ///////////////////////////
+                                /// HOVERING STYLE FOR EACH LINE
                                 #line_python.hover {
                                     border: 2px solid $skillsteal;
+                                    border: 2px solid $jobdescription;
                                     // opacity: 0;
                                 }
+                                #line_html.hover {
+                                    border: 2px solid $jobdescription;
+                                }
+                                ////////////////////////////////////
+                                /// CONTENTS INSIDE OF THE SKILL CIRCLE
                                 .skill_contents {
                                     display: flex;
                                     justify-content: center;
@@ -1294,11 +1311,80 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     // position: fixed;
                                     //////////////////////////
                                     // flex-direction: column;
-                                    #python {
+
+
+                                    // ALL OF THE LOGOS
+                                    //////////////////////////
+                                    //////////////////////////
+                                    // HTML
+                                    #html {
                                         width: 4.5em;
                                         height: 4.5em;
-                                        // transition: .2s all ease-in;
-                                        /////////////////////
+                                        position: absolute;
+                                    }
+                                    #html.hover {
+                                        opacity: 0;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #html_description {
+                                        opacity: 0;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1.5rem;
+                                    }
+                                    #html_description.hover {
+                                        opacity: 1;
+                                        transition: .5s all ease-in;
+                                    }
+                                    //////////////////////////
+                                    //////////////////////////
+                                    /// CSS
+                                    #css {
+                                        width: 5em;
+                                        height: 5.2em;
+                                        position: absolute;
+                                    }
+                                    #css.hover {
+                                        opacity: 0;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #css_description {
+                                        opacity: 0;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1.5rem;
+                                    }
+                                    #css_description.hover {
+                                        opacity: 1;
+                                        transition: .5s all ease-in;
+                                    }
+                                    //////////////////////////
+                                    //////////////////////////
+                                    /// SASS
+                                    #sass {
+                                        width: 4em;
+                                        height: 4em;
+                                        position: absolute; 
+                                    }
+                                    #sass.hover {
+                                        opacity: 0;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #sass_description {
+                                        opacity: 0;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1.5rem;
+                                    }
+                                    #sass_description.hover {
+                                        opacity: 1;
+                                    }
+                                    //////////////////////////
+                                    //////////////////////////
+                                    // PYTHON
+                                    #python {
+                                        width: 4em;
+                                        height: 4em;
                                         position: absolute;
                                     }
                                     #python.hover {
@@ -1313,16 +1399,13 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     }
                                     #python_description.hover {
                                         opacity: 1;
-                                        transition: .5s all ease-in;
-
-                                        // margin: -3em;
-                                        // background-color: blue;
                                     }
                                 }
                             }
                         }
                         #python_skill.hover {
                             border: 5px solid $skillsteal;
+                            border: 5px solid $jobdescription;
                             box-sizing: border-box;
                         }
                         // POSITIONING OF THE CIRCLES
@@ -1444,7 +1527,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 width: 25.5%;
                                 width: 28%;
                                 border-top: 3px solid $nextgreen;
-                                // border-top: 3px solid $skillsteal;
+                                border-top: 3px solid $skillsteal;
                                 box-shadow: 2px 2px 2px black;
                                 transition: .3s all ease-in-out;
                                 
@@ -1500,16 +1583,19 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             }
                             #experience_square_one.hover {
                                 border-top: 2px solid $skillsteal;
+                                border-top: 2px solid $jobdescription;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_two.hover {
                                 border-top: 2px solid $skillsteal;
+                                border-top: 2px solid $jobdescription;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_three.hover {
                                 border-top: 2px solid $skillsteal;
+                                border-top: 2px solid $jobdescription;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
@@ -1590,7 +1676,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                             }
                                             input.contact {
                                                 border: 2px solid $jobdescription;
-                                                // border: 2px solid rgb(54, 54, 240);
+                                                border: 2px solid rgb(54, 54, 240);
+                                                // border: 2px solid white;
                                                 // box-shadow: 4px 4px 4px gray;
                                                 transition: .3s all ease-out;
                                             }
@@ -1617,6 +1704,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                                 color: $footerblue;
                                                 background: none;
                                                 background-color: white;
+                                                // background-color: rgb(54, 54, 240);
                                                 padding: 1em 3em;
                                                 font-weight: bold;
                                                 cursor: pointer;
@@ -1625,13 +1713,15 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                             }
                                             button.contact {
                                                 background-color: $jobdescription;
-                                                // background-color: rgb(54, 54, 240);
-                                                // background-color: $skillsteal;
+                                                background-color: rgb(54, 54, 240);
                                                 border: 2px solid $jobdescription;
+                                                border: 2px solid white;
+                                                border: 2px solid rgb(54, 54, 240);
                                                 // border: 2px solid $skillsteal;
                                                 // border: 2px solid rgb(54, 54, 240);
                                                 // box-shadow: 4px 4px 4px gray ;
                                                 color: $footerblue;
+                                                color: white;
                                             }
                                         }
                                     }
