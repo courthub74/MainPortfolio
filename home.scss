@@ -258,7 +258,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             flex-direction: column;
                             // justify-content: center;
                             // align-items: center;
-                            gap: 2em;
+                            gap: 3em;
                             margin-top: 70px;
                             // EACH SQUARE
                             .square {
@@ -270,7 +270,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 border-top: 3px solid $nextgreen;
                                 border-top: 3px solid $skillsteal;
                                 height: 19%;
-                                height: 10em;
+                                height: 8em;
                                 width: 100%;
                                 // width: 50em;
                                 box-shadow: 1px 1px 1px black;

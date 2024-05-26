@@ -186,7 +186,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 3em;
     margin-top: 70px;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square {
@@ -197,7 +197,7 @@
     border-top: 3px solid #00313E;
     border-top: 3px solid #146166;
     height: 19%;
-    height: 10em;
+    height: 8em;
     width: 100%;
     box-shadow: 1px 1px 1px black;
   }
