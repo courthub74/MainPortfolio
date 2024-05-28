@@ -372,6 +372,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 // width: 20vw;
                                 height: 100%;
                                 width: 100%;
+                                height: 90%;
+                                width: 90%;
                                 background-color: $footerblue;
                                 // border: 3px solid $skillsteal;
                                 box-sizing: border-box;
@@ -394,6 +396,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         width: 100%;
                                         width: 2em;
                                         margin-top: 1em;
+                                        // display: none;
+                                        opacity: 0;
                                     }
                                     ///////////////////////////
                                     /// HOVERING STYLE FOR EACH LINE
