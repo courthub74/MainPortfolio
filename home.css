@@ -238,7 +238,7 @@
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
-    height: 105vh;
+    height: 110vh;
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
     margin: 0 3em 0 3em;
@@ -270,8 +270,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 23vw;
-    width: 30vw;
+    height: 7em;
+    width: 7em;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle {
@@ -281,8 +281,6 @@
     border-radius: 50%;
     height: 100%;
     width: 100%;
-    height: 90%;
-    width: 90%;
     background-color: #060927;
     box-sizing: border-box;
     cursor: pointer;
@@ -303,7 +301,6 @@
     width: 100%;
     width: 2em;
     margin-top: 1em;
-    opacity: 0;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_python.hover {
     border: 1px solid #00C6C3;
@@ -321,6 +318,8 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html {
     width: 2.5em;
     height: 2.5em;
+    width: 4em;
+    height: 4em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html.hover {
@@ -340,6 +339,8 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css {
     width: 3em;
     height: 3em;
+    width: 4em;
+    height: 4em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css.hover {
@@ -554,7 +555,7 @@
     flex-direction: column;
     height: 80%;
     height: 90%;
-    margin-top: -60px;
+    margin-top: -40px;
     gap: 2em;
     gap: 3em;
   }

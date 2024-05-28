@@ -323,7 +323,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 /// SKILLS SECTION
                 .skills_section {
                     background-color: $nextgreen;
-                    height: 105vh;
+                    height: 110vh;
                     .skills_section_content {
                         margin: 0 3em 0 3em;
                         height: 100%;
@@ -360,8 +360,10 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             justify-content: center;
                             align-items: center;
                             border-radius: 50%;
-                            height: 23vw;
-                            width: 30vw;
+                            // height: 23vw;
+                            // width: 30vw;
+                            height: 7em;
+                            width: 7em;
                             box-sizing: border-box;
                             .back_circle {
                                 display: flex;
@@ -372,8 +374,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 // width: 20vw;
                                 height: 100%;
                                 width: 100%;
-                                height: 90%;
-                                width: 90%;
+                                // height: 90%;
+                                // width: 90%;
                                 background-color: $footerblue;
                                 // border: 3px solid $skillsteal;
                                 box-sizing: border-box;
@@ -397,7 +399,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         width: 2em;
                                         margin-top: 1em;
                                         // display: none;
-                                        opacity: 0;
+                                        // opacity: 0;
                                     }
                                     ///////////////////////////
                                     /// HOVERING STYLE FOR EACH LINE
@@ -422,6 +424,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         #html {
                                             width: 2.5em;
                                             height: 2.5em;
+                                            width: 4em;
+                                            height: 4em;
                                             position: absolute;
                                         }
                                         #html.hover {
@@ -444,6 +448,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                         #css {
                                             width: 3em;
                                             height: 3em;
+                                            width: 4em;
+                                            height: 4em;
                                             position: absolute;
                                         }
                                         #css.hover {
@@ -692,7 +698,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             box-sizing: border-box;
                         }
                         }
-                        // SKILLS CIRCLES POSITION
+                        // SKILLS CIRCLES POSITIONING
                         .skills_circles {
                             display: flex;
                             // display: none;
@@ -700,7 +706,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             flex-direction: column;
                             height: 80%;
                             height: 90%;
-                            margin-top: -60px;
+                            margin-top: -40px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
                             gap: 3em;
