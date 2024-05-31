@@ -97,6 +97,8 @@
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #twitter_home {
     width: 2.7em;
     height: 2.7em;
+    width: 2.2em;
+    height: 2.2em;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more {
     border-top: 2px solid white;
@@ -711,22 +713,22 @@
     gap: 10vw;
   }
   body .mobile_footer .footer_elements .socials_footer #github {
-    height: 2.5em;
-    width: 2.5em;
     height: 1.5em;
     width: 1.5em;
+    height: 2.2em;
+    width: 2.2em;
   }
   body .mobile_footer .footer_elements .socials_footer #linkedin {
     height: 3em;
     width: 3em;
-    height: 2em;
-    width: 2em;
+    height: 2.7em;
+    width: 2.7em;
   }
   body .mobile_footer .footer_elements .socials_footer #instagram {
     height: 3.4em;
     width: 3.4em;
-    height: 2.4em;
-    width: 2.4em;
+    height: 3.1em;
+    width: 3.1em;
   }
   body .mobile_footer .footer_elements .socials_footer #twitter {
     height: 3em;
@@ -745,7 +747,7 @@
   }
   body .mobile_footer .footer_elements .email_footer .email_submit input {
     padding: 1em 8em;
-    padding: 0.5em 5vw;
+    padding: 0.5em 6vw;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
@@ -788,7 +790,7 @@
     color: #060927;
     background: none;
     background-color: white;
-    padding: 0.5em 1em;
+    padding: 0.5em 1.2em;
     font-weight: bold;
     cursor: pointer;
     font-family: "Inter", sans-serif;

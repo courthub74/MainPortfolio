@@ -134,6 +134,8 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 #twitter_home {
                                     width: 2.7em;
                                     height: 2.7em;
+                                    width: 2.2em;
+                                    height: 2.2em;
                                 }
                                 // img {
                                 //     width: 2.3em;
@@ -903,22 +905,22 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                         gap: 10vw;
                         // filter: opacity(80%);
                         #github {
-                            height: 2.5em;
-                            width: 2.5em;
                             height: 1.5em;
                             width: 1.5em;
+                            height: 2.2em;
+                            width: 2.2em;
                         }
                         #linkedin {
                             height: 3em;
                             width: 3em;
-                            height: 2em;
-                            width: 2em;
+                            height: 2.7em;
+                            width: 2.7em;
                         }
                         #instagram {
                             height: 3.4em;
                             width: 3.4em;
-                            height: 2.4em;
-                            width: 2.4em;
+                            height: 3.1em;
+                            width: 3.1em;
                         }
                         #twitter {
                             height: 3em;
@@ -943,7 +945,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             align-items: center;
                             input {
                                 padding: 1em 8em;
-                                padding: .5em 5vw;
+                                padding: .5em 6vw;
                                 border-top-left-radius: 5px;
                                 border-bottom-left-radius: 5px;
                                 border: none;
@@ -982,7 +984,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 background: none;
                                 background-color: white;
                                 // background-color: blue;
-                                padding: .5em 1em;
+                                padding: .5em 1.2em;
                                 font-weight: bold;
                                 cursor: pointer;
                                 font-family: 'Inter', sans-serif;
