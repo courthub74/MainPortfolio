@@ -196,7 +196,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                             font-size: .9rem;
                             line-height: 1.5em;
                             margin: 1.5em 0 0 0;
-                            width: 95%;
+                            width: 100%;
                         }
                         .resume_dload {
                             background-color: white;
@@ -949,6 +949,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 border: none;
                                 border: 2px solid $jobdescription;
                                 border: 2px solid white;
+                                border-right: none;
                                 background: none;
                                 color: $jobdescription;
                                 color: white;
