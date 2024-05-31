@@ -1607,16 +1607,19 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.hover {
     border-top: 5px solid #146166;
+    border-top: 5px solid #00C6C3;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_two.hover {
     border-top: 5px solid #146166;
+    border-top: 5px solid #00C6C3;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_three.hover {
     border-top: 5px solid #146166;
+    border-top: 5px solid #00C6C3;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
@@ -1683,7 +1686,6 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input.contact {
     border: 2px solid #00C6C3;
-    border: 2px solid rgb(54, 54, 240);
     transition: 0.3s all ease-out;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit ::-moz-placeholder {
@@ -1722,10 +1724,7 @@
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit button.contact {
     background-color: #00C6C3;
-    background-color: rgb(54, 54, 240);
     border: 2px solid #00C6C3;
-    border: 2px solid white;
-    border: 2px solid rgb(54, 54, 240);
     color: #060927;
     color: white;
   }

@@ -1974,20 +1974,20 @@ $buttongrey: #61677A;
                             }
                             #experience_square_one.hover {
                                 border-top: 5px solid $skillsteal;
-                                // border-top: 3px solid $jobdescription;
+                                border-top: 5px solid $jobdescription;
                                 // border-top: 3px solid white;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_two.hover {
                                 border-top: 5px solid $skillsteal;
-                                // border-top: 3px solid $jobdescription;
+                                border-top: 5px solid $jobdescription;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_three.hover {
                                 border-top: 5px solid $skillsteal;
-                                // border-top: 3px solid $jobdescription;
+                                border-top: 5px solid $jobdescription;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
@@ -2072,7 +2072,7 @@ $buttongrey: #61677A;
                                             }
                                             input.contact {
                                                 border: 2px solid $jobdescription;
-                                                border: 2px solid rgb(54, 54, 240);
+                                                // border: 2px solid rgb(54, 54, 240);
                                                 // border: 2px solid white;
                                                 // box-shadow: 4px 4px 4px gray;
                                                 transition: .3s all ease-out;
@@ -2109,13 +2109,10 @@ $buttongrey: #61677A;
                                             }
                                             button.contact {
                                                 background-color: $jobdescription;
-                                                background-color: rgb(54, 54, 240);
+                                                // background-color: rgb(54, 54, 240);
                                                 border: 2px solid $jobdescription;
-                                                border: 2px solid white;
-                                                border: 2px solid rgb(54, 54, 240);
-                                                // border: 2px solid $skillsteal;
+                                                // border: 2px solid white;
                                                 // border: 2px solid rgb(54, 54, 240);
-                                                // box-shadow: 4px 4px 4px gray ;
                                                 color: $footerblue;
                                                 color: white;
                                             }
