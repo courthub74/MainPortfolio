@@ -11,6 +11,7 @@ $footerblue: #060927;
 $nextgreen: #00313E;
 // Portfolio backgrounds
 $portfolios: #36395D;
+$squaresback: #33365B;
 // Resume Button Green
 $resumebutton: #507E81;
 // Skills Teal
@@ -27,7 +28,8 @@ $firstblue: #58a6ff;
 $savethis: #7273ad;
 
 // Grey Button line
-$buttongrey: rgba(255, 255, 255, 0.664);
+// $buttongrey: rgba(255, 255, 255, 0.664);
+$buttongrey: #61677A;
 
 // WHOLE PAGE
 * {
@@ -269,8 +271,10 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $footerblue;
-                                border-top: 3px solid $nextgreen;
-                                border-top: 3px solid $skillsteal;
+                                background-color: $portfolios;
+                                background-color: #33365B;
+                                border-top: 3px solid $buttongrey;
+                                // border-top: 3px solid $skillsteal;
                                 height: 19%;
                                 height: 8em;
                                 width: 100%;
@@ -312,6 +316,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                     border: none;
                                     .portfolio_more_button {
                                         width: 1.4em;
+                                        width: 2em;
                                         height: 1em;
                                     }
                                 }
@@ -816,8 +821,10 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $footerblue;
+                                background-color: $squaresback;
                                 border-top: 3px solid $nextgreen;
                                 border-top: 3px solid $skillsteal;
+                                border-top: 3px solid $buttongrey;
                                 box-shadow: 1px 1px 1px black;
                                 height: 19%;
                                 height: 10em;
@@ -889,6 +896,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                 background-color: $jobdescription;
                 background-color: $footerblue;
                 border-top: 3px solid $nextgreen;
+                // border-top: 3px solid $skillsteal;
                 height: 7%;
                 // height: 5%;
                 .footer_elements {
@@ -1376,6 +1384,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 align-items: center;
                                 cursor: pointer;
                                 background-color: $footerblue;
+                                background-color: $squaresback;
                                 // padding: 15em 3em;
                                 padding: 15px;
                                 height: 35em;
@@ -1383,6 +1392,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 width: 25.5%;
                                 border-top: 3px solid $nextgreen;
                                 border-top: 3px solid $skillsteal;
+                                border-top: 3px solid $buttongrey;
                                 box-shadow: 2px 2px 2px black;
                                 .more_portfolio_info {
                                     display: none;
@@ -1897,6 +1907,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 align-items: center;
                                 cursor: pointer;
                                 background-color: $footerblue;
+                                background-color: $squaresback;
                                 // padding: 15em 3em;
                                 height: 29em;
                                 width: 27em;
@@ -1904,6 +1915,7 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 width: 28%;
                                 border-top: 3px solid $nextgreen;
                                 border-top: 3px solid $skillsteal;
+                                border-top: 5px solid $buttongrey;
                                 box-shadow: 2px 2px 2px black;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
@@ -1961,20 +1973,21 @@ $buttongrey: rgba(255, 255, 255, 0.664);
                                 }
                             }
                             #experience_square_one.hover {
-                                // border-top: 2px solid $skillsteal;
-                                border-top: 3px solid $jobdescription;
+                                border-top: 5px solid $skillsteal;
+                                // border-top: 3px solid $jobdescription;
+                                // border-top: 3px solid white;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_two.hover {
-                                border-top: 2px solid $skillsteal;
-                                border-top: 3px solid $jobdescription;
+                                border-top: 5px solid $skillsteal;
+                                // border-top: 3px solid $jobdescription;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_three.hover {
-                                border-top: 2px solid $skillsteal;
-                                border-top: 3px solid $jobdescription;
+                                border-top: 5px solid $skillsteal;
+                                // border-top: 3px solid $jobdescription;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }

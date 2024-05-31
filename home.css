@@ -196,8 +196,9 @@
     justify-content: center;
     align-items: center;
     background-color: #060927;
-    border-top: 3px solid #00313E;
-    border-top: 3px solid #146166;
+    background-color: #36395D;
+    background-color: #33365B;
+    border-top: 3px solid #61677A;
     height: 19%;
     height: 8em;
     width: 100%;
@@ -230,6 +231,7 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .more_portfolio_info .portfolio_more_button {
     width: 1.4em;
+    width: 2em;
     height: 1em;
   }
   body #whole_page .whole_page .skills_section {
@@ -630,8 +632,10 @@
     justify-content: center;
     align-items: center;
     background-color: #060927;
+    background-color: #33365B;
     border-top: 3px solid #00313E;
     border-top: 3px solid #146166;
+    border-top: 3px solid #61677A;
     box-shadow: 1px 1px 1px black;
     height: 19%;
     height: 10em;
@@ -1107,12 +1111,14 @@
     align-items: center;
     cursor: pointer;
     background-color: #060927;
+    background-color: #33365B;
     padding: 15px;
     height: 35em;
     width: 27em;
     width: 25.5%;
     border-top: 3px solid #00313E;
     border-top: 3px solid #146166;
+    border-top: 3px solid #61677A;
     box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .more_portfolio_info {
@@ -1542,12 +1548,14 @@
     align-items: center;
     cursor: pointer;
     background-color: #060927;
+    background-color: #33365B;
     height: 29em;
     width: 27em;
     width: 25.5%;
     width: 28%;
     border-top: 3px solid #00313E;
     border-top: 3px solid #146166;
+    border-top: 5px solid #61677A;
     box-shadow: 2px 2px 2px black;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
@@ -1598,19 +1606,17 @@
     transition: 0.3s all ease-in-out;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.hover {
-    border-top: 3px solid #00C6C3;
+    border-top: 5px solid #146166;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_two.hover {
-    border-top: 2px solid #146166;
-    border-top: 3px solid #00C6C3;
+    border-top: 5px solid #146166;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_three.hover {
-    border-top: 2px solid #146166;
-    border-top: 3px solid #00C6C3;
+    border-top: 5px solid #146166;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
