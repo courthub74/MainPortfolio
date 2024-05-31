@@ -272,6 +272,8 @@
     border-radius: 50%;
     height: 7em;
     width: 7em;
+    height: 5.5em;
+    width: 6em;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle {
@@ -318,8 +320,6 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html {
     width: 2.5em;
     height: 2.5em;
-    width: 4em;
-    height: 4em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html.hover {
@@ -337,10 +337,8 @@
     transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css {
-    width: 3em;
-    height: 3em;
-    width: 4em;
-    height: 4em;
+    width: 2.8em;
+    height: 2.8em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css.hover {
@@ -358,8 +356,8 @@
     transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.2em;
+    height: 2.2em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass.hover {
@@ -376,8 +374,8 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.1em;
+    height: 2.1em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react.hover {
@@ -394,9 +392,10 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
     position: absolute;
+    margin-top: -0.2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native.hover {
     opacity: 0;
@@ -412,9 +411,10 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.1em;
+    height: 2.1em;
     position: absolute;
+    margin-top: -0.2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma.hover {
     opacity: 0;
@@ -430,8 +430,8 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript {
-    width: 3em;
-    height: 3em;
+    width: 2.6em;
+    height: 2.6em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript.tapped {
@@ -449,9 +449,10 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python {
-    width: 2.3em;
-    height: 2.3em;
+    width: 2em;
+    height: 2em;
     position: absolute;
+    margin-top: -0.2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python.tapped {
     opacity: 0;
@@ -467,8 +468,8 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django {
-    width: 2.3em;
-    height: 2.3em;
+    width: 2em;
+    height: 2em;
     margin-left: -0.5em;
     position: absolute;
   }
@@ -486,9 +487,11 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.2em;
+    height: 2.2em;
     position: absolute;
+    margin-right: -0.3em;
+    margin-top: -0.2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase.tapped {
     opacity: 0;
@@ -504,8 +507,9 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.1em;
+    height: 2.1em;
+    margin-top: -0.2em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku.tapped {
@@ -522,8 +526,9 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws {
-    width: 3em;
-    height: 2.5em;
+    width: 2.3em;
+    height: 2em;
+    margin-top: -0.4em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws.tapped {
