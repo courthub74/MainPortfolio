@@ -1227,6 +1227,10 @@
     border: 1px solid #00C6C3;
     transition: 0.2s all ease-in;
   }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_sass.hover {
+    border: 1px solid #00C6C3;
+    transition: 0.2s all ease-in;
+  }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents {
     display: flex;
     justify-content: center;
@@ -1462,6 +1466,11 @@
     box-sizing: border-box;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #css_skill.hover {
+    border: 3px solid #00C6C3;
+    transition: 0.2s all ease-in;
+    box-sizing: border-box;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content #sass_skill.hover {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;

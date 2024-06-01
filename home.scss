@@ -1508,7 +1508,8 @@ $buttongrey: #61677A;
                                         width: 5em;
                                         
                                     }
-                                    ///////////////////////////
+                                    ////////////////////////////////
+                                    ////////////////////////////////
                                     /// HOVERING STYLE FOR EACH LINE
                                     #line_python.hover {
                                         border: 1px solid $jobdescription;
@@ -1519,6 +1520,10 @@ $buttongrey: #61677A;
                                         transition: .2s all ease-in;
                                     }
                                     #line_css.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_sass.hover {
                                         border: 1px solid $jobdescription;
                                         transition: .2s all ease-in;
                                     }
@@ -1808,6 +1813,11 @@ $buttongrey: #61677A;
                             box-sizing: border-box;
                         }
                         #css_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #sass_skill.hover {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
