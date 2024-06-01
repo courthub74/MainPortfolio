@@ -842,7 +842,7 @@ $buttongrey: #61677A;
                                     #courdevelops {
                                         width: 4.5em;
                                         height: 4.5em;
-                                        margin: -1em 0 0 0;
+                                        margin: -1em 0 0 -.2em;
                                     }
                                     p {
                                         color: white;
@@ -854,11 +854,12 @@ $buttongrey: #61677A;
                                     #slea {
                                         width: 4em;
                                         height: 4em;
-                                        margin: -.5em 0 0 0;
+                                        margin: -.5em 0 0 -.3em;
                                     }
                                     #r1rcm {
                                         width: 3.8em;
                                         height: 2.8em;
+                                        margin: 0 0 .5em -.3em;
                                     }
                                     .experience_rolls {
                                         opacity: 0;
@@ -877,6 +878,14 @@ $buttongrey: #61677A;
                                     }
                                     .experience_rolls.clicked {
                                         opacity: 1;
+                                    }
+                                    .more_experience_info {
+                                        background: none;
+                                        border: none;
+                                        .experience_more_button {
+                                            width: 2em;
+                                            height: 1em;
+                                        }
                                     }
                                 }
                             }

@@ -653,7 +653,7 @@
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #courdevelops {
     width: 4.5em;
     height: 4.5em;
-    margin: -1em 0 0 0;
+    margin: -1em 0 0 -0.2em;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content p {
     color: white;
@@ -664,11 +664,12 @@
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #slea {
     width: 4em;
     height: 4em;
-    margin: -0.5em 0 0 0;
+    margin: -0.5em 0 0 -0.3em;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #r1rcm {
     width: 3.8em;
     height: 2.8em;
+    margin: 0 0 0.5em -0.3em;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls {
     opacity: 0;
@@ -686,6 +687,14 @@
   }
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls.clicked {
     opacity: 1;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .more_experience_info {
+    background: none;
+    border: none;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .more_experience_info .experience_more_button {
+    width: 2em;
+    height: 1em;
   }
   body #whole_page #footer_section_id {
     display: none;
