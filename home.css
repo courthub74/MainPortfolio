@@ -1608,18 +1608,21 @@
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.hover {
     border-top: 5px solid #146166;
     border-top: 5px solid #00C6C3;
+    border-top: 5px solid white;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_two.hover {
     border-top: 5px solid #146166;
     border-top: 5px solid #00C6C3;
+    border-top: 5px solid white;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_three.hover {
     border-top: 5px solid #146166;
     border-top: 5px solid #00C6C3;
+    border-top: 5px solid white;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
@@ -1726,7 +1729,6 @@
     background-color: #00C6C3;
     border: 2px solid #00C6C3;
     color: #060927;
-    color: white;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .footer_logo small {
     color: white;
