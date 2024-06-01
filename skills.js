@@ -1,19 +1,22 @@
 // Query the outer Circle
 let html_skill_circle = document.getElementById('html_skill');
 let python_skill_circle = document.getElementById('python_skill');
-
+let css_skill_circle = document.getElementById('css_skill');
 
 // Query the Line
 let line_html = document.getElementById('line_html');
 let line_python = document.getElementById('line_python');
+let line_css = document.getElementById('line_css');
 
 // Query the Logo
 let python_skill = document.getElementById('python');
 let html_skill = document.getElementById('html');
+let css_skill = document.getElementById('css');
 
 // Query the Description
 let python_description = document.getElementById('python_description');
 let html_description = document.getElementById('html_description');
+let css_description = document.getElementById('css_description');
 
 // Mobile
 
@@ -37,6 +40,19 @@ if(widthSkills.matches) {
         line_html.classList.remove('hover');
         html_skill.classList.remove('hover');
         html_description.classList.remove('hover');
+    });
+    // CSS 
+    css_skill_circle.addEventListener('mouseover', () => {
+        css_skill_circle.classList.add('hover');
+        line_css.classList.add('hover');
+        css_skill.classList.add('hover');
+        css_description.classList.add('hover');
+    });
+    css_skill_circle.addEventListener('mouseout', () => {
+        css_skill_circle.classList.remove('hover');
+        line_css.classList.remove('hover');
+        css_skill.classList.remove('hover');
+        css_description.classList.remove('hover');
     })
     // PYTHON
     // add Event listener to the circle

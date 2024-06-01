@@ -970,7 +970,7 @@ $buttongrey: #61677A;
                                 padding: .5em 6vw;
                                 border-top-left-radius: 5px;
                                 border-bottom-left-radius: 5px;
-                                border: none;
+                                // border: none;
                                 border: 2px solid $jobdescription;
                                 border: 2px solid white;
                                 border-right: none;
@@ -1518,6 +1518,10 @@ $buttongrey: #61677A;
                                         border: 1px solid $jobdescription;
                                         transition: .2s all ease-in;
                                     }
+                                    #line_css.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
                                     ////////////////////////////////////
                                     /// CONTENTS INSIDE OF THE SKILL CIRCLE
                                     .skill_contents {
@@ -1803,6 +1807,11 @@ $buttongrey: #61677A;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
+                        #css_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
                         // POSITIONING OF THE CIRCLES
                         .skills_circles {
                             display: flex;
@@ -1957,6 +1966,9 @@ $buttongrey: #61677A;
                                         font-family: 'Inter', sans-serif;
                                         font-weight: bold;
                                         // background-color: #00313E;
+                                    }
+                                    .more_experience_info {
+                                        display: none;
                                     }
                                     .experience_rolls {
                                         opacity: 0;
