@@ -309,6 +309,10 @@
     border: 1px solid #00C6C3;
     transition: 0.2s all ease-in;
   }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_css.tapped {
+    border: 1px solid #00C6C3;
+    transition: 0.2s all ease-in;
+  }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents {
     display: flex;
     justify-content: center;
@@ -342,7 +346,7 @@
     height: 3.2em;
     position: absolute;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css.hover {
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css.tapped {
     opacity: 0;
     transition: 0.3s all ease-in;
   }
@@ -350,7 +354,7 @@
     opacity: 0;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #css_description.tapped {
     opacity: 1;
@@ -557,6 +561,11 @@
     display: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #html_skill.tapped {
+    border: 3px solid #00C6C3;
+    transition: 0.2s all ease-in;
+    box-sizing: border-box;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content #css_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;

@@ -414,6 +414,10 @@ $buttongrey: #61677A;
                                         border: 1px solid $jobdescription;
                                         transition: .2s all ease-in;
                                     }
+                                    #line_css.tapped {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
                                     ////////////////////////////////////
                                     /// CONTENTS INSIDE OF THE SKILL CIRCLE
                                     .skill_contents {
@@ -455,7 +459,7 @@ $buttongrey: #61677A;
                                             height: 3.2em;
                                             position: absolute;
                                         }
-                                        #css.hover {
+                                        #css.tapped {
                                             opacity: 0;
                                             transition: .3s all ease-in;
                                         }
@@ -463,7 +467,7 @@ $buttongrey: #61677A;
                                             opacity: 0;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
-                                            font-size: 1.2rem;
+                                            font-size: 1rem;
                                         }
                                         #css_description.tapped {
                                             opacity: 1;
@@ -719,6 +723,11 @@ $buttongrey: #61677A;
                         ///////////////////////
                         // OUTER RING FOR HOVER
                         #html_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #css_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
