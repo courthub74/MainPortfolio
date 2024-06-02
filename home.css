@@ -301,11 +301,11 @@
     width: 2.5em;
     margin-top: 1em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_python.hover {
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_python.tapped {
     border: 1px solid #00C6C3;
     transition: 0.2s all ease-in;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_html.hover {
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_html.tapped {
     border: 1px solid #00C6C3;
     transition: 0.2s all ease-in;
   }
@@ -321,7 +321,7 @@
     height: 3em;
     position: absolute;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html.hover {
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html.tapped {
     opacity: 0;
     transition: 0.3s all ease-in;
   }
@@ -329,7 +329,7 @@
     opacity: 0;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #html_description.tapped {
     opacity: 1;

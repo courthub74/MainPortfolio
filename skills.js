@@ -36,6 +36,24 @@ let figma_description = document.getElementById('figma_description');
 
 // Mobile
 
+// Here is where we apply click event listener
+
+html_skill_circle.addEventListener('click', () => {
+    html_skill_circle.classList.add('tapped');
+    line_html.classList.add('tapped');
+    html_skill.classList.add('tapped');
+    html_description.classList.add('tapped');
+    // add a function that resets the circle
+    function reset_html() {
+        html_skill_circle.classList.remove('tapped');
+        line_html.classList.remove('tapped');
+        html_skill.classList.remove('tapped');
+        html_description.classList.remove('tapped');
+    }
+    // set the timer to reset it
+    setTimeout(reset_html, 3500);
+});
+
 // Desktops
 
 // For any screen larger than the average tablet

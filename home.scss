@@ -406,11 +406,11 @@ $buttongrey: #61677A;
                                     }
                                     ///////////////////////////
                                     /// HOVERING STYLE FOR EACH LINE
-                                    #line_python.hover {
+                                    #line_python.tapped {
                                         border: 1px solid $jobdescription;
                                         transition: .2s all ease-in;
                                     }
-                                    #line_html.hover {
+                                    #line_html.tapped {
                                         border: 1px solid $jobdescription;
                                         transition: .2s all ease-in;
                                     }
@@ -431,7 +431,7 @@ $buttongrey: #61677A;
                                             height: 3em;
                                             position: absolute;
                                         }
-                                        #html.hover {
+                                        #html.tapped {
                                             opacity: 0;
                                             transition: .3s all ease-in;
                                         }
@@ -439,7 +439,7 @@ $buttongrey: #61677A;
                                             opacity: 0;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
-                                            font-size: 1.2rem;
+                                            font-size: 1rem;
                                         }
                                         #html_description.tapped {
                                             opacity: 1;
