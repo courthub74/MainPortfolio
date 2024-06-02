@@ -433,6 +433,8 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript {
     width: 2.6em;
     height: 2.6em;
+    width: 2.3em;
+    height: 2.7em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript.tapped {
@@ -452,6 +454,8 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python {
     width: 2em;
     height: 2em;
+    width: 2.5em;
+    height: 2.5em;
     position: absolute;
     margin-top: -0.2em;
   }

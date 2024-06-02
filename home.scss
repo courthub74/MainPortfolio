@@ -565,7 +565,10 @@ $buttongrey: #61677A;
                                         #javascript {
                                             width: 2.6em;
                                             height: 2.6em;
+                                            width: 2.3em;
+                                            height: 2.7em;
                                             position: absolute; 
+                                            // margin-top: -.4em;
                                         }
                                         #javascript.tapped {
                                             opacity: 0;
@@ -588,6 +591,8 @@ $buttongrey: #61677A;
                                         #python {
                                             width: 2em;
                                             height: 2em;
+                                            width: 2.5em;
+                                            height: 2.5em;
                                             position: absolute;
                                             margin-top: -.2em;
                                             // display: none;
