@@ -775,8 +775,6 @@
   body .mobile_footer .footer_elements .email_footer .email_submit input {
     padding: 1em 8em;
     padding: 0.5em 6vw;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     border: 2px solid #00C6C3;
     border: 2px solid white;
     border-right: none;
@@ -809,8 +807,6 @@
     border: 2px solid #00C6C3;
     border: 2px solid white;
     border-left: none;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     color: #00C6C3;
     color: white;
     color: #060927;
