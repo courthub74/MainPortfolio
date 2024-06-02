@@ -268,10 +268,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 7em;
-    width: 7em;
-    height: 5.5em;
-    width: 6em;
+    height: 8em;
+    width: 8em;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle {
@@ -279,8 +277,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 100%;
-    width: 100%;
+    height: 85%;
+    width: 85%;
     background-color: #060927;
     box-sizing: border-box;
     cursor: pointer;
@@ -300,6 +298,7 @@
     border: 1px solid #146166;
     width: 100%;
     width: 2em;
+    width: 2.5em;
     margin-top: 1em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff #line_python.hover {
@@ -374,6 +373,8 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react {
     width: 2.1em;
     height: 2.1em;
+    width: 2.8em;
+    height: 2.8em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react.hover {
@@ -411,6 +412,8 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma {
     width: 2.1em;
     height: 2.1em;
+    width: 3em;
+    height: 3em;
     position: absolute;
     margin-top: -0.2em;
   }
@@ -487,9 +490,9 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase {
     width: 2.2em;
     height: 2.2em;
+    width: 3em;
+    height: 2.7em;
     position: absolute;
-    margin-right: -0.3em;
-    margin-top: -0.2em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase.tapped {
     opacity: 0;
@@ -524,9 +527,8 @@
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws {
-    width: 2.3em;
-    height: 2em;
-    margin-top: -0.4em;
+    width: 3em;
+    height: 2.7em;
     position: absolute;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws.tapped {
@@ -541,6 +543,12 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws_description.hover {
     opacity: 1;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content #sass_skill {
+    display: none;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content #django_skill {
+    display: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #html_skill.tapped {
     border: 3px solid #00C6C3;
@@ -570,13 +578,11 @@
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six .top_three {
     display: flex;
-    gap: 1em;
-    gap: 0.5em;
+    gap: 1.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six .bottom_three {
     display: flex;
-    gap: 1em;
-    gap: 0.5em;
+    gap: 1.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six {
     display: flex;
@@ -586,13 +592,11 @@
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six .top_three {
     display: flex;
-    gap: 1em;
-    gap: 0.5em;
+    gap: 1.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six .bottom_three {
     display: flex;
-    gap: 1em;
-    gap: 0.5em;
+    gap: 1.5em;
   }
   body #whole_page .experience_section {
     background-color: #080E2F;

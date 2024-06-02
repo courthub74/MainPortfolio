@@ -368,22 +368,16 @@ $buttongrey: #61677A;
                             justify-content: center;
                             align-items: center;
                             border-radius: 50%;
-                            height: 7em;
-                            width: 7em;
-                            height: 5.5em;
-                            width: 6em;
+                            height: 8em;
+                            width: 8em;
                             box-sizing: border-box;
                             .back_circle {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 border-radius: 50%;
-                                // height: 20vw;
-                                // width: 20vw;
-                                height: 100%;
-                                width: 100%;
-                                // height: 80%;
-                                // width: 80%;
+                                height: 85%;
+                                width: 85%;
                                 background-color: $footerblue;
                                 // border: 3px solid $skillsteal;
                                 box-sizing: border-box;
@@ -405,6 +399,7 @@ $buttongrey: #61677A;
                                         border: 1px solid $skillsteal;
                                         width: 100%;
                                         width: 2em;
+                                        width: 2.5em;
                                         margin-top: 1em;
                                         // display: none;
                                         // opacity: 0;
@@ -501,6 +496,8 @@ $buttongrey: #61677A;
                                         #react {
                                             width: 2.1em;
                                             height: 2.1em;
+                                            width: 2.8em;
+                                            height: 2.8em;
                                             position: absolute; 
                                         }
                                         #react.hover {
@@ -544,6 +541,8 @@ $buttongrey: #61677A;
                                         #figma {
                                             width: 2.1em;
                                             height: 2.1em;
+                                            width: 3em;
+                                            height: 3em;
                                             position: absolute;
                                             margin-top: -.2em;  
                                         }
@@ -634,9 +633,11 @@ $buttongrey: #61677A;
                                         #firebase {
                                             width: 2.2em;
                                             height: 2.2em;
+                                            width: 3em;
+                                            height: 2.7em;
                                             position: absolute;
-                                            margin-right: -.3em;
-                                            margin-top: -.2em;
+                                            // margin-right: -.3em;
+                                            // margin-top: -.2em;
                                         }
                                         #firebase.tapped{
                                             opacity: 0;
@@ -678,9 +679,9 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         // AWS
                                         #aws {
-                                            width: 2.3em;
-                                            height: 2em;
-                                            margin-top: -.4em;
+                                            width: 3em;
+                                            height: 2.7em;
+                                            // margin-top: -.4em;
                                             // margin-left: -.5em;
                                             position: absolute;
                                         }
@@ -701,6 +702,16 @@ $buttongrey: #61677A;
                                 }
                             }
                         }
+                        ///////////////////////
+                        /// TO HIDE THE 3RD CIRCLES
+                        #sass_skill {
+                            display: none;
+                        }
+                        #django_skill {
+                            display: none;
+                        }
+                        ///////////////////////
+                        ///////////////////////
                         // OUTER RING FOR HOVER
                         #html_skill.tapped {
                             border: 3px solid $jobdescription;
@@ -738,16 +749,16 @@ $buttongrey: #61677A;
                                     display: flex;
                                     
                                     // HORIZ GAP FOR TOP 3
-                                    gap: 1em;
-                                    gap: .5em;
+                                    gap: 1.5em;
+                                    // gap: .5em;
                                     // NOW try to make the gap adjustable
                                     // gap: 5vw;
                                 }
                                 .bottom_three {
                                     display: flex;
                                     // HORIZ GAP FOR THE SECOND ROW
-                                    gap: 1em;
-                                    gap: .5em;
+                                    gap: 1.5em;
+                                    // gap: .5em;
                                 }
                             }
                             // THE SECOND SIX
@@ -760,14 +771,14 @@ $buttongrey: #61677A;
                                .top_three {
                                 display: flex;
                                 // HORIZ GAP FOR TOP 3
-                                gap: 1em;
-                                gap: .5em;
+                                gap: 1.5em;
+                                // gap: .5em;
                                }
                                .bottom_three {
                                     display: flex;
                                     // HORIZ GAP FOR BOTTOM 3
-                                    gap: 1em;
-                                    gap: .5em;
+                                    gap: 1.5em;
+                                    // gap: .5em;
                                }
                             }
                         }
