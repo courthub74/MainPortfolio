@@ -1032,14 +1032,15 @@ $buttongrey: #61677A;
                             flex-direction: column;
                             align-items: center;
                             // gap: .5em;
-                            gap: 2em;
-                            label {
-                                color: $greentop;
-                                font-family: 'Inter', sans-serif;
-                                text-align: left;
-                                // background-color: #00C6C3;
-                                width: 100%;
-                            }
+                            // gap: 2em;
+                        
+                            // label {
+                            //     color: $greentop;
+                            //     font-family: 'Inter', sans-serif;
+                            //     text-align: left;
+                            //     // background-color: #00C6C3;
+                            //     width: 100%;
+                            // }
                             input {
                                 padding: 1em 8em;
                                 padding: .5em 5em;
@@ -1056,16 +1057,20 @@ $buttongrey: #61677A;
                                 border: none;
                             }
                             textarea {
-                                padding: 2em 5.5em;
+                                padding: 2em 5.8em;
                                 // padding: 4em 7.5em;
-                                border: none;
-                                border-bottom: 2px solid $nextgreen;
+                                border: 2px solid white;
+                                border-bottom: none;
+                                // border-bottom: 2px solid $nextgreen;
                                 // border-top: 2px solid $greentop;
                                 // border-top: 2px solid $buttongrey;
                                 background-color: $footerblue;
                                 color: white;
                                 resize: none;
                                 // width: 100%;
+                                button {
+                                    color: white;
+                                }
                             }
                             ::placeholder {
                                 color: $footerblue;
@@ -1081,10 +1086,12 @@ $buttongrey: #61677A;
                                 border-top: 2px solid $greentop;
                                 color: $jobdescription;
                                 color: white;
+                                color: $footerblue;
                                 background-color: $nextgreen;
+                                background-color: white;
                                 padding: .5em 1.2em;
                                 padding: 1em 8.7em;
-                                padding: .5em 4em;
+                                padding: .5em 7.5em;
                                 font-weight: bold;
                                 cursor: pointer;
                                 font-family: 'Inter', sans-serif;

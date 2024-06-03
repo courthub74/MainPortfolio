@@ -806,13 +806,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2em;
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit label {
-    color: rgba(255, 255, 255, 0.664);
-    font-family: "Inter", sans-serif;
-    text-align: left;
-    width: 100%;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit input {
     padding: 1em 8em;
@@ -827,12 +820,15 @@
     border: none;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit textarea {
-    padding: 2em 5.5em;
-    border: none;
-    border-bottom: 2px solid #00313E;
+    padding: 2em 5.8em;
+    border: 2px solid white;
+    border-bottom: none;
     background-color: #060927;
     color: white;
     resize: none;
+  }
+  body .mobile_footer .footer_elements .email_footer .email_submit textarea button {
+    color: white;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit ::-moz-placeholder {
     color: #060927;
@@ -855,10 +851,12 @@
     border-top: 2px solid rgba(255, 255, 255, 0.664);
     color: #00C6C3;
     color: white;
+    color: #060927;
     background-color: #00313E;
+    background-color: white;
     padding: 0.5em 1.2em;
     padding: 1em 8.7em;
-    padding: 0.5em 4em;
+    padding: 0.5em 7.5em;
     font-weight: bold;
     cursor: pointer;
     font-family: "Inter", sans-serif;
