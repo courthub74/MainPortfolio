@@ -117,6 +117,7 @@
   }
   body #whole_page .whole_page .about_section .about_section_content {
     margin: 0 3em 0 3em;
+    margin: 0 1em 0 1em;
   }
   body #whole_page .whole_page .about_section .about_section_content .title_nav {
     display: flex;
@@ -164,6 +165,7 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content {
     margin: 0 3em 0 3em;
+    margin: 0 1em 0 1em;
     height: 100%;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
@@ -618,6 +620,7 @@
   }
   body #whole_page .experience_section .experience_section_content {
     margin: 0 3em 0 3em;
+    margin: 0 1em 0 1em;
     height: 100%;
   }
   body #whole_page .experience_section .experience_section_content .title_nav {
