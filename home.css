@@ -837,6 +837,7 @@
     color: rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     text-align: center;
+    font-size: 0.8rem;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit ::placeholder {
     color: #060927;
@@ -845,6 +846,7 @@
     color: rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     text-align: center;
+    font-size: 0.8rem;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit button {
     border: none;
