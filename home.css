@@ -240,6 +240,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
     margin: 0 3em 0 3em;
+    margin: 0 1em 0 1em;
     height: 100%;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .title_nav {
@@ -268,8 +269,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 8em;
-    width: 8em;
+    height: 7em;
+    width: 10em;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle {
@@ -277,8 +278,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 85%;
-    width: 85%;
+    height: 90%;
+    width: 90%;
     background-color: #060927;
     box-sizing: border-box;
     cursor: pointer;
@@ -554,12 +555,6 @@
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws_description.hover {
     opacity: 1;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content #sass_skill {
-    display: none;
-  }
-  body #whole_page .whole_page .skills_section .skills_section_content #django_skill {
-    display: none;
-  }
   body #whole_page .whole_page .skills_section .skills_section_content #html_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
@@ -583,32 +578,39 @@
     height: 90%;
     margin-top: -40px;
     gap: 2em;
+    gap: 1em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    gap: 1em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six .top_three {
     display: flex;
     gap: 1.5em;
+    gap: 0.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six .bottom_three {
     display: flex;
     gap: 1.5em;
+    gap: 0.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    gap: 1em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six .top_three {
     display: flex;
     gap: 1.5em;
+    gap: 0.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six .bottom_three {
     display: flex;
     gap: 1.5em;
+    gap: 0.5em;
   }
   body #whole_page .experience_section {
     background-color: #080E2F;

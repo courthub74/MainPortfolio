@@ -333,6 +333,7 @@ $buttongrey: #61677A;
                     height: 125vh;
                     .skills_section_content {
                         margin: 0 3em 0 3em;
+                        margin: 0 1em 0 1em;
                         height: 100%;
                         // width: 100%;
                         .title_nav {
@@ -368,16 +369,18 @@ $buttongrey: #61677A;
                             justify-content: center;
                             align-items: center;
                             border-radius: 50%;
-                            height: 8em;
-                            width: 8em;
+                            // height: 8em;
+                            // width: 8em;
+                            height: 7em;
+                            width: 10em;
                             box-sizing: border-box;
                             .back_circle {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 border-radius: 50%;
-                                height: 85%;
-                                width: 85%;
+                                height: 90%;
+                                width: 90%;
                                 background-color: $footerblue;
                                 // border: 3px solid $skillsteal;
                                 box-sizing: border-box;
@@ -713,12 +716,12 @@ $buttongrey: #61677A;
                         }
                         ///////////////////////
                         /// TO HIDE THE 3RD CIRCLES
-                        #sass_skill {
-                            display: none;
-                        }
-                        #django_skill {
-                            display: none;
-                        }
+                        // #sass_skill {
+                        //     display: none;
+                        // }
+                        // #django_skill {
+                        //     display: none;
+                        // }
                         ///////////////////////
                         ///////////////////////
                         // OUTER RING FOR HOVER
@@ -749,22 +752,21 @@ $buttongrey: #61677A;
                             margin-top: -40px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
-                            // gap: 3em;
-                            // background-color: #36395D;
+                            gap: 1em;
                             // THE FIRST SIX
                             .first_six {
                                 display: flex;
                                 flex-direction: column;
                                 // GAP FOR THE TOP TWO
                                 gap: 2em;
-                                // gap: 3em;
+                                gap: 1em;
                                 // automatically columned here
                                 .top_three {
                                     display: flex;
                                     
                                     // HORIZ GAP FOR TOP 3
                                     gap: 1.5em;
-                                    // gap: .5em;
+                                    gap: .5em;
                                     // NOW try to make the gap adjustable
                                     // gap: 5vw;
                                 }
@@ -772,7 +774,7 @@ $buttongrey: #61677A;
                                     display: flex;
                                     // HORIZ GAP FOR THE SECOND ROW
                                     gap: 1.5em;
-                                    // gap: .5em;
+                                    gap: .5em;
                                 }
                             }
                             // THE SECOND SIX
@@ -781,18 +783,18 @@ $buttongrey: #61677A;
                                 display: flex;
                                 flex-direction: column;
                                 gap: 2em;
-                                // gap: 3em;
+                                gap: 1em;
                                .top_three {
                                 display: flex;
                                 // HORIZ GAP FOR TOP 3
                                 gap: 1.5em;
-                                // gap: .5em;
+                                gap: .5em;
                                }
                                .bottom_three {
                                     display: flex;
                                     // HORIZ GAP FOR BOTTOM 3
                                     gap: 1.5em;
-                                    // gap: .5em;
+                                    gap: .5em;
                                }
                             }
                         }
