@@ -923,6 +923,12 @@ $buttongrey: #61677A;
                                     }
                                 }
                             }
+                            /////////////////////////////////
+                            /////////////////////////////////
+                            /// EXPERIENCE SQUARES TO RESIZE
+                            #experience_square_one.tapped {
+                                height: 15em;
+                            }
                         }
                     }
                 }
@@ -1026,7 +1032,7 @@ $buttongrey: #61677A;
                             }
                             textarea {
                                 padding: 4em 5.5em;
-                                padding: 4em 7em;
+                                padding: 4em 7.5em;
                                 border: 2px solid $nextgreen;
                                 border: none;
                                 border-top: 2px solid $greentop;
@@ -1052,7 +1058,7 @@ $buttongrey: #61677A;
                                 color: white;
                                 background-color: $nextgreen;
                                 padding: .5em 1.2em;
-                                padding: 1.5em 8.4em;
+                                padding: 1em 8.7em;
                                 font-weight: bold;
                                 cursor: pointer;
                                 font-family: 'Inter', sans-serif;

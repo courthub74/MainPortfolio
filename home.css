@@ -719,6 +719,9 @@
     width: 2em;
     height: 1em;
   }
+  body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.tapped {
+    height: 15em;
+  }
   body #whole_page #footer_section_id {
     display: none;
   }
@@ -802,7 +805,7 @@
   }
   body .mobile_footer .footer_elements .email_footer .email_submit textarea {
     padding: 4em 5.5em;
-    padding: 4em 7em;
+    padding: 4em 7.5em;
     border: 2px solid #00313E;
     border: none;
     border-top: 2px solid rgba(255, 255, 255, 0.664);
@@ -834,7 +837,7 @@
     color: white;
     background-color: #00313E;
     padding: 0.5em 1.2em;
-    padding: 1.5em 8.4em;
+    padding: 1em 8.7em;
     font-weight: bold;
     cursor: pointer;
     font-family: "Inter", sans-serif;

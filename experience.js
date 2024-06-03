@@ -1,4 +1,4 @@
-// Query the titles and Logos
+// Query the Whole Box
 
 let job_1 = document.getElementById('experience_square_one');
 
@@ -6,7 +6,7 @@ let job_2 = document.getElementById('experience_square_two');
 
 let job_3 = document.getElementById('experience_square_three');
 
-// Query the experience rolls
+// Query the experience rolls (the information)
 
 let roll_1 = document.getElementById('roll_one');
 
@@ -14,13 +14,16 @@ let roll_2 = document.getElementById('roll_two');
 
 let roll_3 = document.getElementById('roll_three');
 
-// Query the Boxes
+// Query the Boxes (To Light up the top on Desktop)
 
 let box_1 = document.getElementById('experience_square_one');
 
 let box_2 = document.getElementById('experience_square_two');
 
 let box_3 = document.getElementById('experience_square_three');
+
+// Query the Arrows (for Mobile)
+
 
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
@@ -31,6 +34,7 @@ let box_3 = document.getElementById('experience_square_three');
 // Press the Title Function (pointerdown)
 job_1.addEventListener('pointerdown', () => {
     console.log('Job One Clicked');
+    // 
 });
 
 job_2.addEventListener('pointerdown', () => {
