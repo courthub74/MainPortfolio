@@ -239,7 +239,7 @@
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
-    height: 125vh;
+    height: 110vh;
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
     margin: 0 3em 0 3em;
@@ -580,7 +580,7 @@
     height: 80%;
     height: 90%;
     margin-top: -40px;
-    margin-top: -150px;
+    margin-top: -80px;
     gap: 2em;
     gap: 1em;
   }
@@ -736,6 +736,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 2em;
+    gap: 3em;
   }
   body .mobile_footer .footer_elements .socials_footer {
     display: flex;
@@ -780,7 +781,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit label {
     color: rgba(255, 255, 255, 0.664);
@@ -801,7 +802,7 @@
     border: none;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit textarea {
-    padding: 1em 5.5em;
+    padding: 2em 5.5em;
     border: 2px solid #00313E;
     background-color: #060927;
     color: white;

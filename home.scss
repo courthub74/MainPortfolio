@@ -335,7 +335,7 @@ $buttongrey: #61677A;
                 /// SKILLS SECTION
                 .skills_section {
                     background-color: $nextgreen;
-                    height: 125vh;
+                    height: 110vh;
                     .skills_section_content {
                         margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
@@ -755,7 +755,7 @@ $buttongrey: #61677A;
                             height: 80%;
                             height: 90%;
                             margin-top: -40px;
-                            margin-top: -150px;
+                            margin-top: -80px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
                             gap: 1em;
@@ -949,6 +949,7 @@ $buttongrey: #61677A;
                     flex-direction: column;
                     justify-content: space-between;
                     gap: 2em;
+                    gap: 3em;
                     .socials_footer {
                         display: flex;
                         align-items: center;
@@ -1000,7 +1001,7 @@ $buttongrey: #61677A;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            gap: 1em;
+                            gap: 2em;
                             label {
                                 color: $greentop;
                                 font-family: 'Inter', sans-serif;
@@ -1024,7 +1025,7 @@ $buttongrey: #61677A;
                                 border: none;
                             }
                             textarea {
-                                padding: 1em 5.5em;
+                                padding: 2em 5.5em;
                                 border: 2px solid $nextgreen;
                                 // border: none;
                                 // border-bottom: $nextgreen 2px solid;
