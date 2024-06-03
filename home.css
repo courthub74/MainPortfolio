@@ -727,6 +727,7 @@
     background-color: #060927;
     border-top: 3px solid #00313E;
     height: 7%;
+    height: 10%;
   }
   body .mobile_footer .footer_elements {
     margin: 3em 0 0 0;
@@ -777,37 +778,48 @@
   }
   body .mobile_footer .footer_elements .email_footer .email_submit {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 1em;
+  }
+  body .mobile_footer .footer_elements .email_footer .email_submit label {
+    color: rgba(255, 255, 255, 0.664);
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    width: 100%;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit input {
     padding: 1em 8em;
-    padding: 0.5em 6vw;
-    border: 2px solid #00C6C3;
-    border: 2px solid white;
-    border-right: none;
-    background: none;
+    padding: 0.5em 5em;
+    border: none;
+    border-bottom: 2px solid #00313E;
+    background-color: #060927;
     color: #00C6C3;
     color: white;
-    display: none;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit input:focus {
-    border: 2px solid #00C6C3;
+    border: none;
+  }
+  body .mobile_footer .footer_elements .email_footer .email_submit textarea {
+    padding: 1em 5.5em;
+    border: 2px solid #00313E;
+    background-color: #060927;
+    color: white;
+    resize: none;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit ::-moz-placeholder {
-    color: gray;
     color: #060927;
     color: #00313E;
     color: #00C6C3;
-    color: white;
+    color: rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     text-align: center;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit ::placeholder {
-    color: gray;
     color: #060927;
     color: #00313E;
     color: #00C6C3;
-    color: white;
+    color: rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     text-align: center;
   }
@@ -816,10 +828,9 @@
     border-top: 2px solid rgba(255, 255, 255, 0.664);
     color: #00C6C3;
     color: white;
-    background: none;
     background-color: #00313E;
     padding: 0.5em 1.2em;
-    padding: 0.8em 7em;
+    padding: 0.8em 9em;
     font-weight: bold;
     cursor: pointer;
     font-family: "Inter", sans-serif;
