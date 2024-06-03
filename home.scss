@@ -1001,7 +1001,7 @@ $buttongrey: #61677A;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            gap: 2em;
+                            // gap: .5em;
                             label {
                                 color: $greentop;
                                 font-family: 'Inter', sans-serif;
@@ -1025,11 +1025,13 @@ $buttongrey: #61677A;
                                 border: none;
                             }
                             textarea {
-                                padding: 2em 5.5em;
+                                padding: 4em 5.5em;
                                 border: 2px solid $nextgreen;
-                                // border: none;
-                                // border-bottom: $nextgreen 2px solid;
-                                background-color: $footerblue;
+                                border: none;
+                                border-top: 3px solid $greentop;
+                                background-color: $darkblue;
+                               
+                                // background-color: $footerblue;
                                 // background-color: black;
                                 color: white;
                                 resize: none;

@@ -781,7 +781,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2em;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit label {
     color: rgba(255, 255, 255, 0.664);
@@ -802,9 +801,11 @@
     border: none;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit textarea {
-    padding: 2em 5.5em;
+    padding: 4em 5.5em;
     border: 2px solid #00313E;
-    background-color: #060927;
+    border: none;
+    border-top: 3px solid rgba(255, 255, 255, 0.664);
+    background-color: #080E2F;
     color: white;
     resize: none;
   }
