@@ -1032,6 +1032,7 @@ $buttongrey: #61677A;
                             flex-direction: column;
                             align-items: center;
                             // gap: .5em;
+                            gap: 2em;
                             label {
                                 color: $greentop;
                                 font-family: 'Inter', sans-serif;
@@ -1055,13 +1056,13 @@ $buttongrey: #61677A;
                                 border: none;
                             }
                             textarea {
-                                padding: 4em 5.5em;
-                                padding: 4em 7.5em;
-                                border: 2px solid $nextgreen;
+                                padding: 2em 5.5em;
+                                // padding: 4em 7.5em;
                                 border: none;
-                                border-top: 2px solid $greentop;
-                                border-top: 2px solid $buttongrey;
-                                background-color: $darkblue;
+                                border-bottom: 2px solid $nextgreen;
+                                // border-top: 2px solid $greentop;
+                                // border-top: 2px solid $buttongrey;
+                                background-color: $footerblue;
                                 color: white;
                                 resize: none;
                                 // width: 100%;
@@ -1083,6 +1084,7 @@ $buttongrey: #61677A;
                                 background-color: $nextgreen;
                                 padding: .5em 1.2em;
                                 padding: 1em 8.7em;
+                                padding: .5em 4em;
                                 font-weight: bold;
                                 cursor: pointer;
                                 font-family: 'Inter', sans-serif;
