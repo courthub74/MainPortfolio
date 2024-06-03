@@ -863,6 +863,7 @@ $buttongrey: #61677A;
                                 height: 19%;
                                 height: 10em;
                                 width: 100%;
+                                transition: .3s all ease-out;
                                 .experience_square_content {
                                     display: flex;
                                     flex-direction: column;
@@ -928,6 +929,29 @@ $buttongrey: #61677A;
                             /// EXPERIENCE SQUARES TO RESIZE
                             #experience_square_one.tapped {
                                 height: 15em;
+                                transition: .5s all ease-in;
+                            }
+                            #experience_square_two.tapped {
+                                height: 15em;
+                                transition: .5s all ease-in;
+                            }
+                            #experience_square_three.tapped {
+                                height: 15em;
+                                transition: .5s all ease-in;
+                            }
+                            ////////////////////////////////
+                            /// EXPERIENCE ARROW FLIPPED
+                            #experience_more_info_one.tapped {
+                                rotate: 180deg;
+                                transition: .3s all ease-in;
+                            }
+                            #experience_more_info_two.tapped {
+                                rotate: 180deg;
+                                transition: .3s all ease-in;
+                            }
+                            #experience_more_info_three.tapped {
+                                rotate: 180deg;
+                                transition: .3s all ease-in;
                             }
                         }
                     }

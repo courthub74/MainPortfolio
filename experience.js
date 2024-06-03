@@ -22,9 +22,15 @@ let box_2 = document.getElementById('experience_square_two');
 
 let box_3 = document.getElementById('experience_square_three');
 
-// Query the Arrows (for Mobile)
+// Query the Arrow Buttons (for Mobile)
+let arrow_1 = document.getElementById('experience_one');
+let arrow_2 = document.getElementById('experience_two');
+let arrow_3 = document.getElementById('experience_three');
 
-
+// Query the Arrow graphic for rotate
+let arrow_1_graphic = document.getElementById('experience_more_info_one');
+let arrow_2_graphic = document.getElementById('experience_more_info_two');
+let arrow_3_graphic = document.getElementById('experience_more_info_three');
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
@@ -32,17 +38,25 @@ let box_3 = document.getElementById('experience_square_three');
 /////////////////////////////////////////////////////////
 // MOBILE 
 // Press the Title Function (pointerdown)
-job_1.addEventListener('pointerdown', () => {
+arrow_1.addEventListener('pointerdown', () => {
     console.log('Job One Clicked');
-    // 
+    // Make the circle bigger
+    box_1.classList.toggle('tapped');
+    arrow_1_graphic.classList.toggle('tapped');
 });
 
-job_2.addEventListener('pointerdown', () => {
+arrow_2.addEventListener('pointerdown', () => {
     console.log('Job Two Clicked');
+    // Make the circle bigger
+    box_2.classList.toggle('tapped');
+    arrow_2_graphic.classList.toggle('tapped');
 });
 
-job_3.addEventListener('pointerdown', () => {
+box_3.addEventListener('pointerdown', () => {
     console.log('Job Three Clicked');
+    // Make the circle bigger
+    box_3.classList.toggle('tapped');
+    arrow_3_graphic.classList.toggle('tapped');
 });
 
 
@@ -59,12 +73,14 @@ let widthMatch = window.matchMedia("(min-width: 1180px)");
 if(widthMatch.matches) {
     // JOB 1
     // Hover over the Title Function
-    job_1.addEventListener('mouseover', () => {
+    box_1.addEventListener('mouseover', () => {
+        // The Words
         roll_1.classList.add('hover');
+        // The Box
         box_1.classList.add('hover');
     });
     // Hover out
-    job_1.addEventListener('mouseout', () => {
+    box_1.addEventListener('mouseout', () => {
         roll_1.classList.remove('hover');
         box_1.classList.remove('hover');
     });
@@ -73,24 +89,24 @@ if(widthMatch.matches) {
 
     // JOB 2
     // Hover over the Title Function
-    job_2.addEventListener('mouseover', () => {
+    box_2.addEventListener('mouseover', () => {
         roll_2.classList.add('hover');
         box_2.classList.add('hover');
     });
     // Hover out
-    job_2.addEventListener('mouseout', () => {
+    box_2.addEventListener('mouseout', () => {
         roll_2.classList.remove('hover');
         box_2.classList.remove('hover');
     });
 
     // JOB 3
     // Hover over the Title Function
-    job_3.addEventListener('mouseover', () => {
+    box_3.addEventListener('mouseover', () => {
         roll_3.classList.add('hover');
         box_3.classList.add('hover');
     });
     // Hover out
-    job_3.addEventListener('mouseout', () => {
+    box_3.addEventListener('mouseout', () => {
         roll_3.classList.remove('hover');
         box_3.classList.remove('hover');
     });
