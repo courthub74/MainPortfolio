@@ -1026,13 +1026,12 @@ $buttongrey: #61677A;
                             }
                             textarea {
                                 padding: 4em 5.5em;
+                                padding: 4em 7em;
                                 border: 2px solid $nextgreen;
                                 border: none;
-                                border-top: 3px solid $greentop;
+                                border-top: 2px solid $greentop;
+                                border-top: 2px solid $buttongrey;
                                 background-color: $darkblue;
-                               
-                                // background-color: $footerblue;
-                                // background-color: black;
                                 color: white;
                                 resize: none;
                                 // width: 100%;
@@ -1053,10 +1052,11 @@ $buttongrey: #61677A;
                                 color: white;
                                 background-color: $nextgreen;
                                 padding: .5em 1.2em;
-                                padding: .8em 9em;
+                                padding: 1.5em 8.4em;
                                 font-weight: bold;
                                 cursor: pointer;
                                 font-family: 'Inter', sans-serif;
+                                font-size: 1rem;
                                 // filter: opacity(80%);
                             }
                         }
