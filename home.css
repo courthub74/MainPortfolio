@@ -812,16 +812,14 @@
     text-align: center;
   }
   body .mobile_footer .footer_elements .email_footer .email_submit button {
-    border: 2px solid #00C6C3;
-    border: 2px solid white;
-    border-left: none;
+    border: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.664);
     color: #00C6C3;
     color: white;
-    color: #060927;
     background: none;
-    background-color: white;
+    background-color: #00313E;
     padding: 0.5em 1.2em;
-    padding: 0.5em 7em;
+    padding: 0.8em 7em;
     font-weight: bold;
     cursor: pointer;
     font-family: "Inter", sans-serif;
