@@ -1740,8 +1740,6 @@
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input {
     padding: 1em 8em;
     padding: 1em 4vw;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     border: none;
     border: 2px solid white;
     background: none;
@@ -1778,8 +1776,6 @@
     border: 2px solid #00C6C3;
     border: 2px solid white;
     border-left: none;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     color: #00C6C3;
     color: white;
     color: #060927;
@@ -1860,8 +1856,6 @@
   body #whole_page .whole_page .mobile_footer .footer_elements .email_footer .email_submit input {
     padding: 1em 8em;
     padding: 1em 7vw;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     border: none;
     border: 2px solid #00C6C3;
     border: 2px solid white;
@@ -1894,8 +1888,6 @@
     border: 2px solid #00C6C3;
     border: 2px solid white;
     border-left: none;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     color: #00C6C3;
     color: white;
     color: #060927;
