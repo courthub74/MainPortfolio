@@ -333,6 +333,7 @@ $buttongrey: #61677A;
                                     color: white;
                                     font-family: 'Inter', sans-serif;
                                     font-size: .8rem;
+                                    text-align: center;
                                 }
                                 // Portfolio Close Buttons 
                                 .close_portfolio_button {
@@ -880,10 +881,10 @@ $buttongrey: #61677A;
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $footerblue;
-                                background-color: $squaresback;
+                                // background-color: $squaresback;
                                 border-top: 3px solid $nextgreen;
-                                border-top: 3px solid $skillsteal;
-                                border-top: 3px solid $buttongrey;
+                                // border-top: 3px solid $skillsteal;
+                                // border-top: 3px solid $buttongrey;
                                 box-shadow: 1px 1px 1px black;
                                 height: 19%;
                                 height: 10em;

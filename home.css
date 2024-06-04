@@ -248,6 +248,7 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
+    text-align: center;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .close_portfolio_button #port_close_one {
     width: 2em;
@@ -681,10 +682,7 @@
     justify-content: center;
     align-items: center;
     background-color: #060927;
-    background-color: #33365B;
     border-top: 3px solid #00313E;
-    border-top: 3px solid #146166;
-    border-top: 3px solid #61677A;
     box-shadow: 1px 1px 1px black;
     height: 19%;
     height: 10em;
