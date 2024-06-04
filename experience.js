@@ -72,27 +72,26 @@ exp_name_2.addEventListener('pointerdown', () => {
 });
 
 
-// 2nd Square Logo
-exp_2.addEventListener('pointerdown', () => {
-    box_2.classList.add('tapped');
-    roll_2.classList.add('tapped');
+// 3rd Square Logo
+exp_3.addEventListener('pointerdown', () => {
+    box_3.classList.add('tapped');
+    roll_3.classList.add('tapped');
     // Function to time a reset
-    function reset_exp_2() {
-        box_2.classList.remove('tapped');
-        roll_2.classList.remove('tapped');
+    function reset_exp_3() {
+        box_3.classList.remove('tapped');
+        roll_3.classList.remove('tapped');
     }
-    setTimeout(reset_exp_2, 3000);
+    setTimeout(reset_exp_3, 3000);
 });
 
 // 2nd Square Title
-exp_name_2.addEventListener('pointerdown', () => {
-    // console.log(roll_1);
-    box_2.classList.add('tapped');
-    roll_2.classList.add('tapped');
+exp_name_3.addEventListener('pointerdown', () => {
+    box_3.classList.add('tapped');
+    roll_3.classList.add('tapped');
     // Function to time a reset
-    function reset_exp_2() {
-        box_2.classList.remove('tapped');
-        roll_2.classList.remove('tapped');
+    function reset_exp_3() {
+        box_3.classList.remove('tapped');
+        roll_3.classList.remove('tapped');
     }
-    setTimeout(reset_exp_2, 3000);
+    setTimeout(reset_exp_3, 3000);
 });
