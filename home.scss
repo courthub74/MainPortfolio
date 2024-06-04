@@ -281,9 +281,9 @@ $buttongrey: #61677A;
                                 border-top: 3px solid $buttongrey;
                                 // border-top: 3px solid $skillsteal;
                                 height: 19%;
-                                height: 8em;
+                                height: 9em;
                                 width: 100%;
-                                // width: 50em;
+                                transition: .3s all ease-in;
                                 box-shadow: 1px 1px 1px black;
                                 .portfolio_square_content {
                                     display: flex;
@@ -296,13 +296,16 @@ $buttongrey: #61677A;
                                     // background-color: yellow;
                                 }
                                 #workflow_app {
-                                    width: 10em;
+                                    width: 11em;
                                     height: 2em;
-                                    // width: 12.5em;
-                                    // height: 2.5em;
-                                    // background-color: yellow;
+                                    // margin: 0 0 -4em 0;
+                                    margin-top: 2em;
+                                    transition: .3s all ease-in;
                                 }
-
+                                #workflow_app.tapped {
+                                    transition: .3s all ease-in;
+                                    margin-top: -17em;
+                                }
                                 #create_collab {
                                     width: 9.3em;
                                     height: 1.5em;
@@ -325,8 +328,39 @@ $buttongrey: #61677A;
                                         height: 1em;
                                     }
                                 }
+                                // Portfolio Clicked Content
+                                .portfolio_content {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                }
+                                // Portfolio Close Buttons 
+                                .close_portfolio_button {
+                                    #port_close_one {
+                                        width: 2em;
+                                        height: 2em;
+                                    }
+                                }
+                            }
+                            /////////////////////////////////
+                            /////////////////////////////////
+                            /// TO EXPAND THE PORTFOLIO SQUARES
+                            #portfolio_square_one.tapped {
+                                height: 25em;
+                                transition: .3s all ease-in;
                             }
                         }
+                        //////////////////////////////////
+                        //////////////////////////////////
+                        /// PORTFOLIO CONTENTS
+                        .portfolio_content {
+                            // position: absolute;
+                            opacity: 0;
+                        }
+                        #workflow_app_content.tapped {
+                            opacity: 1;
+                        }
+
                     }
                 }
                 /////////////////////////////////
@@ -719,14 +753,6 @@ $buttongrey: #61677A;
                                 }
                             }
                         }
-                        ///////////////////////
-                        /// TO HIDE THE 3RD CIRCLES
-                        // #sass_skill {
-                        //     display: none;
-                        // }
-                        // #django_skill {
-                        //     display: none;
-                        // }
                         ///////////////////////
                         ///////////////////////
                         // OUTER RING FOR HOVER

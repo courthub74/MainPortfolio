@@ -203,8 +203,9 @@
     background-color: #33365B;
     border-top: 3px solid #61677A;
     height: 19%;
-    height: 8em;
+    height: 9em;
     width: 100%;
+    transition: 0.3s all ease-in;
     box-shadow: 1px 1px 1px black;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content {
@@ -217,8 +218,14 @@
     margin-top: 1.5em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app {
-    width: 10em;
+    width: 11em;
     height: 2em;
+    margin-top: 2em;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app.tapped {
+    transition: 0.3s all ease-in;
+    margin-top: -17em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #create_collab {
     width: 9.3em;
@@ -236,6 +243,25 @@
     width: 1.4em;
     width: 2em;
     height: 1em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .close_portfolio_button #port_close_one {
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_one.tapped {
+    height: 25em;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_content {
+    opacity: 0;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content #workflow_app_content.tapped {
+    opacity: 1;
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
