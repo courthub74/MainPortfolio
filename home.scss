@@ -755,7 +755,7 @@ $buttongrey: #61677A;
                             height: 80%;
                             height: 90%;
                             margin-top: -40px;
-                            margin-top: -80px;
+                            margin-top: -60px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
                             gap: 1.5em;
@@ -908,6 +908,7 @@ $buttongrey: #61677A;
                                             font-size: .7rem;
                                             font-weight: lighter;
                                             padding-top: 1em;
+                                            color: white;
                                         }
                                     }
                                     .more_experience_info {
@@ -928,21 +929,28 @@ $buttongrey: #61677A;
                                 height: 12em;
                                 transition: .3s all ease-in;
                                 border-top: 3px solid white;
+                                // border-top: 3px solid $firstblue;
                             }
                             #experience_square_two.tapped {
-                                height: 10em;
+                                height: 12em;
                                 transition: .3s all ease-in;
                                 border-top: 3px solid white;
                             }
                             #experience_square_three.tapped {
-                                height: 10em;
+                                height: 12em;
                                 transition: .3s all ease-in;
-                                border-top: 2px solid white;
+                                border-top: 3px solid white;
                             }
                             ////////////////////////////////
                             ////////////////////////////////
                             /// THE JOB DEETS BY ID
                             #roll_one.tapped {
+                                opacity: 1;
+                            }
+                            #roll_two.tapped {
+                                opacity: 1;
+                            }
+                            #roll_three.tapped {
                                 opacity: 1;
                             }
                             // FOR WHEN I HAD THE ARROWS BUT NOW ITS THE LOGO AND TITLE

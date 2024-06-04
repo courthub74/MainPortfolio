@@ -580,7 +580,7 @@
     height: 80%;
     height: 90%;
     margin-top: -40px;
-    margin-top: -80px;
+    margin-top: -60px;
     gap: 2em;
     gap: 1.5em;
   }
@@ -706,6 +706,7 @@
     font-size: 0.7rem;
     font-weight: lighter;
     padding-top: 1em;
+    color: white;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .more_experience_info {
     background: none;
@@ -722,16 +723,22 @@
     border-top: 3px solid white;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_two.tapped {
-    height: 10em;
+    height: 12em;
     transition: 0.3s all ease-in;
     border-top: 3px solid white;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_three.tapped {
-    height: 10em;
+    height: 12em;
     transition: 0.3s all ease-in;
-    border-top: 2px solid white;
+    border-top: 3px solid white;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares #roll_one.tapped {
+    opacity: 1;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares #roll_two.tapped {
+    opacity: 1;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares #roll_three.tapped {
     opacity: 1;
   }
   body #whole_page .experience_section .experience_section_content #experience_square_one.tapped {

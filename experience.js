@@ -20,15 +20,79 @@ let roll_3 = document.getElementById('roll_three');
 
 // Mobile
 
-// 1st Square
+// 1st Square Logo
 exp_1.addEventListener('pointerdown', () => {
-    console.log(roll_1);
-    box_1.classList.toggle('tapped');
-    roll_1.classList.toggle('tapped');
+    // console.log(roll_1);
+    box_1.classList.add('tapped');
+    roll_1.classList.add('tapped');
+    // Function to time a reset
+    function reset_exp_1() {
+        box_1.classList.remove('tapped');
+        roll_1.classList.remove('tapped');
+    }
+    setTimeout(reset_exp_1, 3000);
 });
 
+// 1st Square Title
 exp_name_1.addEventListener('pointerdown', () => {
-    console.log(roll_1);
-    box_1.classList.toggle('tapped');
-    roll_1.classList.toggle('tapped');
+    // console.log(roll_1);
+    box_1.classList.add('tapped');
+    roll_1.classList.add('tapped');
+    // Function to time a reset
+    function reset_exp_1() {
+        box_1.classList.remove('tapped');
+        roll_1.classList.remove('tapped');
+    }
+    setTimeout(reset_exp_1, 3000);
+});
+
+// 2nd Square Logo
+exp_2.addEventListener('pointerdown', () => {
+    box_2.classList.add('tapped');
+    roll_2.classList.add('tapped');
+    // Function to time a reset
+    function reset_exp_2() {
+        box_2.classList.remove('tapped');
+        roll_2.classList.remove('tapped');
+    }
+    setTimeout(reset_exp_2, 3000);
+});
+
+// 2nd Square Title
+exp_name_2.addEventListener('pointerdown', () => {
+    // console.log(roll_1);
+    box_2.classList.add('tapped');
+    roll_2.classList.add('tapped');
+    // Function to time a reset
+    function reset_exp_2() {
+        box_2.classList.remove('tapped');
+        roll_2.classList.remove('tapped');
+    }
+    setTimeout(reset_exp_2, 3000);
+});
+
+
+// 2nd Square Logo
+exp_2.addEventListener('pointerdown', () => {
+    box_2.classList.add('tapped');
+    roll_2.classList.add('tapped');
+    // Function to time a reset
+    function reset_exp_2() {
+        box_2.classList.remove('tapped');
+        roll_2.classList.remove('tapped');
+    }
+    setTimeout(reset_exp_2, 3000);
+});
+
+// 2nd Square Title
+exp_name_2.addEventListener('pointerdown', () => {
+    // console.log(roll_1);
+    box_2.classList.add('tapped');
+    roll_2.classList.add('tapped');
+    // Function to time a reset
+    function reset_exp_2() {
+        box_2.classList.remove('tapped');
+        roll_2.classList.remove('tapped');
+    }
+    setTimeout(reset_exp_2, 3000);
 });
