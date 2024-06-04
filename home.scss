@@ -758,18 +758,17 @@ $buttongrey: #61677A;
                             margin-top: -80px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
-                            gap: 1em;
+                            gap: 1.5em;
                             // THE FIRST SIX
                             .first_six {
                                 display: flex;
                                 flex-direction: column;
                                 // GAP FOR THE TOP TWO
                                 gap: 2em;
-                                gap: 1em;
+                                gap: 1.5em;
                                 // automatically columned here
                                 .top_three {
                                     display: flex;
-                                    
                                     // HORIZ GAP FOR TOP 3
                                     gap: 1.5em;
                                     gap: .5em;
@@ -789,7 +788,7 @@ $buttongrey: #61677A;
                                 display: flex;
                                 flex-direction: column;
                                 gap: 2em;
-                                gap: 1em;
+                                gap: 1.5em;
                                .top_three {
                                 display: flex;
                                 // HORIZ GAP FOR TOP 3
@@ -917,6 +916,7 @@ $buttongrey: #61677A;
                                     .more_experience_info {
                                         background: none;
                                         border: none;
+                                        display: none;
                                         .experience_more_button {
                                             width: 2em;
                                             height: 1em;
@@ -1056,32 +1056,33 @@ $buttongrey: #61677A;
                             input:focus {
                                 border: none;
                             }
-                            textarea {
-                                padding: 2em 5.8em;
-                                // padding: 4em 7.5em;
-                                border: 2px solid white;
-                                border-bottom: none;
-                                // border-bottom: 2px solid $nextgreen;
-                                // border-top: 2px solid $greentop;
-                                // border-top: 2px solid $buttongrey;
-                                background-color: $footerblue;
-                                color: white;
-                                resize: none;
-                                // width: 100%;
-                                button {
-                                    color: white;
-                                }
-                            }
-                            ::placeholder {
-                                color: $footerblue;
-                                color: $nextgreen;
-                                color: $jobdescription;
-                                color: $greentop;
-                                // filter: opacity(75%);
-                                font-family: 'Inter', sans-serif;
-                                text-align: center;
-                                font-size: .8rem;
-                            }
+                            // BELOW IS GOING ON A SEPARATE PAGE
+                            // textarea {
+                            //     padding: 2em 5.8em;
+                            //     // padding: 4em 7.5em;
+                            //     border: 2px solid white;
+                            //     border-bottom: none;
+                            //     // border-bottom: 2px solid $nextgreen;
+                            //     // border-top: 2px solid $greentop;
+                            //     // border-top: 2px solid $buttongrey;
+                            //     background-color: $footerblue;
+                            //     color: white;
+                            //     resize: none;
+                            //     // width: 100%;
+                            //     button {
+                            //         color: white;
+                            //     }
+                            // }
+                            // ::placeholder {
+                            //     color: $footerblue;
+                            //     color: $nextgreen;
+                            //     color: $jobdescription;
+                            //     color: $greentop;
+                            //     // filter: opacity(75%);
+                            //     font-family: 'Inter', sans-serif;
+                            //     text-align: center;
+                            //     font-size: .8rem;
+                            // }
                             button {
                                 border: none;
                                 border-top: 2px solid $greentop;
@@ -1092,7 +1093,7 @@ $buttongrey: #61677A;
                                 background-color: white;
                                 padding: .5em 1.2em;
                                 padding: 1em 8.7em;
-                                padding: .5em 7.5em;
+                                padding: .5em 5.5em;
                                 font-weight: bold;
                                 cursor: pointer;
                                 font-family: 'Inter', sans-serif;
