@@ -219,12 +219,12 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app {
     width: 11em;
     height: 2em;
-    margin-top: 2em;
+    margin-top: 17em;
     transition: 0.3s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app.tapped {
     transition: 0.3s all ease-in;
-    margin-top: -17em;
+    margin-top: 0em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #create_collab {
     width: 9.3em;
@@ -244,12 +244,42 @@
     height: 1em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
     text-align: center;
   }
-  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .close_portfolio_button #port_close_one {
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .tech_used_portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .tech_used_portfolio .tech_portfolio_circles {
+    display: flex;
+    gap: 1em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .tech_used_portfolio .tech_portfolio_circles .port_circle {
+    width: 5em;
+    height: 5em;
+    background-color: #00313E;
+    color: #61677A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .port_proj_features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .close_portfolio_button #port_close_one {
     width: 2em;
     height: 2em;
   }

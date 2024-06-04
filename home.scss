@@ -299,12 +299,12 @@ $buttongrey: #61677A;
                                     width: 11em;
                                     height: 2em;
                                     // margin: 0 0 -4em 0;
-                                    margin-top: 2em;
+                                    margin-top: 17em;
                                     transition: .3s all ease-in;
                                 }
                                 #workflow_app.tapped {
                                     transition: .3s all ease-in;
-                                    margin-top: -17em;
+                                    margin-top: 0em;
                                 }
                                 #create_collab {
                                     width: 9.3em;
@@ -330,16 +330,49 @@ $buttongrey: #61677A;
                                 }
                                 // Portfolio Clicked Content
                                 .portfolio_content {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 2em;
                                     color: white;
                                     font-family: 'Inter', sans-serif;
                                     font-size: .8rem;
                                     text-align: center;
-                                }
-                                // Portfolio Close Buttons 
-                                .close_portfolio_button {
-                                    #port_close_one {
-                                        width: 2em;
-                                        height: 2em;
+                                    // Technologies used
+                                    .tech_used_portfolio {
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 1em;
+                                        font-weight: bold;
+                                        .tech_portfolio_circles {
+                                            display: flex;
+                                            gap: 1em;
+                                            .port_circle {
+                                                width: 5em;
+                                                height: 5em;
+                                                background-color: #00313E;
+                                                color: $buttongrey;
+                                                border-radius: 50%;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                // border-top: 2px solid $buttongrey;
+                                            }
+                                        }
+                                    }
+                                    // Portfolio Project Features
+                                    .port_proj_features {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        flex-direction: column;
+                                        gap: 1em;
+                                    }
+                                     // Portfolio Close Buttons 
+                                    .close_portfolio_button {
+                                        #port_close_one {
+                                            width: 2em;
+                                            height: 2em;
+                                        }
                                     }
                                 }
                             }
