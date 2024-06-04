@@ -220,7 +220,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app {
     width: 11em;
     height: 2em;
-    margin-top: 17em;
+    margin-top: 18em;
     transition: 0.3s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app.tapped {
@@ -287,6 +287,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_one.tapped {
     height: 25em;
     transition: 0.3s all ease-in;
+    border-top: 2px solid white;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_content {
     opacity: 0;
