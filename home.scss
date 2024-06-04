@@ -902,16 +902,13 @@ $buttongrey: #61677A;
                                         margin: 0 0 -3em 0;
                                         transition: .3s all ease-in-out;
                                         // background-color: $nextgreen;
-                                        border-top: 2px solid $nextgreen;
-                                        border-top: 2px solid $skillsteal;
+                                        // border-top: 2px solid $nextgreen;
+                                        // border-top: 2px solid $skillsteal;
                                         p {
-                                            font-size: .8rem;
+                                            font-size: .7rem;
                                             font-weight: lighter;
-                                            padding-top: .5em;
+                                            padding-top: 1em;
                                         }
-                                    }
-                                    .experience_rolls.clicked {
-                                        opacity: 1;
                                     }
                                     .more_experience_info {
                                         background: none;
@@ -928,31 +925,47 @@ $buttongrey: #61677A;
                             /////////////////////////////////
                             /// EXPERIENCE SQUARES TO RESIZE
                             #experience_square_one.tapped {
-                                height: 15em;
-                                transition: .5s all ease-in;
+                                height: 12em;
+                                transition: .3s all ease-in;
+                                border-top: 3px solid white;
                             }
                             #experience_square_two.tapped {
-                                height: 15em;
-                                transition: .5s all ease-in;
+                                height: 10em;
+                                transition: .3s all ease-in;
+                                border-top: 3px solid white;
                             }
                             #experience_square_three.tapped {
-                                height: 15em;
-                                transition: .5s all ease-in;
+                                height: 10em;
+                                transition: .3s all ease-in;
+                                border-top: 2px solid white;
                             }
                             ////////////////////////////////
+                            ////////////////////////////////
+                            /// THE JOB DEETS BY ID
+                            #roll_one.tapped {
+                                opacity: 1;
+                            }
+                            // FOR WHEN I HAD THE ARROWS BUT NOW ITS THE LOGO AND TITLE
+                            ////////////////////////////////
                             /// EXPERIENCE ARROW FLIPPED
-                            #experience_more_info_one.tapped {
-                                rotate: 180deg;
-                                transition: .3s all ease-in;
-                            }
-                            #experience_more_info_two.tapped {
-                                rotate: 180deg;
-                                transition: .3s all ease-in;
-                            }
-                            #experience_more_info_three.tapped {
-                                rotate: 180deg;
-                                transition: .3s all ease-in;
-                            }
+                            // #experience_more_info_one.tapped {
+                            //     rotate: 180deg;
+                            //     transition: .3s all ease-in;
+                            // }
+                            // #experience_more_info_two.tapped {
+                            //     rotate: 180deg;
+                            //     transition: .3s all ease-in;
+                            // }
+                            // #experience_more_info_three.tapped {
+                            //     rotate: 180deg;
+                            //     transition: .3s all ease-in;
+                            // }
+                        }
+                        ///////////////////////////////////////
+                        ///////////////////////////////////////
+                        /// FOR CHANGING THE BOX TOP COLOR
+                        #experience_square_one.tapped {
+                            border-top: 3px solid white;
                         }
                     }
                 }

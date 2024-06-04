@@ -701,16 +701,11 @@
     gap: 2em;
     margin: 0 0 -3em 0;
     transition: 0.3s all ease-in-out;
-    border-top: 2px solid #00313E;
-    border-top: 2px solid #146166;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: lighter;
-    padding-top: 0.5em;
-  }
-  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls.clicked {
-    opacity: 1;
+    padding-top: 1em;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .more_experience_info {
     background: none;
@@ -722,28 +717,25 @@
     height: 1em;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.tapped {
-    height: 15em;
-    transition: 0.5s all ease-in;
+    height: 12em;
+    transition: 0.3s all ease-in;
+    border-top: 3px solid white;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_two.tapped {
-    height: 15em;
-    transition: 0.5s all ease-in;
+    height: 10em;
+    transition: 0.3s all ease-in;
+    border-top: 3px solid white;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_three.tapped {
-    height: 15em;
-    transition: 0.5s all ease-in;
-  }
-  body #whole_page .experience_section .experience_section_content .experience_squares #experience_more_info_one.tapped {
-    rotate: 180deg;
+    height: 10em;
     transition: 0.3s all ease-in;
+    border-top: 2px solid white;
   }
-  body #whole_page .experience_section .experience_section_content .experience_squares #experience_more_info_two.tapped {
-    rotate: 180deg;
-    transition: 0.3s all ease-in;
+  body #whole_page .experience_section .experience_section_content .experience_squares #roll_one.tapped {
+    opacity: 1;
   }
-  body #whole_page .experience_section .experience_section_content .experience_squares #experience_more_info_three.tapped {
-    rotate: 180deg;
-    transition: 0.3s all ease-in;
+  body #whole_page .experience_section .experience_section_content #experience_square_one.tapped {
+    border-top: 3px solid white;
   }
   body #whole_page #footer_section_id {
     display: none;
