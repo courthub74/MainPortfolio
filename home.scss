@@ -230,6 +230,7 @@ $buttongrey: #61677A;
                 .portfolio_section {
                     background-color: $darkblue;
                     height: 110vh;
+                    overflow: hidden;
                     .portfolio_section_content {
                         margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
