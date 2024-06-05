@@ -117,14 +117,14 @@
     background-color: #00313E;
     background-color: #080E2F;
     height: 110vh;
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .about_section .about_section_content {
     margin: 0 3em 0 3em;
     margin: 0 1em 0 1em;
     border-bottom: 1px solid white;
-    padding-bottom: 3em;
+    padding-bottom: 6em;
   }
   body #whole_page .whole_page .about_section .about_section_content .title_nav {
     display: flex;
