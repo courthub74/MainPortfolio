@@ -117,7 +117,6 @@
     background-color: #00313E;
     background-color: #080E2F;
     height: 110vh;
-    height: 100vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .about_section .about_section_content {
@@ -170,7 +169,7 @@
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
     height: 100vh;
-    height: 110vh;
+    height: 120vh;
     overflow: hidden;
     border-bottom: 1px solid white;
   }
@@ -327,7 +326,7 @@
     background-color: #00313E;
     background-color: #080E2F;
     height: 100vh;
-    height: 110vh;
+    height: 120vh;
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
     margin: 0 3em 0 3em;
@@ -720,7 +719,7 @@
   }
   body #whole_page .experience_section {
     background-color: #080E2F;
-    height: 110vh;
+    height: 120vh;
   }
   body #whole_page .experience_section .experience_section_content {
     margin: 0 3em 0 3em;
