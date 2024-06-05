@@ -19,6 +19,7 @@
     margin: 0 1em 0 1em;
     padding: 0em 0 4em 0;
     height: 100vh;
+    border-bottom: 1px solid white;
   }
   body #whole_page .whole_page .home_section_content .desktop_nav {
     display: flex;
@@ -116,10 +117,14 @@
     background-color: #00313E;
     background-color: #080E2F;
     height: 110vh;
+    height: 90vh;
+    overflow: hidden;
   }
   body #whole_page .whole_page .about_section .about_section_content {
     margin: 0 3em 0 3em;
     margin: 0 1em 0 1em;
+    border-bottom: 1px solid white;
+    padding-bottom: 3em;
   }
   body #whole_page .whole_page .about_section .about_section_content .title_nav {
     display: flex;
@@ -157,19 +162,21 @@
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;
+    color: #080E2F;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.8rem;
   }
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
-    height: 110vh;
-    overflow: hidden;
+    height: 100vh;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content {
     margin: 0 3em 0 3em;
     margin: 0 1em 0 1em;
-    height: 100%;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    padding-bottom: 4em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
     display: flex;
@@ -360,8 +367,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
     background-color: #060927;
     background-color: #00313E;
     box-sizing: border-box;
