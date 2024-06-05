@@ -926,7 +926,9 @@ $buttongrey: #61677A;
                     .experience_section_content {
                         margin: 0 3em 0 3em;
                         margin: -5em 1em 0 1em;
-                        height: 100%;
+                        // height: 100%;
+                        border-bottom: 2px solid white;
+                        padding-bottom: 6em;
                         .title_nav {
                             display: flex;
                             justify-content: space-between;
@@ -2329,9 +2331,23 @@ $buttongrey: #61677A;
                                         .email_submit {
                                             display: flex;
                                             align-items: center;
+                                            gap: 1em;
+                                            #email_address {
+                                                padding: 1em 1em;
+                                            }
+                                            #email_address.contact {
+                                                border: 2px solid $jobdescription;
+                                                transition: .3s all ease-out;
+                                            }
+                                            #name_text {
+                                                padding: 1em 1em;
+                                            }
+                                            #name_text.contact {
+                                                border: 2px solid $jobdescription;
+                                                transition: .3s all ease-out;
+                                            }
                                             input {
-                                                padding: 1em 8em;
-                                                padding: 1em 4vw;
+                                                padding: 1em 4em;
                                                 // border-top-left-radius: 5px;
                                                 // border-bottom-left-radius: 5px;
                                                 border: none;
@@ -2360,7 +2376,7 @@ $buttongrey: #61677A;
                                                 color: $nextgreen;
                                                 color: $jobdescription;
                                                 color: white;
-                                                // filter: opacity(75%);
+                                                filter: opacity(75%);
                                                 font-family: 'Inter', sans-serif;
                                                 // font-weight: bold;
                                                 // background-color: red;
@@ -2415,6 +2431,11 @@ $buttongrey: #61677A;
                         }
                     }
                 }
+                // CONTACT NOT FOR DISPLAY ON DESK
+                .contact_section {
+                    display: none;
+                }
+                // MOBILE FOOTER NO DISPLAY
                 .mobile_footer {
                     display: none;
                     background-color: $jobdescription;

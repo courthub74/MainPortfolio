@@ -2,7 +2,9 @@
     // when Contact button clicked
 
 // Query the message text area
-let message_me = document.querySelector('input');
+let message_me = document.getElementById('message_text');
+let name_contact = document.getElementById('name_text');
+let email_contact = document.getElementById('email_address');
 
 // Query the submit button
 let submit_button = document.getElementById('email_button');
@@ -22,11 +24,14 @@ let place_holder = document.querySelector('placeholder');
 contact_button.addEventListener('click', () => {
     submit_button.classList.add('contact');
     message_me.classList.add('contact');
-    
+    name_contact.classList.add('contact');
+    email_contact.classList.add('contact');
     // Add a function that times the color out
     function color_back() {
         submit_button.classList.remove('contact');
         message_me.classList.remove('contact');
+        name_contact.classList.remove('contact');
+        email_contact.classList.remove('contact');
     }
     setTimeout(color_back, 2000);
 });
@@ -35,11 +40,14 @@ contact_button.addEventListener('click', () => {
 contact_about.addEventListener('click', () => {
     submit_button.classList.add('contact');
     message_me.classList.add('contact');
-    
+    name_contact.classList.add('contact');
+    email_contact.classList.add('contact');
     // Add a function that times the color out
     function color_back() {
         submit_button.classList.remove('contact');
         message_me.classList.remove('contact');
+        name_contact.classList.remove('contact');
+        email_contact.classList.remove('contact');
     }
     setTimeout(color_back, 2000);
 });

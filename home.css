@@ -725,7 +725,8 @@
   body #whole_page .experience_section .experience_section_content {
     margin: 0 3em 0 3em;
     margin: -5em 1em 0 1em;
-    height: 100%;
+    border-bottom: 2px solid white;
+    padding-bottom: 6em;
   }
   body #whole_page .experience_section .experience_section_content .title_nav {
     display: flex;
@@ -1857,10 +1858,24 @@
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit {
     display: flex;
     align-items: center;
+    gap: 1em;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit #email_address {
+    padding: 1em 1em;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit #email_address.contact {
+    border: 2px solid #00C6C3;
+    transition: 0.3s all ease-out;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit #name_text {
+    padding: 1em 1em;
+  }
+  body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit #name_text.contact {
+    border: 2px solid #00C6C3;
+    transition: 0.3s all ease-out;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .email_submit input {
-    padding: 1em 8em;
-    padding: 1em 4vw;
+    padding: 1em 4em;
     border: none;
     border: 2px solid white;
     background: none;
@@ -1881,6 +1896,7 @@
     color: #00313E;
     color: #00C6C3;
     color: white;
+    filter: opacity(75%);
     font-family: "Inter", sans-serif;
     text-align: center;
   }
@@ -1890,6 +1906,7 @@
     color: #00313E;
     color: #00C6C3;
     color: white;
+    filter: opacity(75%);
     font-family: "Inter", sans-serif;
     text-align: center;
   }
@@ -1924,6 +1941,9 @@
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .footer_logo small #footer_logo {
     width: 2em;
     height: 2em;
+  }
+  body #whole_page .whole_page .contact_section {
+    display: none;
   }
   body #whole_page .whole_page .mobile_footer {
     display: none;
