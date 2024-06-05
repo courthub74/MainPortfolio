@@ -49,7 +49,7 @@ $buttongrey: #61677A;
                 // display: none;
                 background-color: $darkblue;
                 height: 600vh;
-                height: 550vh;
+                height: 500vh;
                 // height: 400vh;
                 .home_section_content { 
                     margin: 0 3em 0 3em;
@@ -240,13 +240,13 @@ $buttongrey: #61677A;
                     height: 100vh;
                     height: 110vh;
                     overflow: hidden;
-               
+                    border-bottom: 1px solid white;
                     .portfolio_section_content {
                         margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
                         border-bottom: 1px solid white;
                         padding-bottom: 6em;
-                        
+                        overflow: hidden;
                         .title_nav {
                             display: flex;
                             justify-content: space-between;

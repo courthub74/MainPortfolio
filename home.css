@@ -12,7 +12,7 @@
   body #whole_page .whole_page {
     background-color: #080E2F;
     height: 600vh;
-    height: 550vh;
+    height: 500vh;
   }
   body #whole_page .whole_page .home_section_content {
     margin: 0 3em 0 3em;
@@ -172,12 +172,14 @@
     height: 100vh;
     height: 110vh;
     overflow: hidden;
+    border-bottom: 1px solid white;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content {
     margin: 0 3em 0 3em;
     margin: 0 1em 0 1em;
     border-bottom: 1px solid white;
     padding-bottom: 6em;
+    overflow: hidden;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
     display: flex;
