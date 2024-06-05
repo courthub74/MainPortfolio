@@ -390,11 +390,13 @@ $buttongrey: #61677A;
                                 height: 30em;
                                 transition: .3s all ease-in;
                                 border-top: 2px solid white;
+                                border-top: 3px solid $skillsteal;
                             }
                             #portfolio_square_two.tapped {
                                 height: 30em;
                                 transition: .3s all ease-in;
                                 border-top: 2px solid white;
+                                border-top: 3px solid $skillsteal;
                             }
                         }
                         //////////////////////////////////
@@ -1004,17 +1006,20 @@ $buttongrey: #61677A;
                                 height: 12em;
                                 transition: .3s all ease-in;
                                 border-top: 3px solid white;
-                                // border-top: 3px solid $firstblue;
+                                border-top: 3px solid $firstblue;
+                                border-top: 3px solid $skillsteal;
                             }
                             #experience_square_two.tapped {
                                 height: 12em;
                                 transition: .3s all ease-in;
                                 border-top: 3px solid white;
+                                border-top: 3px solid $skillsteal;
                             }
                             #experience_square_three.tapped {
                                 height: 12em;
                                 transition: .3s all ease-in;
                                 border-top: 3px solid white;
+                                border-top: 3px solid $skillsteal;
                             }
                             ////////////////////////////////
                             ////////////////////////////////
