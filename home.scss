@@ -239,13 +239,14 @@ $buttongrey: #61677A;
                     background-color: $darkblue;
                     height: 100vh;
                     // height: 95vh;
-                    
+                    overflow: hidden;
+               
                     .portfolio_section_content {
                         margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
                         border-bottom: 1px solid white;
-                        overflow: hidden;
                         padding-bottom: 4em;
+                        
                         .title_nav {
                             display: flex;
                             justify-content: space-between;
@@ -431,12 +432,14 @@ $buttongrey: #61677A;
                 .skills_section {
                     background-color: $nextgreen;
                     background-color: $darkblue;
-                    height: 110vh;
-                    // height: 90vh;
+                    height: 100vh;
+                    height: 100vh;
                     .skills_section_content {
                         margin: 0 3em 0 3em;
-                        margin: 0 1em 0 1em;
-                        height: 100%;
+                        margin: -6em 1em 0 1em;
+                        padding-bottom: 6em;
+                        border-bottom: 1px solid white;
+                        // height: 100%;
                         // width: 100%;
                         .title_nav {
                             display: flex;
@@ -859,8 +862,8 @@ $buttongrey: #61677A;
                             flex-direction: column;
                             height: 80%;
                             height: 90%;
-                            margin-top: -40px;
-                            margin-top: -60px;
+                            margin-top: 50px;
+                            // margin-top: -60px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
                             gap: 1.5em;
@@ -922,7 +925,7 @@ $buttongrey: #61677A;
                     height: 110vh;
                     .experience_section_content {
                         margin: 0 3em 0 3em;
-                        margin: 0 1em 0 1em;
+                        margin: -5em 1em 0 1em;
                         height: 100%;
                         .title_nav {
                             display: flex;

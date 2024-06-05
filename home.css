@@ -170,12 +170,12 @@
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
     height: 100vh;
+    overflow: hidden;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content {
     margin: 0 3em 0 3em;
     margin: 0 1em 0 1em;
     border-bottom: 1px solid white;
-    overflow: hidden;
     padding-bottom: 4em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
@@ -323,12 +323,14 @@
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
     background-color: #080E2F;
-    height: 110vh;
+    height: 100vh;
+    height: 100vh;
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
     margin: 0 3em 0 3em;
-    margin: 0 1em 0 1em;
-    height: 100%;
+    margin: -6em 1em 0 1em;
+    padding-bottom: 6em;
+    border-bottom: 1px solid white;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .title_nav {
     display: flex;
@@ -677,8 +679,7 @@
     flex-direction: column;
     height: 80%;
     height: 90%;
-    margin-top: -40px;
-    margin-top: -60px;
+    margin-top: 50px;
     gap: 2em;
     gap: 1.5em;
   }
@@ -720,7 +721,7 @@
   }
   body #whole_page .experience_section .experience_section_content {
     margin: 0 3em 0 3em;
-    margin: 0 1em 0 1em;
+    margin: -5em 1em 0 1em;
     height: 100%;
   }
   body #whole_page .experience_section .experience_section_content .title_nav {
