@@ -220,7 +220,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app {
     width: 11em;
     height: 2em;
-    margin-top: 18em;
+    margin-top: 20em;
     transition: 0.3s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app.tapped {
@@ -230,6 +230,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #create_collab {
     width: 9.3em;
     height: 1.5em;
+    margin-top: 18em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #luminex_solutions {
     width: 10em;
@@ -280,12 +281,23 @@
     flex-direction: column;
     gap: 1em;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .portfolio_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .close_portfolio_button #port_close_one {
     width: 2em;
     height: 2em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_one.tapped {
-    height: 25em;
+    height: 30em;
+    transition: 0.3s all ease-in;
+    border-top: 2px solid white;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_two.tapped {
+    height: 30em;
     transition: 0.3s all ease-in;
     border-top: 2px solid white;
   }
@@ -293,6 +305,9 @@
     opacity: 0;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content #workflow_app_content.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content #create_collab_content.tapped {
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section {

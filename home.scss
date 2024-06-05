@@ -300,7 +300,7 @@ $buttongrey: #61677A;
                                     width: 11em;
                                     height: 2em;
                                     // margin: 0 0 -4em 0;
-                                    margin-top: 18em;
+                                    margin-top: 20em;
                                     transition: .3s all ease-in;
                                 }
                                 #workflow_app.tapped {
@@ -310,8 +310,7 @@ $buttongrey: #61677A;
                                 #create_collab {
                                     width: 9.3em;
                                     height: 1.5em;
-                                    // width: 11em;
-                                    // height: 2em;
+                                    margin-top: 18em;
                                 }
                                 #luminex_solutions {
                                     width: 10em;
@@ -368,6 +367,13 @@ $buttongrey: #61677A;
                                         flex-direction: column;
                                         gap: 1em;
                                     }
+                                    // Portfolio Links
+                                    .portfolio_links {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 1em;
+                                    }
                                      // Portfolio Close Buttons 
                                     .close_portfolio_button {
                                         #port_close_one {
@@ -381,7 +387,12 @@ $buttongrey: #61677A;
                             /////////////////////////////////
                             /// TO EXPAND THE PORTFOLIO SQUARES
                             #portfolio_square_one.tapped {
-                                height: 25em;
+                                height: 30em;
+                                transition: .3s all ease-in;
+                                border-top: 2px solid white;
+                            }
+                            #portfolio_square_two.tapped {
+                                height: 30em;
                                 transition: .3s all ease-in;
                                 border-top: 2px solid white;
                             }
@@ -394,6 +405,9 @@ $buttongrey: #61677A;
                             opacity: 0;
                         }
                         #workflow_app_content.tapped {
+                            opacity: 1;
+                        }
+                        #create_collab_content.tapped {
                             opacity: 1;
                         }
                     }
