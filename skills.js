@@ -7,6 +7,10 @@ let react_skill_circle = document.getElementById('react_skill');
 let native_skill_circle = document.getElementById('native_skill');
 let figma_skill_circle = document.getElementById('figma_skill');
 
+// Query the inner Circle
+let html_inner_circle = document.getElementById('inner_circle_html');
+let css_inner_circle = document.getElementById('inner_circle_css');
+
 // Query the Line
 let line_html = document.getElementById('line_html');
 let line_python = document.getElementById('line_python');
@@ -44,12 +48,14 @@ html_skill_circle.addEventListener('click', () => {
     line_html.classList.add('tapped');
     html_skill.classList.add('tapped');
     html_description.classList.add('tapped');
+    html_inner_circle.classList.add('tapped');
     // add a function that resets the circle
     function reset_html() {
         html_skill_circle.classList.remove('tapped');
         line_html.classList.remove('tapped');
         html_skill.classList.remove('tapped');
         html_description.classList.remove('tapped');
+        html_inner_circle.classList.remove('tapped');
     }
     // set the timer to reset it
     setTimeout(reset_html, 3500);
@@ -61,11 +67,13 @@ css_skill_circle.addEventListener('click', () => {
     line_css.classList.add('tapped');
     css_skill.classList.add('tapped');
     css_description.classList.add('tapped');
+    css_inner_circle.classList.add('tapped');
     function reset_css() {
         css_skill_circle.classList.remove('tapped');
         line_css.classList.remove('tapped');
         css_skill.classList.remove('tapped');
         css_description.classList.remove('tapped');
+        css_inner_circle.classList.remove('tapped');
     }
     setTimeout(reset_css, 3500);
 });
