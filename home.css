@@ -222,6 +222,8 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #workflow_app {
     width: 11em;
     height: 2em;
+    width: 13em;
+    height: 2.5em;
     margin-top: 20em;
     transition: 0.3s all ease-in;
   }
