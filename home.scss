@@ -1178,7 +1178,7 @@ $buttongrey: #61677A;
                             input {
                                 padding: 1em 8em;
                                 padding: .5em 5em;
-                                border: none;
+                                // border: none;
                                 // border: 2px solid $skillsteal;
                                 border-bottom: 2px solid $nextgreen;
                                 background-color: $footerblue ;
@@ -1191,32 +1191,32 @@ $buttongrey: #61677A;
                                 border: none;
                             }
                             // BELOW IS GOING ON A SEPARATE PAGE
-                            // textarea {
-                            //     padding: 2em 5.8em;
-                            //     // padding: 4em 7.5em;
-                            //     border: 2px solid white;
-                            //     border-bottom: none;
-                            //     // border-bottom: 2px solid $nextgreen;
-                            //     // border-top: 2px solid $greentop;
-                            //     // border-top: 2px solid $buttongrey;
-                            //     background-color: $footerblue;
-                            //     color: white;
-                            //     resize: none;
-                            //     // width: 100%;
-                            //     button {
-                            //         color: white;
-                            //     }
-                            // }
-                            // ::placeholder {
-                            //     color: $footerblue;
-                            //     color: $nextgreen;
-                            //     color: $jobdescription;
-                            //     color: $greentop;
-                            //     // filter: opacity(75%);
-                            //     font-family: 'Inter', sans-serif;
-                            //     text-align: center;
-                            //     font-size: .8rem;
-                            // }
+                            textarea {
+                                padding: 2em 5.8em;
+                                // padding: 4em 7.5em;
+                                border: 2px solid white;
+                                border-bottom: none;
+                                // border-bottom: 2px solid $nextgreen;
+                                // border-top: 2px solid $greentop;
+                                // border-top: 2px solid $buttongrey;
+                                background-color: $footerblue;
+                                color: white;
+                                resize: none;
+                                // width: 100%;
+                                button {
+                                    color: white;
+                                }
+                            }
+                            ::placeholder {
+                                color: $footerblue;
+                                color: $nextgreen;
+                                color: $jobdescription;
+                                color: $greentop;
+                                // filter: opacity(75%);
+                                font-family: 'Inter', sans-serif;
+                                text-align: center;
+                                font-size: .8rem;
+                            }
                             button {
                                 border: none;
                                 border-top: 2px solid $greentop;
@@ -1228,10 +1228,11 @@ $buttongrey: #61677A;
                                 padding: .5em 1.2em;
                                 padding: 1em 8.7em;
                                 padding: .5em 5.5em;
+                                padding: .5em 2em;
                                 font-weight: bold;
                                 cursor: pointer;
                                 font-family: 'Inter', sans-serif;
-                                font-size: 1rem;
+                                font-size: .8rem;
                                 // filter: opacity(80%);
                             }
                         }
@@ -1707,6 +1708,8 @@ $buttongrey: #61677A;
                                 border-radius: 50%;
                                 height: 11vw;
                                 width: 11vw;
+                                height: 80%;
+                                width: 80%;
                                 background-color: $footerblue;
                                 // border: 3px solid $skillsteal;
                                 box-sizing: border-box;
@@ -2278,10 +2281,12 @@ $buttongrey: #61677A;
                             // background-color: #060927;
                             // position: static;
                             // Maybe it doesn't need a height here
+                            
                             .footer_section_content {
                                 padding: 2em 5em 2em 5em;
                                 border-top: $nextgreen 3px solid;
                                 background-color: #060927;
+                                height: 8em;
                                 // background-color: #00C6C3;
                                 // border-top: 3px solid $skillsteal;
                                 filter: opacity(90%);
@@ -2294,19 +2299,26 @@ $buttongrey: #61677A;
                                         display: flex;
                                         align-items: center;
                                         gap: 2.5em;
-                                        gap: 2.5vw;
+                                        gap: 2vw;
+                                        padding-top: 1em;
                                         // filter: opacity(80%);
                                         #github {
                                             height: 2.5em;
                                             width: 2.5em;
+                                            height: 2em;
+                                            width: 2em;
                                         }
                                         #linkedin {
                                             height: 3em;
                                             width: 3em;
+                                            height: 2.3em;
+                                            width: 2.3em;
                                         }
                                         #instagram {
                                             height: 3.4em;
                                             width: 3.4em;
+                                            height: 2.8em;
+                                            width: 2.8em;
                                         }
                                         #twitter {
                                             height: 3em;
@@ -2315,23 +2327,28 @@ $buttongrey: #61677A;
                                         #twitter_desk {
                                             height: 2.6em;
                                             width: 2.6em;
+                                            height: 1.9em;
+                                            width: 1.9em;
                                         }
                                     }
                                     .email_footer {
                                         display: flex;
                                         flex-direction: column;
                                         gap: 5px;
+                                        // margin-left: -70em;
                                         // For the top of the email input
-                                        // label {
-                                        //     font-family: 'Inter', sans-serif;
-                                        //     color: $resumebutton;
-                                        //     font-weight: bold;
-                                        //     filter: opacity(90%);
-                                        // }
+                                        label {
+                                            font-family: 'Inter', sans-serif;
+                                            color: white;
+                                            font-weight: bold;
+                                            filter: opacity(90%);
+                                        }
                                         .email_submit {
                                             display: flex;
                                             align-items: center;
+                                            // justify-content: center;
                                             gap: 1em;
+                                            // margin: 0 0 0 -40em;
                                             #email_address {
                                                 padding: 1em 1em;
                                             }
@@ -2411,19 +2428,22 @@ $buttongrey: #61677A;
                                             }
                                         }
                                     }
-                                    .footer_logo {
-                                        small {
-                                            color: white;
-                                            display: flex;
-                                            align-items: center;
-                                            font-family: 'Inter', sans-serif;
-                                            font-size: .7rem;
-                                            gap: .5em;
-                                            filter: opacity(80%);
-                                            #footer_logo {
-                                                width: 2em;
-                                                height: 2em;
-                                            }
+                                    
+                                }
+                                .footer_logo {
+                                    small {
+                                        color: white;
+                                        display: flex;
+                                        // justify-content: center;
+                                        align-items: center;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .8rem;
+                                        gap: .5em;
+                                        padding-top: 1em;
+                                        filter: opacity(80%);
+                                        #footer_logo {
+                                            width: 2em;
+                                            height: 2em;
                                         }
                                     }
                                 }
