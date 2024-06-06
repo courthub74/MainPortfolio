@@ -101,3 +101,21 @@ exp_name_3.addEventListener('pointerdown', () => {
 //////////////////////////////////////////
 // DESKTOP FUNCTIONALITY
 
+// For any screen larger than the average tablet
+let widthMatch = window.matchMedia("(min-width: 1180px)");
+
+if(widthMatch.matches) {
+
+    // BOX 1
+    box_1.addEventListener('mouseover', () => {
+        // console.log(roll_1);
+        box_1.classList.add('hover');
+        roll_1.classList.add('hover');
+    });
+
+    box_1.addEventListener('mouseout', () => {
+        // console.log(roll_1);
+        box_1.classList.remove('hover');
+        roll_1.classList.remove('hover');
+    });
+};
