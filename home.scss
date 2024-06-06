@@ -287,10 +287,9 @@ $buttongrey: #61677A;
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $footerblue;
-                                // background-color: $portfolios;
-                                // background-color: #33365B;
+                                background-color: $squaresback;
                                 border-top: 3px solid $buttongrey;
-                                border-top: 3px solid $nextgreen;
+                                // border-top: 3px solid $nextgreen;
                                 height: 19%;
                                 height: 9em;
                                 width: 100%;
@@ -400,13 +399,13 @@ $buttongrey: #61677A;
                                 height: 30em;
                                 transition: .3s all ease-in;
                                 border-top: 2px solid white;
-                                border-top: 3px solid $skillsteal;
+                                // border-top: 3px solid $skillsteal;
                             }
                             #portfolio_square_two.tapped {
                                 height: 30em;
                                 transition: .3s all ease-in;
                                 border-top: 2px solid white;
-                                border-top: 3px solid $skillsteal;
+                                // border-top: 3px solid $skillsteal;
                             }
                         }
                         //////////////////////////////////
@@ -965,10 +964,10 @@ $buttongrey: #61677A;
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $footerblue;
-                                // background-color: $squaresback;
+                                background-color: $squaresback;
                                 border-top: 3px solid $nextgreen;
                                 // border-top: 3px solid $skillsteal;
-                                // border-top: 3px solid $buttongrey;
+                                border-top: 3px solid $buttongrey;
                                 box-shadow: 1px 1px 1px black;
                                 height: 19%;
                                 height: 10em;
@@ -1040,20 +1039,20 @@ $buttongrey: #61677A;
                                 height: 12em;
                                 transition: .3s all ease-in;
                                 border-top: 3px solid white;
-                                border-top: 3px solid $firstblue;
-                                border-top: 3px solid $skillsteal;
+                                // border-top: 3px solid $firstblue;
+                                // border-top: 3px solid $skillsteal;
                             }
                             #experience_square_two.tapped {
                                 height: 12em;
                                 transition: .3s all ease-in;
                                 border-top: 3px solid white;
-                                border-top: 3px solid $skillsteal;
+                                // border-top: 3px solid $skillsteal;
                             }
                             #experience_square_three.tapped {
                                 height: 12em;
                                 transition: .3s all ease-in;
                                 border-top: 3px solid white;
-                                border-top: 3px solid $skillsteal;
+                                // border-top: 3px solid $skillsteal;
                             }
                             ////////////////////////////////
                             ////////////////////////////////
