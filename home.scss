@@ -1106,7 +1106,6 @@ $buttongrey: #61677A;
                 border-top: 3px solid $nextgreen;
                 // border-top: 3px solid $skillsteal;
                 height: 7%;
-                height: 12%;
                 .footer_elements {
                     margin: 3em 0 0 0;
                     display: flex;
@@ -1114,125 +1113,127 @@ $buttongrey: #61677A;
                     flex-direction: column;
                     justify-content: space-between;
                     gap: 2em;
-                    gap: 3em;
+                    // gap: 3em;
                     .socials_footer {
                         display: flex;
                         align-items: center;
                         gap: 2.5em;
-                        gap: 10vw;
+                        gap: 8vw;
                         // filter: opacity(80%);
                         #github {
-                            height: 1.5em;
-                            width: 1.5em;
-                            height: 2.2em;
-                            width: 2.2em;
+                            height: 2em;
+                            width: 2em;
                         }
                         #linkedin {
-                            height: 3em;
-                            width: 3em;
-                            height: 2.7em;
-                            width: 2.7em;
+                            height: 2.4em;
+                            width: 2.4em;
                         }
                         #instagram {
-                            height: 3.4em;
-                            width: 3.4em;
-                            height: 3.1em;
-                            width: 3.1em;
+                            height: 2.9em;
+                            width: 2.9em;
                         }
                         #twitter {
-                            height: 3em;
-                            width: 3em;
-                            height: 2em;
-                            width: 2em;
+                            height: 1.8em;
+                            width: 1.8em;
                         }
                         #twitter_mobile {
-                            height: 2em;
-                            width: 2em;
+                            height: 1.9em;
+                            width: 1.9em;
                             // background-color: #00313E;
                         }
                     }
+                    .contact_me_mobile_footer {
+                        background-color: $footerblue;
+                        border: 3px solid white;
+                        color: white;
+                        padding: .5em 6em;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                    } 
+                    // HAVE ELIMINATED THESE ON MOBILE
                     .email_footer {
                         display: flex;
                         flex-direction: column;
                         gap: 5px;
-                        // For the top of the email input
-                        label {
-                            font-family: 'Inter', sans-serif;
-                            color: white;
-                            font-weight: bold;
-                            filter: opacity(90%);
-                        }
-                        .email_submit {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            gap: 1em;    
-                            input {
-                                padding: 1em 8em;
-                                padding: .5em 5em;
-                                border: 2px solid white;
-                                // border-bottom: 2px solid $nextgreen;
-                                background-color: $footerblue ;
-                                color: $jobdescription;
-                                color: white;
-                                filter: opacity(60%);
+                        display: none;
+                    //     // For the top of the email input
+                    //     // label {
+                    //     //     font-family: 'Inter', sans-serif;
+                    //     //     color: white;
+                    //     //     font-weight: bold;
+                    //     //     filter: opacity(90%);
+                    //     // }
+                    //     .email_submit {
+                    //         display: flex;
+                    //         flex-direction: column;
+                    //         align-items: center;
+                    //         gap: 1em;  
+                    //         // input {
+                    //         //     padding: 1em 8em;
+                    //         //     padding: .5em 5em;
+                    //         //     border: 2px solid white;
+                    //         //     // border-bottom: 2px solid $nextgreen;
+                    //         //     background-color: $footerblue ;
+                    //         //     color: $jobdescription;
+                    //         //     color: white;
+                    //         //     filter: opacity(60%);
 
-                            }
-                            #message_text {
-                                padding: 2em 5em;
-                            }
-                            input:focus {
-                                border: none;
-                            }
-                            // BELOW IS GOING ON A SEPARATE PAGE
-                            textarea {
-                                padding: 2em 5.8em;
-                                // padding: 4em 7.5em;
-                                border: 2px solid white;
-                                border-bottom: none;
-                                // border-bottom: 2px solid $nextgreen;
-                                // border-top: 2px solid $greentop;
-                                // border-top: 2px solid $buttongrey;
-                                background-color: $footerblue;
-                                color: white;
-                                resize: none;
-                                // width: 100%;
-                                button {
-                                    color: white;
-                                }
-                            }
-                            ::placeholder {
-                                color: $footerblue;
-                                color: $nextgreen;
-                                color: $jobdescription;
-                                color: $greentop;
-                                // filter: opacity(75%);
-                                font-family: 'Inter', sans-serif;
-                                text-align: center;
-                                font-size: .8rem;
-                            }
-                            button {
-                                border: none;
-                                border-top: 2px solid $greentop;
-                                color: $jobdescription;
-                                color: white;
-                                color: $footerblue;
-                                background-color: $nextgreen;
-                                background-color: white;
-                                padding: .5em 1.2em;
-                                padding: 1em 8.7em;
-                                padding: .5em 8.3em;
-                                // padding: .5em 2em;
-                                font-weight: bold;
-                                cursor: pointer;
-                                font-family: 'Inter', sans-serif;
-                                font-size: .8rem;
-                                // filter: opacity(80%);
-                            }
-                        }
+                    //         // }
+                    //         // #message_text {
+                    //         //     padding: 2em 5em;
+                    //         // }
+                    //         // input:focus {
+                    //         //     border: none;
+                    //         // }
+                    //         // BELOW IS GOING ON A SEPARATE PAGE
+                    //         textarea {
+                    //             padding: 2em 5.8em;
+                    //             // padding: 4em 7.5em;
+                    //             border: 2px solid white;
+                    //             border-bottom: none;
+                    //             // border-bottom: 2px solid $nextgreen;
+                    //             // border-top: 2px solid $greentop;
+                    //             // border-top: 2px solid $buttongrey;
+                    //             background-color: $footerblue;
+                    //             color: white;
+                    //             resize: none;
+                    //             // width: 100%;
+                    //             button {
+                    //                 color: white;
+                    //             }
+                    //         }
+                    //         ::placeholder {
+                    //             color: $footerblue;
+                    //             color: $nextgreen;
+                    //             color: $jobdescription;
+                    //             color: $greentop;
+                    //             // filter: opacity(75%);
+                    //             font-family: 'Inter', sans-serif;
+                    //             text-align: center;
+                    //             font-size: .8rem;
+                    //         }
+                    //         button {
+                    //             border: none;
+                    //             border-top: 2px solid $greentop;
+                    //             color: $jobdescription;
+                    //             color: white;
+                    //             color: $footerblue;
+                    //             background-color: $nextgreen;
+                    //             background-color: white;
+                    //             padding: .5em 1.2em;
+                    //             padding: 1em 8.7em;
+                    //             padding: .5em 8.3em;
+                    //             // padding: .5em 2em;
+                    //             font-weight: bold;
+                    //             cursor: pointer;
+                    //             font-family: 'Inter', sans-serif;
+                    //             font-size: .8rem;
+                    //             // filter: opacity(80%);
+                    //         }
+                    //     }
                     }
                     .footer_logo {
-                        margin-top: 1em;
+                        // margin-top: 1em;
                         small {
                             color: white;
                             display: flex;
@@ -2502,6 +2503,7 @@ $buttongrey: #61677A;
                             display: flex;
                             flex-direction: column;
                             gap: 5px;
+                            display: none;
                             // For the top of the email input
                             label {
                                 font-family: 'Inter', sans-serif;

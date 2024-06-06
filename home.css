@@ -838,7 +838,6 @@
     background-color: #060927;
     border-top: 3px solid #00313E;
     height: 7%;
-    height: 12%;
   }
   body .mobile_footer .footer_elements {
     margin: 3em 0 0 0;
@@ -847,121 +846,46 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 2em;
-    gap: 3em;
   }
   body .mobile_footer .footer_elements .socials_footer {
     display: flex;
     align-items: center;
     gap: 2.5em;
-    gap: 10vw;
+    gap: 8vw;
   }
   body .mobile_footer .footer_elements .socials_footer #github {
-    height: 1.5em;
-    width: 1.5em;
-    height: 2.2em;
-    width: 2.2em;
+    height: 2em;
+    width: 2em;
   }
   body .mobile_footer .footer_elements .socials_footer #linkedin {
-    height: 3em;
-    width: 3em;
-    height: 2.7em;
-    width: 2.7em;
+    height: 2.4em;
+    width: 2.4em;
   }
   body .mobile_footer .footer_elements .socials_footer #instagram {
-    height: 3.4em;
-    width: 3.4em;
-    height: 3.1em;
-    width: 3.1em;
+    height: 2.9em;
+    width: 2.9em;
   }
   body .mobile_footer .footer_elements .socials_footer #twitter {
-    height: 3em;
-    width: 3em;
-    height: 2em;
-    width: 2em;
+    height: 1.8em;
+    width: 1.8em;
   }
   body .mobile_footer .footer_elements .socials_footer #twitter_mobile {
-    height: 2em;
-    width: 2em;
+    height: 1.9em;
+    width: 1.9em;
+  }
+  body .mobile_footer .footer_elements .contact_me_mobile_footer {
+    background-color: #060927;
+    border: 3px solid white;
+    color: white;
+    padding: 0.5em 6em;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
   }
   body .mobile_footer .footer_elements .email_footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
-  }
-  body .mobile_footer .footer_elements .email_footer label {
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-weight: bold;
-    filter: opacity(90%);
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit input {
-    padding: 1em 8em;
-    padding: 0.5em 5em;
-    border: 2px solid white;
-    background-color: #060927;
-    color: #00C6C3;
-    color: white;
-    filter: opacity(60%);
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit #message_text {
-    padding: 2em 5em;
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit input:focus {
-    border: none;
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit textarea {
-    padding: 2em 5.8em;
-    border: 2px solid white;
-    border-bottom: none;
-    background-color: #060927;
-    color: white;
-    resize: none;
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit textarea button {
-    color: white;
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit ::-moz-placeholder {
-    color: #060927;
-    color: #00313E;
-    color: #00C6C3;
-    color: rgba(255, 255, 255, 0.664);
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 0.8rem;
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit ::placeholder {
-    color: #060927;
-    color: #00313E;
-    color: #00C6C3;
-    color: rgba(255, 255, 255, 0.664);
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 0.8rem;
-  }
-  body .mobile_footer .footer_elements .email_footer .email_submit button {
-    border: none;
-    border-top: 2px solid rgba(255, 255, 255, 0.664);
-    color: #00C6C3;
-    color: white;
-    color: #060927;
-    background-color: #00313E;
-    background-color: white;
-    padding: 0.5em 1.2em;
-    padding: 1em 8.7em;
-    padding: 0.5em 8.3em;
-    font-weight: bold;
-    cursor: pointer;
-    font-family: "Inter", sans-serif;
-    font-size: 0.8rem;
-  }
-  body .mobile_footer .footer_elements .footer_logo {
-    margin-top: 1em;
+    display: none;
   }
   body .mobile_footer .footer_elements .footer_logo small {
     color: white;
@@ -2030,6 +1954,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    display: none;
   }
   body #whole_page .whole_page .mobile_footer .footer_elements .email_footer label {
     font-family: "Inter", sans-serif;
