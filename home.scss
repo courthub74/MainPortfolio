@@ -12,6 +12,9 @@ $nextgreen: #00313E;
 // Portfolio backgrounds
 $portfolios: #36395D;
 $squaresback: #33365B;
+// Technology Circle Colors
+$lightertechcircles: #0d1270;
+$darkertechcircles: #00313E;
 // Resume Button Green
 $resumebutton: #507E81;
 // Green Button Top
@@ -257,7 +260,6 @@ $buttongrey: #61677A;
                                 font-size: 2.2rem;
                                 color: white;
                                 font-weight: bold;
-                                
                             }
                         }
                         .portfolio_desktop_nav {
@@ -346,6 +348,7 @@ $buttongrey: #61677A;
                                     font-family: 'Inter', sans-serif;
                                     font-size: .8rem;
                                     text-align: center;
+                                    transition: .4s all ease-in;
                                     // Technologies used
                                     .tech_used_portfolio {
                                         display: flex;
@@ -358,8 +361,11 @@ $buttongrey: #61677A;
                                             .port_circle {
                                                 width: 5em;
                                                 height: 5em;
-                                                background-color: #00313E;
-                                                background-color: #1677A2;
+                                                // Color for the Dark Blue Background
+                                                // background-color: #00313E;
+                                                // Color for the Lighter Portfolios cover
+                                                background-color: #0d1270;
+                                                // background-color: $lightertechcircles;
                                                 color: $buttongrey;
                                                 border-radius: 50%;
                                                 display: flex;
@@ -1148,7 +1154,8 @@ $buttongrey: #61677A;
                         color: white;
                         padding: .5em 6em;
                         font-family: 'Inter', sans-serif;
-                        font-weight: bold;
+                        // font-weight: bold;
+                        margin-top: -.5em;
                     } 
                     // HAVE ELIMINATED THESE ON MOBILE
                     .email_footer {

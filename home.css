@@ -255,6 +255,7 @@
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
     text-align: center;
+    transition: 0.4s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .tech_used_portfolio {
     display: flex;
@@ -269,8 +270,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .tech_used_portfolio .tech_portfolio_circles .port_circle {
     width: 5em;
     height: 5em;
-    background-color: #00313E;
-    background-color: #1677A2;
+    background-color: #0d1270;
     color: #61677A;
     border-radius: 50%;
     display: flex;
@@ -879,7 +879,7 @@
     color: white;
     padding: 0.5em 6em;
     font-family: "Inter", sans-serif;
-    font-weight: bold;
+    margin-top: -0.5em;
   }
   body .mobile_footer .footer_elements .email_footer {
     display: flex;
