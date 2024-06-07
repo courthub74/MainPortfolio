@@ -131,4 +131,15 @@ if(widthMatch.matches) {
         box_2.classList.remove('hover');
         roll_2.classList.remove('hover');
     });
+
+    // BOX 3
+    box_3.addEventListener('mouseover', () => {
+        box_3.classList.add('hover');
+        roll_3.classList.add('hover');
+    });
+
+    box_3.addEventListener('mouseout', () => {
+        box_3.classList.remove('hover');
+        roll_3.classList.remove('hover');
+    });
 };
