@@ -312,7 +312,12 @@ $buttongrey: #61677A;
                                     #workflow_app {
                                         // background-color: yellow;
                                         width: 13em;
-                                        height: 2.5em;
+                                        height: 2.5em;   
+                                        transition: .3s all ease-in;
+                                    }
+                                    #workflow_app.tapped {
+                                        transition: .3s all ease-in;
+                                        margin-top: -22em;
                                     }
                                     #create_collab {
                                         width: 12em;

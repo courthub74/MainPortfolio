@@ -220,6 +220,11 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #workflow_app {
     width: 13em;
     height: 2.5em;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #workflow_app.tapped {
+    transition: 0.3s all ease-in;
+    margin-top: -22em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #create_collab {
     width: 12em;
