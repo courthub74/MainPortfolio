@@ -225,7 +225,6 @@ $buttongrey: #61677A;
                             text-align: center;
                             a {
                                 color: $nextgreen;
-                                color: $darkblue;
                                 text-decoration: none;
                                 font-weight: bold;
                                 font-size: .8rem;
@@ -1153,11 +1152,16 @@ $buttongrey: #61677A;
                     .contact_me_mobile_footer {
                         background-color: $footerblue;
                         border: 3px solid white;
+                        border-radius: 15px;
+                        // border: none;
                         color: white;
-                        padding: .5em 6em;
+                        padding: .5em 4em;
                         font-family: 'Inter', sans-serif;
-                        // font-weight: bold;
+                        font-weight: bold;
+                        // text-decoration: underline;
                         margin-top: -.5em;
+                        font-size: 1rem;
+                        // width: 100%;
                     } 
                     // HAVE ELIMINATED THESE ON MOBILE
                     .email_footer {

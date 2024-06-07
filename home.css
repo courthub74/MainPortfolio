@@ -157,7 +157,6 @@
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;
-    color: #080E2F;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.8rem;
@@ -878,10 +877,13 @@
   body .mobile_footer .footer_elements .contact_me_mobile_footer {
     background-color: #060927;
     border: 3px solid white;
+    border-radius: 15px;
     color: white;
-    padding: 0.5em 6em;
+    padding: 0.5em 4em;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
     margin-top: -0.5em;
+    font-size: 1rem;
   }
   body .mobile_footer .footer_elements .email_footer {
     display: flex;
