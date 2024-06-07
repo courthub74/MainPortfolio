@@ -317,13 +317,23 @@ $buttongrey: #61677A;
                                     #create_collab {
                                         width: 12em;
                                         height: 2em;
+                                        z-index: 2;
                                     }
                                     #luminex_solutions {
                                         width: 12em;
                                         height: 1.7em;
+                                        z-index: 4;
                                     }
                                 }
-
+                                //////////////////////////////////
+                                //////////////////////////////////
+                                /// PORTFOLIO SQUARE ELEMENTS
+                                #portfolio_one {
+                                    // background-color: tan;
+                                    margin: 22em 0 0 0;
+                                }
+                                //////////////////////////////////
+                                //////////////////////////////////
                                 // Portfolio Clicked Content
                                 .portfolio_content {
                                     display: flex;
@@ -334,6 +344,7 @@ $buttongrey: #61677A;
                                     font-size: .8rem;
                                     text-align: center;
                                     transition: .4s all ease-in;
+                                    // position: absolute;
                                     // Technologies used
                                     .tech_used_portfolio {
                                         display: flex;

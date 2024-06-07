@@ -224,10 +224,15 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #create_collab {
     width: 12em;
     height: 2em;
+    z-index: 2;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #luminex_solutions {
     width: 12em;
     height: 1.7em;
+    z-index: 4;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #portfolio_one {
+    margin: 22em 0 0 0;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content {
     display: flex;
