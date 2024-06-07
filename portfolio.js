@@ -10,6 +10,7 @@ let port_logo_three = document.getElementById('luminex_solutions');
 
 // Query the Elements in the Square (for positioning)
 // let port_elements_one = document.getElementById('portfolio_one');
+// let port_elements_two = document.getElementById('portfolio_two');
 
 // Query the Content (what pops up when dropped down)
 let port_content_one = document.getElementById('workflow_app_content');
@@ -40,6 +41,19 @@ port_close_one.addEventListener('pointerdown', () => {
 // SQUARE TWO
 port_logo_two.addEventListener('pointerdown', () => {
     console.log("Box Two Pressed");
+    port_sq_two.classList.add('tapped');
+    port_logo_two.classList.add('tapped');
+    port_content_two.classList.add('tapped');
+    // ATTEMPT TO KEEP THE POSITION OF THE ELEMENTS
+    // port_elements_two.classList.add('tapped');
+});
+
+// Close button to click off
+port_close_two.addEventListener('pointerdown', () => {
+    port_sq_two.classList.remove('tapped');
+    port_logo_two.classList.remove('tapped');
+    port_content_two.classList.remove('tapped');
+    // port_elements_two.classList.remove('tapped');
 });
 
 // SQUARE THREE

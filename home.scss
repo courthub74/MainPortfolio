@@ -322,7 +322,13 @@ $buttongrey: #61677A;
                                     #create_collab {
                                         width: 12em;
                                         height: 2em;
+                                        transition: .3s all ease-in;
                                         z-index: 2;
+                                    }
+                                    // Do BELOW TO THE portfolio_two SECTION
+                                    #create_collab.tapped {
+                                        transition: .3s all ease-in;
+                                        margin-top: -22em;
                                     }
                                     #luminex_solutions {
                                         width: 12em;
@@ -337,6 +343,13 @@ $buttongrey: #61677A;
                                     // background-color: tan;
                                     margin: 22em 0 0 0;
                                 }
+                                #portfolio_two {
+                                    // background-color: tan;
+                                    margin: 22em 0 0 0;
+                                }
+                                // #portfolio_two.tapped {
+                                //     margin: -20em 0 0 0;
+                                // }
                                 //////////////////////////////////
                                 //////////////////////////////////
                                 // Portfolio Clicked Content
