@@ -2362,6 +2362,7 @@ $buttongrey: #61677A;
                                             }
                                             #email_address.contact {
                                                 border: 2px solid $jobdescription;
+                                                border: 2px solid yellow;
                                                 transition: .3s all ease-out;
                                             }
                                             #name_text {
@@ -2369,6 +2370,7 @@ $buttongrey: #61677A;
                                             }
                                             #name_text.contact {
                                                 border: 2px solid $jobdescription;
+                                                border: 2px solid yellow;
                                                 transition: .3s all ease-out;
                                             }
                                             input {
@@ -2389,10 +2391,11 @@ $buttongrey: #61677A;
                                                 border: none;
                                             }
                                             input.contact {
-                                                border: 2px solid $jobdescription;
+                                                // border: 2px solid $jobdescription;
                                                 // border: 2px solid rgb(54, 54, 240);
                                                 // border: 2px solid white;
-                                                // box-shadow: 4px 4px 4px gray;
+                                                border: 2px solid yellow;
+                                                // box-shadow: 4px 4px 4px white;
                                                 transition: .3s all ease-out;
                                             }
                                             ::placeholder {
@@ -2427,9 +2430,10 @@ $buttongrey: #61677A;
                                             }
                                             button.contact {
                                                 background-color: $jobdescription;
+                                                background-color: yellow;
                                                 // background-color: rgb(54, 54, 240);
-                                                border: 2px solid $jobdescription;
-                                                // border: 2px solid white;
+                                                // border: 2px solid $jobdescription;
+                                                border: 2px solid yellow;
                                                 // border: 2px solid rgb(54, 54, 240);
                                                 color: $footerblue;
                                                 // color: white;
