@@ -241,11 +241,18 @@
     height: 1.7em;
     z-index: 4;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #luminex_solutions.tapped {
+    transition: 0.3s all ease-in;
+    margin-top: -22em;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #portfolio_one {
     margin: 22em 0 0 0;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #portfolio_two {
     margin: 22em 0 0 0;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #portfolio_three {
+    margin: 25em 0 0 0;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content {
     display: flex;
