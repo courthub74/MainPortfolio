@@ -239,7 +239,7 @@ $buttongrey: #61677A;
                 /// PORTFOLIO SECTION
                 .portfolio_section {
                     background-color: $darkblue;
-                    height: 110vh;
+                    height: 120vh;
                     overflow: hidden;
                     // border-bottom: 1px solid white;
                     .portfolio_section_content {
@@ -334,6 +334,7 @@ $buttongrey: #61677A;
                                         width: 12em;
                                         height: 1.7em;
                                         z-index: 4;
+                                        transition: .3s all ease-in;
                                     }
                                     #luminex_solutions.tapped {
                                         transition: .3s all ease-in;
@@ -353,7 +354,7 @@ $buttongrey: #61677A;
                                 }
                                 #portfolio_three {
                                     // background-color: tan;
-                                    margin: 25em 0 0 0;
+                                    margin: 22em 0 0 0;
                                 }
                                 //////////////////////////////////
                                 //////////////////////////////////
@@ -419,6 +420,10 @@ $buttongrey: #61677A;
                                             width: 2em;
                                             height: 2em;
                                         }
+                                        #port_close_three {
+                                            width: 2em;
+                                            height: 2em;
+                                        }
                                     }
                                 }
                             }
@@ -437,6 +442,12 @@ $buttongrey: #61677A;
                                 border-top: 2px solid white;
                                 // border-top: 3px solid $skillsteal;
                             }
+                            #portfolio_square_three.tapped {
+                                height: 30em;
+                                transition: .3s all ease-in;
+                                border-top: 2px solid white;
+                                // border-top: 3px solid $skillsteal;
+                            }
                         }
                         //////////////////////////////////
                         //////////////////////////////////
@@ -449,6 +460,9 @@ $buttongrey: #61677A;
                             opacity: 1;
                         }
                         #create_collab_content.tapped {
+                            opacity: 1;
+                        }
+                        #luminex_content.tapped {
                             opacity: 1;
                         }
                     }

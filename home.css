@@ -163,7 +163,7 @@
   }
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
-    height: 110vh;
+    height: 120vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content {
@@ -240,6 +240,7 @@
     width: 12em;
     height: 1.7em;
     z-index: 4;
+    transition: 0.3s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #luminex_solutions.tapped {
     transition: 0.3s all ease-in;
@@ -252,7 +253,7 @@
     margin: 22em 0 0 0;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square #portfolio_three {
-    margin: 25em 0 0 0;
+    margin: 22em 0 0 0;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content {
     display: flex;
@@ -305,12 +306,21 @@
     width: 2em;
     height: 2em;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .close_portfolio_button #port_close_three {
+    width: 2em;
+    height: 2em;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_one.tapped {
     height: 30em;
     transition: 0.3s all ease-in;
     border-top: 2px solid white;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_two.tapped {
+    height: 30em;
+    transition: 0.3s all ease-in;
+    border-top: 2px solid white;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_three.tapped {
     height: 30em;
     transition: 0.3s all ease-in;
     border-top: 2px solid white;
@@ -322,6 +332,9 @@
     opacity: 1;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content #create_collab_content.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content #luminex_content.tapped {
     opacity: 1;
   }
   body #whole_page .whole_page .skills_section {

@@ -15,10 +15,12 @@ let port_logo_three = document.getElementById('luminex_solutions');
 // Query the Content (what pops up when dropped down)
 let port_content_one = document.getElementById('workflow_app_content');
 let port_content_two = document.getElementById('create_collab_content');
+let port_content_three = document.getElementById('luminex_content');
 
 // Query the Close button (to close the square)
 let port_close_one = document.getElementById('port_close_one');
 let port_close_two = document.getElementById('port_close_two');
+let port_close_three = document.getElementById('port_close_three');
 
 // MOBILE
 
@@ -57,6 +59,18 @@ port_close_two.addEventListener('pointerdown', () => {
 });
 
 // SQUARE THREE
+
+// Close button to click off
 port_logo_three.addEventListener('pointerdown', () => {
     console.log("Box Three Pressed");
+    port_sq_three.classList.add('tapped');
+    port_logo_three.classList.add('tapped');
+    port_content_three.classList.add('tapped');
+});
+
+// Close button to click off
+port_close_three.addEventListener('pointerdown', () => {
+    port_sq_three.classList.remove('tapped');
+    port_logo_three.classList.remove('tapped');
+    port_content_three.classList.remove('tapped');
 });
