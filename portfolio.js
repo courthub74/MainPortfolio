@@ -1,30 +1,29 @@
 // Query the Whole Squares
-let port_sq_one = document.getElementById('portfolio_square_one');
 
 // Query the Logos
 let port_logo_one = document.getElementById('workflow_app');
+let port_logo_two = document.getElementById('create_collab');
+let port_logo_three = document.getElementById('luminex_solutions');
 
 // Query the Content
-let port_content_one = document.getElementById('workflow_app_content');
 
 // Query the Close button
-let port_close_one = document.getElementById('port_close_one');
+
 
 // MOBILE
 
-// Square One
+// SQUARE ONE
 
-// Logo to click it on
 port_logo_one.addEventListener('pointerdown', () => {
     console.log("Box One Pressed");
-    port_sq_one.classList.add('tapped');
-    port_logo_one.classList.add('tapped');
-    port_content_one.classList.add('tapped');
 });
 
-// Close button to click off
-port_close_one.addEventListener('pointerdown', () => {
-    port_sq_one.classList.remove('tapped');
-    port_logo_one.classList.remove('tapped');
-    port_content_one.classList.remove('tapped');
-})
+// SQUARE TWO
+port_logo_two.addEventListener('pointerdown', () => {
+    console.log("Box Two Pressed");
+});
+
+// SQUARE THREE
+port_logo_three.addEventListener('pointerdown', () => {
+    console.log("Box Three Pressed");
+});
