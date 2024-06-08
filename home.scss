@@ -1752,7 +1752,9 @@ $buttongrey: #61677A;
                                         // Each Logo id for sizing
                                         #workflow_app_small {
                                             width: 13em;
+                                            width: 16em;
                                             height: 2.5em;
+                                            height: 3em;
                                         }
                                         #create_collab_small {
                                             width: 13.5em;
@@ -1784,6 +1786,8 @@ $buttongrey: #61677A;
                                                 .port_circle {
                                                     width: 5em;
                                                     height: 5em;
+                                                    width: 7em;
+                                                    height: 7em;
                                                     // Color for the Dark Blue Background
                                                     // background-color: #00313E;
                                                     // Color for the Lighter Portfolios cover
@@ -1811,25 +1815,34 @@ $buttongrey: #61677A;
                                             display: flex;
                                             align-items: center;
                                             justify-content: center;
-                                            gap: 1em;
+                                            gap: 5em;
+                                            margin: 0 0 0 -2.5em;
+                                            // border: 3px solid orangered;
+                                            // width: 100%;
+                                            // height: 2em;
+                                            .port_github {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                // Each link emblem by ID
+                                                #workflow_app_github {
+                                                    width: 2.5em;
+                                                    height: 2.5em;
+                                                }
+                                            }
+                                            .port_link {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                #workflow_app_link {
+                                                    width: 2.5em;
+                                                    height: 2.5em;
+                                                }
+                                            }
                                         }
                                          // Portfolio Close Buttons 
                                         .close_portfolio_button {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            #port_close_one {
-                                                width: 2em;
-                                                height: 2em;
-                                            }
-                                            #port_close_two {
-                                                width: 2em;
-                                                height: 2em;
-                                            }
-                                            #port_close_three {
-                                                width: 2em;
-                                                height: 2em;
-                                            }
+                                            display: none;
                                         }
                                     }
                                     ///////////////////////////
@@ -2420,7 +2433,7 @@ $buttongrey: #61677A;
                                 width: 28%;
                                 border-top: 3px solid $nextgreen;
                                 border-top: 3px solid $skillsteal;
-                                border-top: 5px solid $buttongrey;
+                                border-top: 3px solid $buttongrey;
                                 box-shadow: 2px 2px 2px black;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
@@ -2483,21 +2496,21 @@ $buttongrey: #61677A;
                             #experience_square_one.hover {
                                 border-top: 5px solid $skillsteal;
                                 border-top: 5px solid $jobdescription;
-                                border-top: 5px solid white;
+                                border-top: 3px solid white;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_two.hover {
                                 border-top: 5px solid $skillsteal;
                                 border-top: 5px solid $jobdescription;
-                                border-top: 5px solid white;
+                                border-top: 3px solid white;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_three.hover {
                                 border-top: 5px solid $skillsteal;
                                 border-top: 5px solid $jobdescription;
-                                border-top: 5px solid white;
+                                border-top: 3px solid white;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
