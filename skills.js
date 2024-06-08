@@ -55,7 +55,7 @@ html_skill_circle.addEventListener('click', () => {
         line_html.classList.remove('tapped');
         html_skill.classList.remove('tapped');
         html_description.classList.remove('tapped');
-        html_inner_circle.classList.remove('tapped');
+        // html_inner_circle.classList.remove('tapped');
     }
     // set the timer to reset it
     setTimeout(reset_html, 3500);
@@ -67,7 +67,7 @@ css_skill_circle.addEventListener('click', () => {
     line_css.classList.add('tapped');
     css_skill.classList.add('tapped');
     css_description.classList.add('tapped');
-    css_inner_circle.classList.add('tapped');
+    // css_inner_circle.classList.add('tapped');
     function reset_css() {
         css_skill_circle.classList.remove('tapped');
         line_css.classList.remove('tapped');
@@ -76,6 +76,23 @@ css_skill_circle.addEventListener('click', () => {
         css_inner_circle.classList.remove('tapped');
     }
     setTimeout(reset_css, 3500);
+});
+
+// SASS CIRCLE
+sass_skill_circle.addEventListener('pointerdown', () => {
+    sass_skill_circle.classList.add('tapped');
+    line_sass.classList.add('tapped');
+    sass_skill.classList.add('tapped');
+    sass_description.classList.add('tapped');
+    // sass_inner_circle.classList.add('tapped');
+    function reset_sass() {
+        sass_skill_circle.classList.remove('tapped');
+        line_sass.classList.remove('tapped');
+        sass_skill.classList.remove('tapped');
+        sass_description.classList.remove('tapped');
+        sass_inner_circle.classList.remove('tapped');
+    }
+    setTimeout(reset_sass, 3500);
 });
 
 // Desktops

@@ -476,7 +476,7 @@
     height: 2.8em;
     position: absolute;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass.hover {
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass.tapped {
     opacity: 0;
     transition: 0.3s all ease-in;
   }
@@ -679,6 +679,10 @@
     background-color: #060927;
     transition: 0.2s all ease-in;
   }
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle #inner_circle_sass.tapped {
+    background-color: #060927;
+    transition: 0.2s all ease-in;
+  }
   body #whole_page .whole_page .skills_section .skills_section_content #html_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
@@ -687,6 +691,13 @@
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #css_skill.tapped {
+    border: 3px solid #00C6C3;
+    transition: 0.2s all ease-in;
+    box-sizing: border-box;
+    background-color: #00313E;
+    box-shadow: none;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content #sass_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
@@ -911,15 +922,20 @@
     height: 1.9em;
     width: 1.9em;
   }
+  body .mobile_footer .footer_elements #contact_slide_up {
+    width: 2em;
+    height: 1.5em;
+    margin-top: -0.5em;
+  }
   body .mobile_footer .footer_elements .contact_me_mobile_footer {
     background-color: #060927;
     border: 3px solid white;
+    border: none;
     color: white;
-    padding: 0.5em 4em;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    margin-top: -0.5em;
-    font-size: 1rem;
+    margin-top: -1.8em;
+    font-size: 1.2rem;
   }
   body .mobile_footer .footer_elements .email_footer {
     display: flex;

@@ -640,7 +640,7 @@ $buttongrey: #61677A;
                                             height: 2.8em;
                                             position: absolute; 
                                         }
-                                        #sass.hover {
+                                        #sass.tapped {
                                             opacity: 0;
                                             transition: .3s all ease-in;
                                         }
@@ -885,6 +885,10 @@ $buttongrey: #61677A;
                                 background-color: $footerblue;
                                 transition: .2s all ease-in;
                             }
+                            #inner_circle_sass.tapped {
+                                background-color: $footerblue;
+                                transition: .2s all ease-in;
+                            }
                         }
                         ///////////////////////
                         ///////////////////////
@@ -897,6 +901,13 @@ $buttongrey: #61677A;
                             box-shadow: none;
                         }
                         #css_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            background-color: $nextgreen;
+                            box-shadow: none;
+                        }
+                        #sass_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
@@ -1198,18 +1209,25 @@ $buttongrey: #61677A;
                             // background-color: #00313E;
                         }
                     }
+                    // CONTACT ME ARROW
+                    #contact_slide_up {
+                        width: 2em;
+                        height: 1.5em;
+                        margin-top: -.5em;
+                    }
+                    // CONTACT ME BUTTON
                     .contact_me_mobile_footer {
                         background-color: $footerblue;
                         border: 3px solid white;
                         // border-radius: 15px;
-                        // border: none;
+                        border: none;
                         color: white;
-                        padding: .5em 4em;
+                        // padding: .5em 4em;
                         font-family: 'Inter', sans-serif;
                         font-weight: bold;
                         // text-decoration: underline;
-                        margin-top: -.5em;
-                        font-size: 1rem;
+                        margin-top: -1.8em;
+                        font-size: 1.2rem;
                         // width: 100%;
                     } 
                     // HAVE ELIMINATED THESE ON MOBILE
@@ -1294,6 +1312,9 @@ $buttongrey: #61677A;
                     //         }
                     //     }
                     }
+                    // HERE YOU ADD .tapped class for 
+                        // the email form to appear
+                    
                     .footer_logo {
                         // margin-top: 1em;
                         small {
