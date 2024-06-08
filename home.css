@@ -908,7 +908,6 @@
   body .mobile_footer .footer_elements .contact_me_mobile_footer {
     background-color: #060927;
     border: 3px solid white;
-    border-radius: 15px;
     color: white;
     padding: 0.5em 4em;
     font-family: "Inter", sans-serif;
@@ -1291,8 +1290,8 @@
     display: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle {
-    height: 13vw;
-    width: 13vw;
+    height: 12vw;
+    width: 12vw;
     border: 3px solid #146166;
     background-color: #00313E;
     display: flex;
@@ -1309,8 +1308,8 @@
     border-radius: 50%;
     height: 11vw;
     width: 11vw;
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
     background-color: #060927;
     box-sizing: border-box;
     cursor: pointer;
@@ -1622,7 +1621,7 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
-    padding: 4em 0 0 0;
+    padding: 7em 0 0 0;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles .first_six {
     display: flex;
@@ -1650,7 +1649,6 @@
   }
   body #whole_page .whole_page .experience_section {
     background-color: #080E2F;
-    height: 80vh;
     height: 90vh;
     padding: 3em 0 1em 0;
   }
@@ -1706,6 +1704,7 @@
     gap: 2em;
     gap: 2%;
     margin: 2em 0 7em 0;
+    margin: -1em 0 7em 0;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares .square {
@@ -1801,6 +1800,7 @@
     border-top: #00313E 3px solid;
     background-color: #060927;
     height: 8em;
+    margin: -5em 0 0 0;
     filter: opacity(90%);
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements {

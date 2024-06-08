@@ -1195,7 +1195,7 @@ $buttongrey: #61677A;
                     .contact_me_mobile_footer {
                         background-color: $footerblue;
                         border: 3px solid white;
-                        border-radius: 15px;
+                        // border-radius: 15px;
                         // border: none;
                         color: white;
                         padding: .5em 4em;
@@ -1742,8 +1742,8 @@ $buttongrey: #61677A;
                         // SKILLS CIRCLES 
                         // Physical circle
                         .outer_circle {
-                            height: 13vw;
-                            width: 13vw;
+                            height: 12vw;
+                            width: 12vw;
                             border: 3px solid $skillsteal;
                             background-color: $nextgreen;
                             display: flex;
@@ -1759,8 +1759,8 @@ $buttongrey: #61677A;
                                 border-radius: 50%;
                                 height: 11vw;
                                 width: 11vw;
-                                height: 80%;
-                                width: 80%;
+                                height: 90%;
+                                width: 90%;
                                 background-color: $footerblue;
                                 // border: 3px solid $skillsteal;
                                 box-sizing: border-box;
@@ -2130,7 +2130,7 @@ $buttongrey: #61677A;
                             align-items: center;
                             gap: 2em;
                             // background-color: #00C6C3;
-                            padding: 4em 0 0 0;
+                            padding: 7em 0 0 0;
                             .first_six {
                                 display: flex;
                                 gap: 2em;
@@ -2166,9 +2166,10 @@ $buttongrey: #61677A;
                 /// EXPERIENCE SECTION
                 .experience_section {
                     background-color: $darkblue;
-                    height: 80vh;
                     height: 90vh;
+                    // height: 105vh;
                     padding: 3em 0 1em 0;
+                    // padding: 3em 0 0em 0;
                     .experience_section_content {
                         // background-color: #58a6ff;
                         // height: 100vh;
@@ -2225,6 +2226,7 @@ $buttongrey: #61677A;
                             gap: 2em;
                             gap: 2%;
                             margin: 2em 0 7em 0;
+                            margin: -1em 0 7em 0;
                             // margin: 2em 0 5em 0;
                             // background-color: red;
                             box-sizing: border-box;
@@ -2338,7 +2340,7 @@ $buttongrey: #61677A;
                                 border-top: $nextgreen 3px solid;
                                 background-color: #060927;
                                 height: 8em;
-                                // background-color: #00C6C3;
+                                margin: -5em 0 0 0;
                                 // border-top: 3px solid $skillsteal;
                                 filter: opacity(90%);
                                 // width: 100%;
