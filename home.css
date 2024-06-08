@@ -311,6 +311,9 @@
     width: 2em;
     height: 2em;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .hover_logo {
+    display: none;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_one.tapped {
     height: 30em;
     transition: 0.3s all ease-in;
@@ -1283,6 +1286,27 @@
     text-align: center;
     transition: 0.4s all ease-in;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .hover_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #workflow_app_small {
+    width: 13em;
+    height: 2.5em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #create_collab_small {
+    width: 13.5em;
+    height: 2.3em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #luminex_solutions_small {
+    width: 13.6em;
+    height: 1.9em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .port_content_words {
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .tech_used_portfolio {
     display: flex;
     flex-direction: column;
@@ -1315,6 +1339,11 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .close_portfolio_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .close_portfolio_button #port_close_one {
     width: 2em;

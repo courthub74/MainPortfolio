@@ -426,6 +426,9 @@ $buttongrey: #61677A;
                                             height: 2em;
                                         }
                                     }
+                                    .hover_logo {
+                                        display: none;
+                                    }
                                 }
                             }
                             /////////////////////////////////
@@ -1726,6 +1729,35 @@ $buttongrey: #61677A;
                                         font-size: .8rem;
                                         text-align: center;
                                         transition: .4s all ease-in;
+                                        ////////////////////////////
+                                        ////////////////////////////
+                                        /// HOVER IMAGE
+                                        .hover_logo {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        // Each Logo id for sizing
+                                        #workflow_app_small {
+                                            width: 13em;
+                                            height: 2.5em;
+                                        }
+                                        #create_collab_small {
+                                            width: 13.5em;
+                                            height: 2.3em;
+                                        }
+                                        #luminex_solutions_small {
+                                            width: 13.6em;
+                                            height: 1.9em;
+                                        }
+                                        /////////////////////////////
+                                        /////////////////////////////
+                                        /// Portfolio Content Words
+                                        .port_content_words {
+                                            font-family: 'Inter', sans-serif;
+                                            color: white;
+
+                                        }
                                         /////////////////////////////
                                         /////////////////////////////
                                         /// Technologies Used
@@ -1771,6 +1803,9 @@ $buttongrey: #61677A;
                                         }
                                          // Portfolio Close Buttons 
                                         .close_portfolio_button {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
                                             #port_close_one {
                                                 width: 2em;
                                                 height: 2em;
