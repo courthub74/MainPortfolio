@@ -901,13 +901,15 @@ $buttongrey: #61677A;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                             background-color: $nextgreen;
+                            box-shadow: none;
                         }
                         #python_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
+                            box-shadow: none;
                         }
-                        }
+                    }
                         // SKILLS CIRCLES POSITIONING
                         .skills_circles {
                             display: flex;
@@ -1318,7 +1320,7 @@ $buttongrey: #61677A;
 // Landscape
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
     body {
-        background-color: $nextgreen;
+        background-color: $darkblue;
         #whole_page {
             .whole_page {
                 display: none;

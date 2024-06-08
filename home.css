@@ -691,11 +691,13 @@
     transition: 0.2s all ease-in;
     box-sizing: border-box;
     background-color: #00313E;
+    box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #python_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
+    box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_circles {
     display: flex;
@@ -941,7 +943,7 @@
 }
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
   body {
-    background-color: #00313E;
+    background-color: #080E2F;
   }
   body #whole_page .whole_page {
     display: none;
