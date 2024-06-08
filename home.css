@@ -1278,12 +1278,15 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #workflow_app.hover {
     opacity: 0;
+    transition: 0.3s all ease-out;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #create_collab.hover {
     opacity: 0;
+    transition: 0.3s all ease-out;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #luminex_solutions.hover {
     opacity: 0;
+    transition: 0.3s all ease-out;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content {
     opacity: 0;
@@ -1295,6 +1298,7 @@
     font-size: 0.8rem;
     text-align: center;
     transition: 0.4s all ease-in-out;
+    box-sizing: border-box;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .hover_logo {
     display: flex;
@@ -1310,7 +1314,7 @@
     height: 2.5em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #luminex_solutions_small {
-    width: 13.6em;
+    width: 14.5em;
     height: 1.9em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .port_content_words {

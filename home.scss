@@ -1721,12 +1721,15 @@ $buttongrey: #61677A;
                                     // FOR THE Dissapearing at HOVER
                                     #workflow_app.hover {
                                         opacity: 0;
+                                        transition: .3s all ease-out;
                                     }
                                     #create_collab.hover {
                                         opacity: 0;
+                                        transition: .3s all ease-out;
                                     }
                                     #luminex_solutions.hover {
                                         opacity: 0;
+                                        transition: .3s all ease-out;
                                     }
                                     /////////////////////////////
                                     /////////////////////////////
@@ -1741,6 +1744,7 @@ $buttongrey: #61677A;
                                         font-size: .8rem;
                                         text-align: center;
                                         transition: .4s all ease-in-out;
+                                        box-sizing: border-box;
                                         ////////////////////////////
                                         ////////////////////////////
                                         /// HOVER IMAGE
@@ -1759,7 +1763,7 @@ $buttongrey: #61677A;
                                             height: 2.5em;
                                         }
                                         #luminex_solutions_small {
-                                            width: 13.6em;
+                                            width: 14.5em;
                                             height: 1.9em;
                                         }
                                         /////////////////////////////

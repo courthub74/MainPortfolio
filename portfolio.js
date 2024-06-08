@@ -123,4 +123,24 @@ if(widthMatchPortfolio.matches) {
         // Light the top of Square
         port_sq_two.classList.remove('hover');
     });
+
+    // SQUARE THREE
+    port_sq_three.addEventListener('mouseover', () => {
+        console.log("Square Three");
+        // Make Logo dissapear
+        port_logo_three.classList.add('hover');
+        // Make content appear
+        port_content_three.classList.add('hover');
+        // Light the top of Square
+        port_sq_three.classList.add('hover');
+    });
+
+    port_sq_three.addEventListener('mouseout', () => {
+        // Make Logo dissapear
+        port_logo_three.classList.remove('hover');
+        // Make content appear
+        port_content_three.classList.remove('hover');
+        // Light the top of Square
+        port_sq_three.classList.remove('hover');
+    });
 }
