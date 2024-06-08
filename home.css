@@ -202,12 +202,13 @@
     align-items: center;
     background-color: #060927;
     background-color: #33365B;
+    background-color: #36395D;
     border-top: 3px solid #61677A;
     height: 19%;
     height: 9em;
     width: 100%;
     transition: 0.3s all ease-in;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content {
     display: flex;
@@ -378,6 +379,7 @@
     width: 10em;
     height: 7em;
     width: 9em;
+    box-shadow: 2px 2px 2px black;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle {
@@ -682,6 +684,7 @@
     transition: 0.2s all ease-in;
     box-sizing: border-box;
     background-color: #00313E;
+    box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #css_skill.tapped {
     border: 3px solid #00C6C3;
@@ -775,9 +778,10 @@
     align-items: center;
     background-color: #060927;
     background-color: #33365B;
+    background-color: #36395D;
     border-top: 3px solid #00313E;
     border-top: 3px solid #61677A;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
     height: 19%;
     height: 10em;
     width: 100%;

@@ -290,13 +290,14 @@ $buttongrey: #61677A;
                                 align-items: center;
                                 background-color: $footerblue;
                                 background-color: $squaresback;
+                                background-color: $portfolios;
                                 border-top: 3px solid $buttongrey;
                                 // border-top: 3px solid $nextgreen;
                                 height: 19%;
                                 height: 9em;
                                 width: 100%;
                                 transition: .3s all ease-in;
-                                box-shadow: 1px 1px 1px black;
+                                box-shadow: 2px 2px 2px black;
                                 ////////////////////////////////////
                                 ////////////////////////////////////
                                 /// EVERYTHING INSIDE THE PORTFOLIO SQUARES
@@ -526,6 +527,7 @@ $buttongrey: #61677A;
                             width: 10em;
                             height: 7em;
                             width: 9em;
+                            box-shadow: 2px 2px 2px black;
                             box-sizing: border-box;
                             .back_circle {
                                 display: flex;
@@ -892,6 +894,7 @@ $buttongrey: #61677A;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                             background-color: $nextgreen;
+                            box-shadow: none;
                         }
                         #css_skill.tapped {
                             border: 3px solid $jobdescription;
@@ -1016,10 +1019,11 @@ $buttongrey: #61677A;
                                 align-items: center;
                                 background-color: $footerblue;
                                 background-color: $squaresback;
+                                background-color: $portfolios;
                                 border-top: 3px solid $nextgreen;
                                 // border-top: 3px solid $skillsteal;
                                 border-top: 3px solid $buttongrey;
-                                box-shadow: 1px 1px 1px black;
+                                box-shadow: 2px 2px 2px black;
                                 height: 19%;
                                 height: 10em;
                                 width: 100%;
