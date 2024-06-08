@@ -410,6 +410,25 @@ $buttongrey: #61677A;
                                         align-items: center;
                                         justify-content: center;
                                         gap: 1em;
+                                        .port_github {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            // Each link emblem 
+                                            .github_portfolio {
+                                                width: 2.5em;
+                                                height: 2.5em;
+                                            }
+                                        }
+                                        .port_link {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            .link_portfolio {
+                                                width: 2.5em;
+                                                height: 2.5em;
+                                            }
+                                        }
                                     }
                                      // Portfolio Close Buttons 
                                     .close_portfolio_button {
@@ -1823,11 +1842,7 @@ $buttongrey: #61677A;
                                                 display: flex;
                                                 justify-content: center;
                                                 align-items: center;
-                                                // Each link emblem by ID
-                                                // #workflow_app_github {
-                                                //     width: 2.5em;
-                                                //     height: 2.5em;
-                                                // }
+                                                // Each link emblem 
                                                 .github_portfolio {
                                                     width: 2.5em;
                                                     height: 2.5em;
@@ -1837,10 +1852,6 @@ $buttongrey: #61677A;
                                                 display: flex;
                                                 justify-content: center;
                                                 align-items: center;
-                                                // #workflow_app_link {
-                                                //     width: 2.5em;
-                                                //     height: 2.5em;
-                                                // }
                                                 .link_portfolio {
                                                     width: 2.5em;
                                                     height: 2.5em;

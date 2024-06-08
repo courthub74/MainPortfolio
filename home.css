@@ -299,6 +299,24 @@
     justify-content: center;
     gap: 1em;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .portfolio_links .port_github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .portfolio_links .port_github .github_portfolio {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .portfolio_links .port_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .portfolio_links .port_link .link_portfolio {
+    width: 2.5em;
+    height: 2.5em;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_content .close_portfolio_button #port_close_one {
     width: 2em;
     height: 2em;
