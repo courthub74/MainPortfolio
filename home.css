@@ -1302,14 +1302,12 @@
     align-items: center;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #workflow_app_small {
-    width: 13em;
     width: 16em;
-    height: 2.5em;
     height: 3em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #create_collab_small {
-    width: 13.5em;
-    height: 2.3em;
+    width: 15em;
+    height: 2.5em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #luminex_solutions_small {
     width: 13.6em;
@@ -1360,7 +1358,7 @@
     justify-content: center;
     align-items: center;
   }
-  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .portfolio_links .port_github #workflow_app_github {
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .portfolio_links .port_github .github_portfolio {
     width: 2.5em;
     height: 2.5em;
   }
@@ -1369,7 +1367,7 @@
     justify-content: center;
     align-items: center;
   }
-  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .portfolio_links .port_link #workflow_app_link {
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .portfolio_links .port_link .link_portfolio {
     width: 2.5em;
     height: 2.5em;
   }
