@@ -1352,7 +1352,7 @@ $buttongrey: #61677A;
 
 @media only screen and (width: 812px) {
     body {
-        background-color: #58a6ff;
+        background-color: $darkblue;
         #whole_page {
             .whole_page {
                 display: none;
@@ -1363,7 +1363,7 @@ $buttongrey: #61677A;
 
 @media only screen and (width: 1024px) {
     body {
-        background-color: #58a6ff;
+        background-color: $darkblue;
         #whole_page {
             .whole_page {
                 display: none;
@@ -1704,8 +1704,87 @@ $buttongrey: #61677A;
                                 border-top: 3px solid $skillsteal;
                                 border-top: 3px solid $buttongrey;
                                 box-shadow: 2px 2px 2px black;
-                                .more_portfolio_info {
-                                    display: none;
+                                // THE PORTFOLIO SQUARE CONTENTS
+                                .portfolio_square_content {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    img {
+                                        // background-color: #00313E;
+                                        position: absolute;
+                                    }
+                                    /////////////////////////////
+                                    /////////////////////////////
+                                    /// PORTFOLIO HOVERED CONTENT
+                                    .portfolio_content {
+                                        opacity: 1;
+                                        display: flex;
+                                        flex-direction: column;
+                                        color: white;
+                                        gap: 2em;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .8rem;
+                                        text-align: center;
+                                        transition: .4s all ease-in;
+                                        /////////////////////////////
+                                        /////////////////////////////
+                                        /// Technologies Used
+                                        .tech_used_portfolio {
+                                            display: flex;
+                                            flex-direction: column;
+                                            gap: 1em;
+                                            font-weight: bold;
+                                            .tech_portfolio_circles {
+                                                display: flex;
+                                                gap: 1em;
+                                                .port_circle {
+                                                    width: 5em;
+                                                    height: 5em;
+                                                    // Color for the Dark Blue Background
+                                                    // background-color: #00313E;
+                                                    // Color for the Lighter Portfolios cover
+                                                    background-color: #0d1270;
+                                                    // background-color: $lightertechcircles;
+                                                    color: $buttongrey;
+                                                    border-radius: 50%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    // border-top: 2px solid $buttongrey;
+                                                }
+                                            }
+                                        }
+                                        // Portfolio Project Features
+                                        .port_proj_features {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            flex-direction: column;
+                                            gap: 1em;
+                                        }
+                                        // Portfolio Links
+                                        .portfolio_links {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 1em;
+                                        }
+                                         // Portfolio Close Buttons 
+                                        .close_portfolio_button {
+                                            #port_close_one {
+                                                width: 2em;
+                                                height: 2em;
+                                            }
+                                            #port_close_two {
+                                                width: 2em;
+                                                height: 2em;
+                                            }
+                                            #port_close_three {
+                                                width: 2em;
+                                                height: 2em;
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }

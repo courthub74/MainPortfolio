@@ -967,7 +967,7 @@
 }
 @media only screen and (width: 812px) {
   body {
-    background-color: #58a6ff;
+    background-color: #080E2F;
   }
   body #whole_page .whole_page {
     display: none;
@@ -975,7 +975,7 @@
 }
 @media only screen and (width: 1024px) {
   body {
-    background-color: #58a6ff;
+    background-color: #080E2F;
   }
   body #whole_page .whole_page {
     display: none;
@@ -1264,8 +1264,69 @@
     border-top: 3px solid #61677A;
     box-shadow: 2px 2px 2px black;
   }
-  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .more_portfolio_info {
-    display: none;
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content img {
+    position: absolute;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 2em;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    transition: 0.4s all ease-in;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .tech_used_portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .tech_used_portfolio .tech_portfolio_circles {
+    display: flex;
+    gap: 1em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .tech_used_portfolio .tech_portfolio_circles .port_circle {
+    width: 5em;
+    height: 5em;
+    background-color: #0d1270;
+    color: #61677A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .port_proj_features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .portfolio_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .close_portfolio_button #port_close_one {
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .close_portfolio_button #port_close_two {
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .close_portfolio_button #port_close_three {
+    width: 2em;
+    height: 2em;
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
