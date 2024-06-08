@@ -1353,16 +1353,28 @@
     gap: 1em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .tech_used_portfolio .tech_portfolio_circles .port_circle {
-    width: 5em;
-    height: 5em;
     width: 7em;
     height: 7em;
     background-color: #0d1270;
-    color: #61677A;
     border-radius: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 6em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .tech_used_portfolio .tech_portfolio_circles .port_circle .project_technology {
+    width: 2.5em;
+    height: 2.5em;
+    margin: -1.5em 0 0 0;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .tech_used_portfolio .tech_portfolio_circles .port_circle #exp_port {
+    width: 2.2em;
+    height: 2.2em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .tech_used_portfolio .tech_portfolio_circles .port_circle p {
+    color: #61677A;
+    margin-top: 3em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .port_proj_features {
     display: flex;

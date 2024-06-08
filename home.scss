@@ -1808,21 +1808,32 @@ $buttongrey: #61677A;
                                                 display: flex;
                                                 gap: 1em;
                                                 .port_circle {
-                                                    width: 5em;
-                                                    height: 5em;
                                                     width: 7em;
                                                     height: 7em;
-                                                    // Color for the Dark Blue Background
-                                                    // background-color: #00313E;
-                                                    // Color for the Lighter Portfolios cover
                                                     background-color: #0d1270;
                                                     // background-color: $lightertechcircles;
-                                                    color: $buttongrey;
                                                     border-radius: 50%;
                                                     display: flex;
+                                                    flex-direction: column;
                                                     justify-content: center;
                                                     align-items: center;
+                                                    gap: 6em;
+                                                    // padding: 2em;
                                                     // border-top: 2px solid $buttongrey;
+                                                    // THE ICONS
+                                                    .project_technology {
+                                                        width: 2.5em;
+                                                        height: 2.5em;
+                                                        margin: -1.5em 0 0 0;
+                                                    }
+                                                    #exp_port {
+                                                        width: 2.2em;
+                                                        height: 2.2em;
+                                                    }
+                                                    p {
+                                                        color: $buttongrey;
+                                                        margin-top: 3em;
+                                                    }
                                                 }
                                             }
                                         }
