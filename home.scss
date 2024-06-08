@@ -1712,23 +1712,35 @@ $buttongrey: #61677A;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
+                                    // FOR THE TITLES MAIN POSITIONING
                                     img {
                                         // background-color: #00313E;
                                         position: absolute;
+                                        transition: .5s all ease-in;
+                                    }
+                                    // FOR THE Dissapearing at HOVER
+                                    #workflow_app.hover {
+                                        opacity: 0;
+                                    }
+                                    #create_collab.hover {
+                                        opacity: 0;
+                                    }
+                                    #luminex_solutions.hover {
+                                        opacity: 0;
                                     }
                                     /////////////////////////////
                                     /////////////////////////////
                                     /// PORTFOLIO HOVERED CONTENT
                                     .portfolio_content {
-                                        opacity: 1;
+                                        opacity: 0;
                                         display: flex;
                                         flex-direction: column;
                                         color: white;
-                                        gap: 2em;
+                                        gap: 4em;
                                         font-family: 'Inter', sans-serif;
                                         font-size: .8rem;
                                         text-align: center;
-                                        transition: .4s all ease-in;
+                                        transition: .4s all ease-in-out;
                                         ////////////////////////////
                                         ////////////////////////////
                                         /// HOVER IMAGE
@@ -1820,7 +1832,29 @@ $buttongrey: #61677A;
                                             }
                                         }
                                     }
+                                    ///////////////////////////
+                                    /// HOVER CONTENT BY ID
+                                    #workflow_app_content.hover {
+                                        opacity: 1;
+                                    }
+                                    #create_collab_content.hover {
+                                        opacity: 1;
+                                    }
+                                    #luminex_content.hover {
+                                        opacity: 1;
+                                    }
                                 }
+                            }
+                            ////////////////////////////
+                            /// SQUARES BY ID TO LIGHT THE TOP
+                            #portfolio_square_one.hover {
+                                border-top: 2px solid white;
+                            }
+                            #portfolio_square_two.hover {
+                                border-top: 2px solid white;
+                            }
+                            #portfolio_square_three.hover {
+                                border-top: 2px solid white;
                             }
                         }
                     }

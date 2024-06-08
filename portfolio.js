@@ -74,3 +74,32 @@ port_close_three.addEventListener('pointerdown', () => {
     port_logo_three.classList.remove('tapped');
     port_content_three.classList.remove('tapped');
 });
+
+
+// DESKTOP
+
+// For any screen larger than the average tablet
+let widthMatchPortfolio = window.matchMedia("(min-width: 1180px)");
+
+if(widthMatchPortfolio.matches) {
+
+    // SQUARE ONE
+    port_sq_one.addEventListener('mouseover', () => {
+        console.log("Square One");
+        // Make Logo dissapear
+        port_logo_one.classList.add('hover');
+        // Make content appear
+        port_content_one.classList.add('hover');
+        // Light the top of Square
+        port_sq_one.classList.add('hover');
+    });
+
+    port_sq_one.addEventListener('mouseout', () => {
+        // Make Logo ReAppear
+        port_logo_one.classList.remove('hover');
+        // Make content ReDissapear
+        port_content_one.classList.remove('hover');
+        // UnLight the top of Square
+        port_sq_one.classList.remove('hover');
+    });
+}
