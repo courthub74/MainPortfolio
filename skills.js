@@ -169,6 +169,19 @@ if(widthSkills.matches) {
         native_skill.classList.remove('hover');
         native_description.classList.remove('hover');
     });
+    // FIGMA
+    figma_skill_circle.addEventListener('mouseover', () => {
+        figma_skill_circle.classList.add('hover');
+        line_figma.classList.add('hover');
+        figma_skill.classList.add('hover');
+        figma_description.classList.add('hover');
+    });
+    figma_skill_circle.addEventListener('mouseout', () => {
+        figma_skill_circle.classList.remove('hover');
+        line_figma.classList.remove('hover');
+        figma_skill.classList.remove('hover');
+        figma_description.classList.remove('hover');
+    });
     
     // PYTHON
     // add Event listener to the circle

@@ -1831,6 +1831,11 @@
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
+  body #whole_page .whole_page .skills_section .skills_section_content #figma_skill.hover {
+    border: 3px solid #00C6C3;
+    transition: 0.2s all ease-in;
+    box-sizing: border-box;
+  }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_circles {
     display: flex;
     flex-direction: column;
