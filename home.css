@@ -524,6 +524,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react {
     width: 3.5em;
@@ -542,6 +543,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native {
     width: 2.5em;
@@ -563,6 +565,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma {
     width: 2.1em;
@@ -584,6 +587,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript {
     width: 2.3em;
@@ -605,6 +609,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python {
     width: 2.5em;
@@ -626,6 +631,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django {
     width: 2em;
@@ -647,6 +653,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase {
     width: 3em;
@@ -667,6 +674,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku {
     width: 2.1em;
@@ -688,6 +696,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku_description.tapped {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws {
     width: 3em;
@@ -706,6 +715,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle #inner_circle_html.tapped {
     background-color: #060927;
@@ -1615,6 +1625,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #sass_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react {
     width: 4em;
@@ -1633,6 +1644,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #react_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native {
     width: 5em;
@@ -1651,6 +1663,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma {
     width: 4em;
@@ -1669,6 +1682,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript {
     width: 4.5em;
@@ -1689,6 +1703,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #javascript_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python {
     width: 3.5em;
@@ -1707,6 +1722,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #python_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django {
     width: 3.5em;
@@ -1726,6 +1742,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #django_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase {
     width: 3.7em;
@@ -1744,6 +1761,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #firebase_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku {
     width: 3.5em;
@@ -1762,6 +1780,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #heroku_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws {
     width: 4.5em;
@@ -1780,6 +1799,7 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #html_skill.hover {
     border: 3px solid #00C6C3;

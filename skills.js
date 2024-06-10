@@ -95,6 +95,7 @@ sass_skill_circle.addEventListener('pointerdown', () => {
     setTimeout(reset_sass, 3500);
 });
 
+
 // Desktops
 
 // For any screen larger than the average tablet
@@ -156,6 +157,18 @@ if(widthSkills.matches) {
         react_description.classList.remove('hover');
     });
     // NATIVE
+    native_skill_circle.addEventListener('mouseover', () => {
+        native_skill_circle.classList.add('hover');
+        line_native.classList.add('hover');
+        native_skill.classList.add('hover');
+        native_description.classList.add('hover');
+    });
+    native_skill_circle.addEventListener('mouseout', () => {
+        native_skill_circle.classList.remove('hover');
+        line_native.classList.remove('hover');
+        native_skill.classList.remove('hover');
+        native_description.classList.remove('hover');
+    });
     
     // PYTHON
     // add Event listener to the circle
