@@ -56,11 +56,14 @@ contact_about.addEventListener('click', () => {
 contact_portfolio.addEventListener('click', () => {
     submit_button.classList.add('contact');
     message_me.classList.add('contact');
-    
+    name_contact.classList.add('contact');
+    email_contact.classList.add('contact');
     // Add a function that times the color out
     function color_back() {
         submit_button.classList.remove('contact');
         message_me.classList.remove('contact');
+        name_contact.classList.remove('contact');
+        email_contact.classList.remove('contact');
     }
     setTimeout(color_back, 2000);
 });
@@ -69,24 +72,30 @@ contact_portfolio.addEventListener('click', () => {
 contact_skills.addEventListener('click', () => {
     submit_button.classList.add('contact');
     message_me.classList.add('contact');
-    
+    name_contact.classList.add('contact');
+    email_contact.classList.add('contact');
     // Add a function that times the color out
     function color_back() {
         submit_button.classList.remove('contact');
         message_me.classList.remove('contact');
+        name_contact.classList.remove('contact');
+        email_contact.classList.remove('contact');
     }
     setTimeout(color_back, 2000);
 });
 
-// EXPERIENC PAGE
+// EXPERIENCE PAGE
 contact_experience.addEventListener('click', () => {
     submit_button.classList.add('contact');
     message_me.classList.add('contact');
-    
+    name_contact.classList.add('contact');
+    email_contact.classList.add('contact');
     // Add a function that times the color out
     function color_back() {
         submit_button.classList.remove('contact');
         message_me.classList.remove('contact');
+        name_contact.classList.remove('contact');
+        email_contact.classList.remove('contact');
     }
     setTimeout(color_back, 2000);
 });
