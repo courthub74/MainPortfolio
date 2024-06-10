@@ -313,6 +313,7 @@ $buttongrey: #61677A;
                                     // background-color: yellow;
                                     #workflow_app {
                                         // background-color: yellow;
+                                        margin: 1em 0 0 0;
                                         width: 13em;
                                         height: 2.5em;   
                                         transition: .3s all ease-in;
@@ -322,6 +323,7 @@ $buttongrey: #61677A;
                                         margin-top: -22em;
                                     }
                                     #create_collab {
+                                        margin: 1em 0 0 0;
                                         width: 12em;
                                         height: 2em;
                                         transition: .3s all ease-in;
@@ -333,6 +335,7 @@ $buttongrey: #61677A;
                                         margin-top: -22em;
                                     }
                                     #luminex_solutions {
+                                        margin: 1em 0 0 0;
                                         width: 12em;
                                         height: 1.7em;
                                         z-index: 4;
@@ -382,21 +385,29 @@ $buttongrey: #61677A;
                                         font-weight: bold;
                                         .tech_portfolio_circles {
                                             display: flex;
+                                            // flex-direction: column;
                                             gap: 1em;
                                             .port_circle {
-                                                width: 5em;
-                                                height: 5em;
-                                                // Color for the Dark Blue Background
-                                                // background-color: #00313E;
-                                                // Color for the Lighter Portfolios cover
+                                                width: 7em;
+                                                height: 7em;
                                                 background-color: #0d1270;
                                                 // background-color: $lightertechcircles;
                                                 color: $buttongrey;
                                                 border-radius: 50%;
                                                 display: flex;
+                                                flex-direction: column;
                                                 justify-content: center;
                                                 align-items: center;
                                                 // border-top: 2px solid $buttongrey;
+                                                .project_technology {
+                                                    height: 2.5em;
+                                                    width: 2.5em;
+                                                }
+                                                // special ids for custom sizing
+                                                #js_mobile_tech_circle {
+                                                    height: 2.2em;
+                                                    width: 2.2em;
+                                                }
                                             }
                                         }
                                     }
