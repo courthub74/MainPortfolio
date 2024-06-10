@@ -2379,6 +2379,36 @@ $buttongrey: #61677A;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
+                        #javascript_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box; 
+                        }
+                        #python_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #django_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #firebase_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #heroku_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #aws_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
                         // POSITIONING OF THE CIRCLES
                         .skills_circles {
                             display: flex;

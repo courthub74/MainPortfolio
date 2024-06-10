@@ -6,6 +6,7 @@ let sass_skill_circle = document.getElementById('sass_skill');
 let react_skill_circle = document.getElementById('react_skill');
 let native_skill_circle = document.getElementById('native_skill');
 let figma_skill_circle = document.getElementById('figma_skill');
+let javascript_skill_circle = document.getElementById('javascript_skill');
 
 // Query the inner Circle
 let html_inner_circle = document.getElementById('inner_circle_html');
@@ -19,6 +20,7 @@ let line_sass = document.getElementById('line_sass');
 let line_react = document.getElementById('line_react');
 let line_native = document.getElementById('line_native');
 let line_figma = document.getElementById('line_figma');
+let line_javascript = document.getElementById('line_javascript');
 
 // Query the Logo
 let python_skill = document.getElementById('python');
@@ -28,6 +30,7 @@ let sass_skill = document.getElementById('sass');
 let react_skill = document.getElementById('react');
 let native_skill = document.getElementById('native');
 let figma_skill = document.getElementById('figma');
+let javascript_skill = document.getElementById('javascript');
 
 // Query the Description
 let python_description = document.getElementById('python_description');
@@ -37,6 +40,7 @@ let sass_description = document.getElementById('sass_description');
 let react_description = document.getElementById('react_description');
 let native_description = document.getElementById('native_description');
 let figma_description = document.getElementById('figma_description');
+let javascript_description = document.getElementById('javascript_description');
 
 // Mobile
 
@@ -181,6 +185,19 @@ if(widthSkills.matches) {
         line_figma.classList.remove('hover');
         figma_skill.classList.remove('hover');
         figma_description.classList.remove('hover');
+    });
+    // JAVASCRIPT
+    javascript_skill_circle.addEventListener('mouseover', () => {
+        javascript_skill_circle.classList.add('hover');
+        line_javascript.classList.add('hover');
+        javascript_skill.classList.add('hover');
+        javascript_description.classList.add('hover');
+    });
+    javascript_skill_circle.addEventListener('mouseout', () => {
+        javascript_skill_circle.classList.remove('hover');
+        line_javascript.classList.remove('hover');
+        javascript_skill.classList.remove('hover');
+        javascript_description.classList.remove('hover');
     });
     
     // PYTHON
