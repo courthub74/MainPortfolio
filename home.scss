@@ -14,6 +14,7 @@ $portfolios: #36395D;
 $squaresback: #33365B;
 // Technology Circle Colors
 $lightertechcircles: #0d1270;
+$bluertechcircles: #110F82;
 $darkertechcircles: #00313E;
 // Resume Button Green
 $resumebutton: #507E81;
@@ -1811,7 +1812,7 @@ $buttongrey: #61677A;
                                                     width: 7em;
                                                     height: 7em;
                                                     background-color: #0d1270;
-                                                    // background-color: $lightertechcircles;
+                                                    // background-color: $bluertechcircles;
                                                     border-radius: 50%;
                                                     display: flex;
                                                     flex-direction: column;
@@ -2465,7 +2466,7 @@ $buttongrey: #61677A;
                                 width: 28%;
                                 border-top: 3px solid $nextgreen;
                                 border-top: 3px solid $skillsteal;
-                                border-top: 3px solid $buttongrey;
+                                border-top: 2px solid $buttongrey;
                                 box-shadow: 2px 2px 2px black;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
@@ -2528,21 +2529,21 @@ $buttongrey: #61677A;
                             #experience_square_one.hover {
                                 border-top: 5px solid $skillsteal;
                                 border-top: 5px solid $jobdescription;
-                                border-top: 3px solid white;
+                                border-top: 2px solid white;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_two.hover {
                                 border-top: 5px solid $skillsteal;
                                 border-top: 5px solid $jobdescription;
-                                border-top: 3px solid white;
+                                border-top: 2px solid white;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
                             #experience_square_three.hover {
                                 border-top: 5px solid $skillsteal;
                                 border-top: 5px solid $jobdescription;
-                                border-top: 3px solid white;
+                                border-top: 2px solid white;
                                 transition: .3s all ease-in-out;
                                 box-sizing: border-box;
                             }
