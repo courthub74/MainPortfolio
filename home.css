@@ -219,7 +219,7 @@
     height: 100%;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #workflow_app {
-    margin: 1em 0 0 0;
+    margin: 1.5em 0 0 0;
     width: 13em;
     height: 2.5em;
     transition: 0.3s all ease-in;
@@ -229,7 +229,7 @@
     margin-top: -22em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #create_collab {
-    margin: 1em 0 0 0;
+    margin: 1.5em 0 0 0;
     width: 12em;
     height: 2em;
     transition: 0.3s all ease-in;
@@ -240,9 +240,9 @@
     margin-top: -22em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #luminex_solutions {
-    margin: 1em 0 0 0;
+    margin: 1.5em 0 0 0;
     width: 12em;
-    height: 1.7em;
+    height: 1.5em;
     z-index: 4;
     transition: 0.3s all ease-in;
   }

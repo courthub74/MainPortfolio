@@ -7,6 +7,7 @@ let react_skill_circle = document.getElementById('react_skill');
 let native_skill_circle = document.getElementById('native_skill');
 let figma_skill_circle = document.getElementById('figma_skill');
 let javascript_skill_circle = document.getElementById('javascript_skill');
+let django_skill_circle = document.getElementById('django');
 
 // Query the inner Circle
 let html_inner_circle = document.getElementById('inner_circle_html');
@@ -21,6 +22,7 @@ let line_react = document.getElementById('line_react');
 let line_native = document.getElementById('line_native');
 let line_figma = document.getElementById('line_figma');
 let line_javascript = document.getElementById('line_javascript');
+let line_django = document.getElementById('line_django');
 
 // Query the Logo
 let python_skill = document.getElementById('python');
@@ -31,6 +33,7 @@ let react_skill = document.getElementById('react');
 let native_skill = document.getElementById('native');
 let figma_skill = document.getElementById('figma');
 let javascript_skill = document.getElementById('javascript');
+let django_skill = document.getElementById('django');
 
 // Query the Description
 let python_description = document.getElementById('python_description');
@@ -41,6 +44,7 @@ let react_description = document.getElementById('react_description');
 let native_description = document.getElementById('native_description');
 let figma_description = document.getElementById('figma_description');
 let javascript_description = document.getElementById('javascript_description');
+let django_description = document.getElementById('django_description');
 
 // Mobile
 
@@ -213,5 +217,13 @@ if(widthSkills.matches) {
         line_python.classList.remove('hover');
         python_skill.classList.remove('hover');
         python_description.classList.remove('hover');
+    });
+
+    // DJANGO
+    django_skill_circle.addEventListener('mouseover', () => {
+        django_skill_circle.classList.add('hover');
+        line_django.classList.add('hover');
+        django_skill.classList.add('hover');
+        django_description.classList.add('hover');
     });
 }
