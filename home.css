@@ -989,6 +989,12 @@
     gap: 5px;
     display: none;
   }
+  body .mobile_footer .footer_elements .footer_list small a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    filter: opacity(30%);
+    text-decoration: none;
+  }
   body .mobile_footer .footer_elements .footer_logo small {
     color: white;
     display: flex;
