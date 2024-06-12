@@ -67,26 +67,24 @@ let aws_description = document.getElementById('aws_description');
 // Here is where we apply click event listener
 
 // HTML CIRCLE
-html_skill_circle.addEventListener('click', () => {
+html_skill_circle.addEventListener('pointerdown', () => {
     html_skill_circle.classList.add('tapped');
     line_html.classList.add('tapped');
     html_skill.classList.add('tapped');
     html_description.classList.add('tapped');
-    html_inner_circle.classList.add('tapped');
     // add a function that resets the circle
     function reset_html() {
         html_skill_circle.classList.remove('tapped');
         line_html.classList.remove('tapped');
         html_skill.classList.remove('tapped');
         html_description.classList.remove('tapped');
-        // html_inner_circle.classList.remove('tapped');
     }
     // set the timer to reset it
     setTimeout(reset_html, 3500);
 });
 
 // CSS CIRCLE
-css_skill_circle.addEventListener('click', () => {
+css_skill_circle.addEventListener('pointerdown', () => {
     css_skill_circle.classList.add('tapped');
     line_css.classList.add('tapped');
     css_skill.classList.add('tapped');
