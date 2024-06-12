@@ -176,7 +176,7 @@ $buttongrey: #61677A;
                     background-color: $nextgreen;
                     // background-color: $darkblue;
                     height: 110vh;
-                    // height: 100vh;
+                    height: 100vh;
                     overflow: hidden;
                     // height: 80vh;
                     .about_section_content {
@@ -241,6 +241,7 @@ $buttongrey: #61677A;
                 .portfolio_section {
                     background-color: $darkblue;
                     height: 150vh;
+                    height: 100vh;
                     overflow: hidden;
                     // border-bottom: 1px solid white;
                     .portfolio_section_content {
@@ -512,8 +513,8 @@ $buttongrey: #61677A;
                 .skills_section {
                     background-color: $nextgreen;
                     // background-color: $darkblue;
-                    height: 100vh;
-                    height: 120vh;
+                    height: 105vh;
+                    // height: 120vh;
                     overflow: hidden;
                     .skills_section_content {
                         margin: 0 3em 0 3em;
@@ -1037,6 +1038,7 @@ $buttongrey: #61677A;
                     background-color: $darkblue;
                     // background-color: #00C6C3;
                     height: 120vh;
+                    height: 100vh;
                     .experience_section_content {
                         margin: 0 3em 0 3em;
                         margin: -5em 1em 0 1em;
