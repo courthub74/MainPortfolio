@@ -117,6 +117,23 @@ sass_skill_circle.addEventListener('pointerdown', () => {
     setTimeout(reset_sass, 3500);
 });
 
+// REACT CIRCLE
+react_skill_circle.addEventListener('pointerdown', () => {
+    react_skill_circle.classList.add('tapped');
+    line_react.classList.add('tapped');
+    react_skill.classList.add('tapped');
+    react_description.classList.add('tapped');
+    // react_inner_circle.classList.add('tapped');
+    function reset_react() {
+        react_skill_circle.classList.remove('tapped');
+        line_react.classList.remove('tapped');
+        react_skill.classList.remove('tapped');
+        react_description.classList.remove('tapped');
+        react_inner_circle.classList.remove('tapped');
+    }
+    setTimeout(reset_react, 3500);
+});
+
 
 // Desktops
 

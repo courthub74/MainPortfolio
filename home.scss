@@ -705,7 +705,7 @@ $buttongrey: #61677A;
                                             height: 3.5em;
                                             position: absolute; 
                                         }
-                                        #react.hover {
+                                        #react.tapped {
                                             opacity: 0;
                                             transition: .3s all ease-in;
                                         }
@@ -961,6 +961,13 @@ $buttongrey: #61677A;
                             box-shadow: none;
                         }
                         #sass_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            // background-color: $nextgreen;
+                            box-shadow: none;
+                        }
+                        #react_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
