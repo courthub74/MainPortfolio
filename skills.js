@@ -11,7 +11,7 @@ let django_skill_circle = document.getElementById('django_skill');
 let firebase_skill_circle = document.getElementById('firebase_skill');
 // Marked as Heroku but I've changed the display to Postgre
 let heroku_skill_circle = document.getElementById('heroku_skill');
-let aws_skill_circle = document.getElementById('aws_skill_circle');
+let aws_skill_circle = document.getElementById('aws_skill');
 
 // Query the inner Circle
 // let html_inner_circle = document.getElementById('inner_circle_html');
@@ -30,6 +30,7 @@ let line_django = document.getElementById('line_django');
 let line_firebase = document.getElementById('line_firebase');
 // Marked as Heroku but I've changed the display to Postgre
 let line_heroku = document.getElementById('line_heroku');
+let line_aws = document.getElementById('line_aws');
 
 // Query the Logo
 let python_skill = document.getElementById('python');
@@ -44,6 +45,7 @@ let django_skill = document.getElementById('django');
 let firebase_skill = document.getElementById('firebase');
 // Marked as Heroku but I've changed the display to Postgre
 let heroku_skill = document.getElementById('heroku');
+let aws_skill = document.getElementById('aws');
 
 // Query the Description
 let python_description = document.getElementById('python_description');
@@ -58,6 +60,7 @@ let django_description = document.getElementById('django_description');
 let firebase_description = document.getElementById('firebase_description');
 // Marked as Heroku but I've changed the display to Postgre
 let heroku_description = document.getElementById('heroku_description');
+let aws_description = document.getElementById('aws_description');
 
 // Mobile
 
@@ -272,5 +275,16 @@ if(widthSkills.matches) {
         heroku_description.classList.remove('hover');
     });
     // AWS
-    
+    aws_skill_circle.addEventListener('mouseover', () => {
+        aws_skill_circle.classList.add('hover');
+        line_aws.classList.add('hover');
+        aws_skill.classList.add('hover');
+        aws_description.classList.add('hover');
+    });
+    aws_skill_circle.addEventListener('mouseout', () => {
+        aws_skill_circle.classList.remove('hover');
+        line_aws.classList.remove('hover');
+        aws_skill.classList.remove('hover');
+        aws_description.classList.remove('hover');
+    });
 }
