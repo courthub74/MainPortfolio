@@ -167,6 +167,7 @@
     height: 150vh;
     height: 110vh;
     overflow: hidden;
+    transition: 0.3s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content {
     margin: 0 3em 0 3em;
@@ -375,6 +376,10 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content #luminex_content.tapped {
     opacity: 1;
+  }
+  body #whole_page .whole_page #portfolio_section_id.tapped {
+    height: 150vh;
+    transition: 0.3s all ease-in;
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;

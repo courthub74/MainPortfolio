@@ -243,6 +243,7 @@ $buttongrey: #61677A;
                     height: 150vh;
                     height: 110vh;
                     overflow: hidden;
+                    transition: .3s all ease-in;
                     // border-bottom: 1px solid white;
                     .portfolio_section_content {
                         margin: 0 3em 0 3em;
@@ -505,6 +506,10 @@ $buttongrey: #61677A;
                             opacity: 1;
                         }
                     }
+                }
+                #portfolio_section_id.tapped {
+                    height: 150vh;
+                    transition: .3s all ease-in;
                 }
                 /////////////////////////////////
                 /////////////////////////////////
