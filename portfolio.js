@@ -48,8 +48,7 @@ port_logo_two.addEventListener('pointerdown', () => {
     port_sq_two.classList.add('tapped');
     port_logo_two.classList.add('tapped');
     port_content_two.classList.add('tapped');
-    // ATTEMPT TO KEEP THE POSITION OF THE ELEMENTS
-    // port_elements_two.classList.add('tapped');
+    port_section.classList.add('tapped');
 });
 
 // Close button to click off
@@ -57,7 +56,7 @@ port_close_two.addEventListener('pointerdown', () => {
     port_sq_two.classList.remove('tapped');
     port_logo_two.classList.remove('tapped');
     port_content_two.classList.remove('tapped');
-    // port_elements_two.classList.remove('tapped');
+    port_section.classList.remove('tapped');
 });
 
 // SQUARE THREE
@@ -68,6 +67,7 @@ port_logo_three.addEventListener('pointerdown', () => {
     port_sq_three.classList.add('tapped');
     port_logo_three.classList.add('tapped');
     port_content_three.classList.add('tapped');
+    port_section.classList.add('tapped');
 });
 
 // Close button to click off
@@ -75,6 +75,7 @@ port_close_three.addEventListener('pointerdown', () => {
     port_sq_three.classList.remove('tapped');
     port_logo_three.classList.remove('tapped');
     port_content_three.classList.remove('tapped');
+    port_section.classList.remove('tapped');
 });
 
 
