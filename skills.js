@@ -7,11 +7,15 @@ let react_skill_circle = document.getElementById('react_skill');
 let native_skill_circle = document.getElementById('native_skill');
 let figma_skill_circle = document.getElementById('figma_skill');
 let javascript_skill_circle = document.getElementById('javascript_skill');
-let django_skill_circle = document.getElementById('django');
+let django_skill_circle = document.getElementById('django_skill');
+let firebase_skill_circle = document.getElementById('firebase_skill');
+// Marked as Heroku but I've changed the display to Postgre
+let heroku_skill_circle = document.getElementById('heroku_skill');
+let aws_skill_circle = document.getElementById('aws_skill_circle');
 
 // Query the inner Circle
-let html_inner_circle = document.getElementById('inner_circle_html');
-let css_inner_circle = document.getElementById('inner_circle_css');
+// let html_inner_circle = document.getElementById('inner_circle_html');
+// let css_inner_circle = document.getElementById('inner_circle_css');
 
 // Query the Line
 let line_html = document.getElementById('line_html');
@@ -23,6 +27,9 @@ let line_native = document.getElementById('line_native');
 let line_figma = document.getElementById('line_figma');
 let line_javascript = document.getElementById('line_javascript');
 let line_django = document.getElementById('line_django');
+let line_firebase = document.getElementById('line_firebase');
+// Marked as Heroku but I've changed the display to Postgre
+let line_heroku = document.getElementById('line_heroku');
 
 // Query the Logo
 let python_skill = document.getElementById('python');
@@ -34,6 +41,9 @@ let native_skill = document.getElementById('native');
 let figma_skill = document.getElementById('figma');
 let javascript_skill = document.getElementById('javascript');
 let django_skill = document.getElementById('django');
+let firebase_skill = document.getElementById('firebase');
+// Marked as Heroku but I've changed the display to Postgre
+let heroku_skill = document.getElementById('heroku');
 
 // Query the Description
 let python_description = document.getElementById('python_description');
@@ -45,6 +55,9 @@ let native_description = document.getElementById('native_description');
 let figma_description = document.getElementById('figma_description');
 let javascript_description = document.getElementById('javascript_description');
 let django_description = document.getElementById('django_description');
+let firebase_description = document.getElementById('firebase_description');
+// Marked as Heroku but I've changed the display to Postgre
+let heroku_description = document.getElementById('heroku_description');
 
 // Mobile
 
@@ -226,4 +239,38 @@ if(widthSkills.matches) {
         django_skill.classList.add('hover');
         django_description.classList.add('hover');
     });
+    django_skill_circle.addEventListener('mouseout', () => {
+        django_skill_circle.classList.remove('hover');
+        line_django.classList.remove('hover');
+        django_skill.classList.remove('hover');
+        django_description.classList.remove('hover');
+    });
+    // FIREBASE
+    firebase_skill_circle.addEventListener('mouseover', () => {
+        firebase_skill_circle.classList.add('hover');
+        line_firebase.classList.add('hover');
+        firebase_skill.classList.add('hover');
+        firebase_description.classList.add('hover');
+    });
+    firebase_skill_circle.addEventListener('mouseout', () => {
+        firebase_skill_circle.classList.remove('hover');
+        line_firebase.classList.remove('hover');
+        firebase_skill.classList.remove('hover');
+        firebase_description.classList.remove('hover');
+    });
+    // HEROKU
+    heroku_skill_circle.addEventListener('mouseover', () => {
+        heroku_skill_circle.classList.add('hover');
+        line_heroku.classList.add('hover');
+        heroku_skill.classList.add('hover');
+        heroku_description.classList.add('hover');
+    });
+    heroku_skill_circle.addEventListener('mouseout', () => {
+        heroku_skill_circle.classList.remove('hover');
+        line_heroku.classList.remove('hover');
+        heroku_skill.classList.remove('hover');
+        heroku_description.classList.remove('hover');
+    });
+    // AWS
+    
 }

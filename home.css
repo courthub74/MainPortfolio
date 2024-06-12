@@ -739,21 +739,18 @@
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
-    background-color: #00313E;
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #css_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
-    background-color: #00313E;
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #sass_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
-    background-color: #00313E;
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #python_skill.tapped {
